@@ -1,0 +1,12 @@
+{
+    "windows":  {
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/latest"
+                },
+    "macos":  {
+                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/latest"
+              },
+    "version":  "1.0.0",
+    "notes":  [
+                  "Initial Vita Nova update channel. No update is currently available."
+              ]
+}

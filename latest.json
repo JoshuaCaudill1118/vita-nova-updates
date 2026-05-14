@@ -1,13 +1,14 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "notes": [
-    "Small update test for the automatic launcher updater.",
-    "Updates helper wording on the SOFI / Client File Packet screen."
+    "Adds the security and UI workflow improvements.",
+    "Publishes the youth and guest terminology updates.",
+    "Bumps the update test release so the launcher can verify automatic updates."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.2.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.2.jar",
-    "jarSha256": "0FE53D4A00A0BB969369476D7EFE733D9519410BB9AC0C50930F1206AD09ACB2"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.3.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.3.jar",
+    "jarSha256": "2449E1FA25DA7FDC5F604D8E0F52E5C595B8A60B488B82FCC7992AE9E6CD027D"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/latest"

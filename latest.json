@@ -1,13 +1,13 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "notes": [
-    "Adds a separate SOFI / Client File Packet form in Intake.",
-    "Generates the SOFI paperwork as a 16-page PDF and can attach it to a profile when a Profile ID is entered."
+    "Small update test for the automatic launcher updater.",
+    "Updates helper wording on the SOFI / Client File Packet screen."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.1.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.1.jar",
-    "jarSha256": "280F1560CDEC93F24C9B6BCF6F52FBBC7085E550305D096AAB4D412F23B05EB5"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.2.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.2.jar",
+    "jarSha256": "0FE53D4A00A0BB969369476D7EFE733D9519410BB9AC0C50930F1206AD09ACB2"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/latest"

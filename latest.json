@@ -1,12 +1,15 @@
 {
-    "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/latest"
-                },
-    "macos":  {
-                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/latest"
-              },
-    "version":  "1.0.0",
-    "notes":  [
-                  "Initial Vita Nova update channel. No update is currently available."
-              ]
+  "version": "1.0.1",
+  "notes": [
+    "Adds a separate SOFI / Client File Packet form in Intake.",
+    "Generates the SOFI paperwork as a 16-page PDF and can attach it to a profile when a Profile ID is entered."
+  ],
+  "windows": {
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.1.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.1.jar",
+    "jarSha256": "280F1560CDEC93F24C9B6BCF6F52FBBC7085E550305D096AAB4D412F23B05EB5"
+  },
+  "macos": {
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/latest"
+  }
 }

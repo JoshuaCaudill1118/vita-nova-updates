@@ -1,13 +1,13 @@
 ﻿{
-    "version":  "1.0.6",
+    "version":  "1.0.7",
     "notes":  [
-                  "SOFI PDFs now save directly to the selected youth document center instead of a personal-computer save dialog.",
-                  "SOFI packet signature fields render as signed signatures and filled values are fitted to their form lines."
+                  "Intake dashboard now shows packet type and hides raw Packet ID, Profile ID, and File ID columns.",
+                  "Recent intake documents include combined intake packets and saved SOFI youth file packets with live filters and cleaner dashboard actions."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.6.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.6.jar",
-                    "jarSha256":  "ADDC57E6B0D817F1679A376FCBE7F65EC23754C8514698829F957E84EDCE7761"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.7.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.7.jar",
+                    "jarSha256":  "3271DD4D82773AB90D5DE1AC23BB12C8F3C4DE2CD58CA65776860F4DB30BCC75"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/latest"

@@ -1,14 +1,14 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "notes": [
-    "Adds the security and UI workflow improvements.",
-    "Publishes the youth and guest terminology updates.",
-    "Bumps the update test release so the launcher can verify automatic updates."
+    "Improves SOFI youth lookup so staff can search by youth details instead of knowing the Profile ID.",
+    "Adds intake dashboard navigation and age 23 youth highlighting.",
+    "Stops the embedded web server cleanly when the application is closed."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.3.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.3.jar",
-    "jarSha256": "2449E1FA25DA7FDC5F604D8E0F52E5C595B8A60B488B82FCC7992AE9E6CD027D"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.4.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.4.jar",
+    "jarSha256": "5CE18EBE604FB19160B36398B27960D19C1854C79F6EE8450792BDEBFC4C8E4B"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/latest"

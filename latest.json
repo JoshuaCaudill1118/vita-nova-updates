@@ -9,6 +9,8 @@
                     "jarSha256":  "0C746C61BD52CB4A7EE5B133655E12AD7C020AA2F7527C64330A891DAA62B066"
                 },
     "macos":  {
-                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/latest"
+                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.9.jar",
+                  "jarSha256":  "0C746C61BD52CB4A7EE5B133655E12AD7C020AA2F7527C64330A891DAA62B066"
               }
 }

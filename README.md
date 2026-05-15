@@ -6,4 +6,10 @@ Installed apps read the update manifest from:
 
 https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/latest.json
 
+Download folders:
+
+- `downloads/windows` stores the stable Windows launcher EXE for first installs.
+- `downloads/macos` stores the stable macOS app ZIP for first installs.
+- `windows` stores versioned application JARs used by automatic updates.
+
 Keep source code, database files, passwords, and staff/client data out of this repo.

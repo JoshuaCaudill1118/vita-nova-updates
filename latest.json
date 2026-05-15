@@ -1,12 +1,12 @@
 ﻿{
-    "version":  "1.0.8",
+    "version":  "1.0.9",
     "notes":  [
-                  "Fixes app startup after database setup on new Windows computers; includes SOFI packet regeneration and database cleanup foundation."
+                  "Keeps saved database connection settings on staff Windows computers after the first successful setup."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.8.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.8.jar",
-                    "jarSha256":  "3A65CE2E20887926D35169A30699936C00C50BB623BAEE4FB1E6C8935BB08CA0"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.9.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.9.jar",
+                    "jarSha256":  "0C746C61BD52CB4A7EE5B133655E12AD7C020AA2F7527C64330A891DAA62B066"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/latest"

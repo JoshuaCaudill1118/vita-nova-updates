@@ -1,15 +1,15 @@
-{
-  "version": "1.0.5",
-  "notes": [
-    "Adds a searchable youth picker for SOFI and intake packets.",
-    "Improves youth search by full name, nickname, youth ID, Profile ID, DOB, phone, and email."
-  ],
-  "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.5.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.5.jar",
-    "jarSha256": "0D8F21D1B2FA55ECBF1699BC019DCBCF20EB3A1886FCF0173D20BCF9ED4950BA"
-  },
-  "macos": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/latest"
-  }
+﻿{
+    "version":  "1.0.6",
+    "notes":  [
+                  "SOFI PDFs now save directly to the selected youth document center instead of a personal-computer save dialog.",
+                  "SOFI packet signature fields render as signed signatures and filled values are fitted to their form lines."
+              ],
+    "windows":  {
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.6.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.6.jar",
+                    "jarSha256":  "ADDC57E6B0D817F1679A376FCBE7F65EC23754C8514698829F957E84EDCE7761"
+                },
+    "macos":  {
+                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/latest"
+              }
 }

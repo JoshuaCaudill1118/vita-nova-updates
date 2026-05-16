@@ -1,18 +1,17 @@
 ﻿{
-    "version":  "1.0.10",
+    "version":  "1.0.11",
     "notes":  [
-                  "Adds SOFI budget auto-calculations and saved SOFI update flow.",
-                  "Opens SOFI and intake PDFs through a PDF viewer/browser instead of Windows Word association.",
-                  "Registers the donation receipt API route."
+                  "Improves SOFI PDF layout so long labels, budget columns, and acknowledgement fields do not overlap.",
+                  "Centers the Vita Nova logo stack on generated SOFI PDFs."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.10.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.10.jar",
-                    "jarSha256":  "782A2F15611167C7803BA2121E7EDBFB5C47BB362366D5C5B15BDA47C33653F2"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.11.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.11.jar",
+                    "jarSha256":  "CCE1B6B71A7DB5C156A83225F06B00670BB8D1F2A6B376A559C6F3F8B9CE34C3"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.10.jar",
-                  "jarSha256":  "782A2F15611167C7803BA2121E7EDBFB5C47BB362366D5C5B15BDA47C33653F2"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.11.jar",
+                  "jarSha256":  "CCE1B6B71A7DB5C156A83225F06B00670BB8D1F2A6B376A559C6F3F8B9CE34C3"
               }
 }

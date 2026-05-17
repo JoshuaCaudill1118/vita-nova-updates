@@ -1,17 +1,17 @@
 ﻿{
-    "version":  "1.0.15",
+    "version":  "1.0.16",
     "notes":  [
-                  "Fixes the macOS app launcher so it uses the database properties file beside Vita Nova Database.app when one is present.",
-                  "Adds launcher diagnostics for the database config path used by the app bundle."
+                  "Adds staff account creation and account editing to the Service Role Assignments screen for admins.",
+                  "Adds Account Settings from the main dashboard so signed-in users can update contact info, username, and password."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.15.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.15.jar",
-                    "jarSha256":  "70BB16F3B4A1780B433E93A8E8268EEC31778ABA026442EB9C2A897DEB56B35D"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.16.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.16.jar",
+                    "jarSha256":  "860182FAA09342E28BFCD54B529BE077DA0C0EAE90E2BB8799BF31A2E59C99EA"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.15.jar",
-                  "jarSha256":  "70BB16F3B4A1780B433E93A8E8268EEC31778ABA026442EB9C2A897DEB56B35D"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.16.jar",
+                  "jarSha256":  "860182FAA09342E28BFCD54B529BE077DA0C0EAE90E2BB8799BF31A2E59C99EA"
               }
 }

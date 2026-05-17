@@ -1,17 +1,17 @@
 ﻿{
-    "version":  "1.0.13",
+    "version":  "1.0.14",
     "notes":  [
-                  "Improves Profile Dashboard search so it updates while typing, resets correctly when blank, and matches more profile fields.",
-                  "Reworks the Profile Dashboard action area so Refresh, Import, Export, and Back stay visible on smaller screens."
+                  "Reworks the Youth Log dashboard filters into compact rows so Name, Visit Date, Purpose, Event, Apply, Clear All, and Refresh stay visible on smaller screens.",
+                  "Moves the checked-in youth action buttons below the summary text so checkout controls are not squeezed off-screen."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.13.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.13.jar",
-                    "jarSha256":  "6FBBC6875E79D87D1D08D135107A99D11692AE8FDE50FFEF625455206D5EB837"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.14.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.14.jar",
+                    "jarSha256":  "C37CF8D42A7CA490D9E21A9590E5966A4845D11B03043854F51EB14D374E98D6"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.13.jar",
-                  "jarSha256":  "6FBBC6875E79D87D1D08D135107A99D11692AE8FDE50FFEF625455206D5EB837"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.14.jar",
+                  "jarSha256":  "C37CF8D42A7CA490D9E21A9590E5966A4845D11B03043854F51EB14D374E98D6"
               }
 }

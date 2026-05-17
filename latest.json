@@ -1,17 +1,18 @@
-﻿{
-    "version":  "1.0.16",
-    "notes":  [
-                  "Adds staff account creation and account editing to the Service Role Assignments screen for admins.",
-                  "Adds Account Settings from the main dashboard so signed-in users can update contact info, username, and password."
-              ],
-    "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.16.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.16.jar",
-                    "jarSha256":  "860182FAA09342E28BFCD54B529BE077DA0C0EAE90E2BB8799BF31A2E59C99EA"
-                },
-    "macos":  {
-                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.16.jar",
-                  "jarSha256":  "860182FAA09342E28BFCD54B529BE077DA0C0EAE90E2BB8799BF31A2E59C99EA"
-              }
+{
+  "version": "1.0.17",
+  "notes": [
+    "Improves dashboard action layouts so refresh, import, export, and related buttons are not clipped on smaller or scaled displays.",
+    "Updates Profile Dashboard search so numeric age searches work alongside name, ID, DOB, phone, email, stay, status, tag, and nickname searches.",
+    "Publishes refreshed Windows and macOS packages with the same UI fixes."
+  ],
+  "windows": {
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.17.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.17.jar",
+    "jarSha256": "07A4F5C72692A603124DFBE6A5C8DF6F342ACECE3DB7B0B91B31C48A0311DF45"
+  },
+  "macos": {
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.17.jar",
+    "jarSha256": "07A4F5C72692A603124DFBE6A5C8DF6F342ACECE3DB7B0B91B31C48A0311DF45"
+  }
 }

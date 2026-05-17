@@ -1,17 +1,17 @@
 ﻿{
-    "version":  "1.0.12",
+    "version":  "1.0.13",
     "notes":  [
-                  "Fixes macOS database configuration lookup so saved connection settings survive auto-updates.",
-                  "Refreshes the macOS launcher package to use the same config file as the database setup screen."
+                  "Improves Profile Dashboard search so it updates while typing, resets correctly when blank, and matches more profile fields.",
+                  "Reworks the Profile Dashboard action area so Refresh, Import, Export, and Back stay visible on smaller screens."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.12.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.12.jar",
-                    "jarSha256":  "16BABA7C106DF00BBCF250EA96E4592F7F1BD52AA144B30AE612B8CB451F9E25"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.13.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.13.jar",
+                    "jarSha256":  "6FBBC6875E79D87D1D08D135107A99D11692AE8FDE50FFEF625455206D5EB837"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.12.jar",
-                  "jarSha256":  "16BABA7C106DF00BBCF250EA96E4592F7F1BD52AA144B30AE612B8CB451F9E25"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.13.jar",
+                  "jarSha256":  "6FBBC6875E79D87D1D08D135107A99D11692AE8FDE50FFEF625455206D5EB837"
               }
 }

@@ -1,17 +1,17 @@
 ﻿{
-    "version":  "1.0.14",
+    "version":  "1.0.15",
     "notes":  [
-                  "Reworks the Youth Log dashboard filters into compact rows so Name, Visit Date, Purpose, Event, Apply, Clear All, and Refresh stay visible on smaller screens.",
-                  "Moves the checked-in youth action buttons below the summary text so checkout controls are not squeezed off-screen."
+                  "Fixes the macOS app launcher so it uses the database properties file beside Vita Nova Database.app when one is present.",
+                  "Adds launcher diagnostics for the database config path used by the app bundle."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.14.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.14.jar",
-                    "jarSha256":  "C37CF8D42A7CA490D9E21A9590E5966A4845D11B03043854F51EB14D374E98D6"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.15.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.15.jar",
+                    "jarSha256":  "70BB16F3B4A1780B433E93A8E8268EEC31778ABA026442EB9C2A897DEB56B35D"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.14.jar",
-                  "jarSha256":  "C37CF8D42A7CA490D9E21A9590E5966A4845D11B03043854F51EB14D374E98D6"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.15.jar",
+                  "jarSha256":  "70BB16F3B4A1780B433E93A8E8268EEC31778ABA026442EB9C2A897DEB56B35D"
               }
 }

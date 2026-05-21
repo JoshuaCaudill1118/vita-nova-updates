@@ -1,18 +1,18 @@
 ﻿{
-    "version":  "1.0.21",
+    "version":  "1.0.22",
     "notes":  [
-                  "Updates the phone and tablet portal for the dedicated server.",
-                  "Captures youth social media handles through pending check-in approval and merge workflows.",
-                  "Shows configured public portal links when sharing the tablet portal from the desktop app."
+                  "Adds an updating screen to the Windows launcher so staff see progress while files are downloading, verified, and installed.",
+                  "Keeps the dedicated-server phone and tablet portal update work in the current app release.",
+                  "Updates the in-app version to match the published release."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.21.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.21.jar",
-                    "jarSha256":  "538FF0FD8E2D1D48731A81DA4F277F55FAA59D61B11D2B3857D7057FA9D58389"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.22.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.22.jar",
+                    "jarSha256":  "A56401D2F8A3E3172C6004FB8B825E5C33F1F08FF3C5F855D3F96F954CC78927"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.21.jar",
-                  "jarSha256":  "538FF0FD8E2D1D48731A81DA4F277F55FAA59D61B11D2B3857D7057FA9D58389"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.22.jar",
+                  "jarSha256":  "A56401D2F8A3E3172C6004FB8B825E5C33F1F08FF3C5F855D3F96F954CC78927"
               }
 }

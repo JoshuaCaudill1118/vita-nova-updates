@@ -1,18 +1,18 @@
 ﻿{
-    "version":  "1.0.22",
+    "version":  "1.0.23",
     "notes":  [
-                  "Adds an updating screen to the Windows launcher so staff see progress while files are downloading, verified, and installed.",
-                  "Keeps the dedicated-server phone and tablet portal update work in the current app release.",
-                  "Updates the in-app version to match the published release."
+                  "Adds a startup loading screen while Vita Nova connects to the database and starts the phone/tablet portal.",
+                  "Shows clear startup status so staff know the app is opening even when the server connection takes a moment.",
+                  "Keeps the dedicated-server portal and launcher update-screen work in the current release."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.22.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.22.jar",
-                    "jarSha256":  "A56401D2F8A3E3172C6004FB8B825E5C33F1F08FF3C5F855D3F96F954CC78927"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.23.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.23.jar",
+                    "jarSha256":  "EB3954C5D5047B3BE5A71EA3800EC93B5C8FA8278012935B713CA5740429FCAB"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.22.jar",
-                  "jarSha256":  "A56401D2F8A3E3172C6004FB8B825E5C33F1F08FF3C5F855D3F96F954CC78927"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.23.jar",
+                  "jarSha256":  "EB3954C5D5047B3BE5A71EA3800EC93B5C8FA8278012935B713CA5740429FCAB"
               }
 }

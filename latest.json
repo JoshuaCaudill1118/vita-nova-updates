@@ -1,18 +1,18 @@
 ﻿{
-    "version":  "1.0.24",
+    "version":  "1.0.25",
     "notes":  [
-                  "Cleans high-confidence duplicate youth profiles while preserving the earliest profile record.",
-                  "Adds bus pass entry, HMIS backfill support, IT tickets, staff titles, and checked-in youth event attendance.",
-                  "Keeps the updated intake/SOFI form and portal/dashboard polish in the current staff build."
+                  "Restores the admin IT ticket button with black text and profile dashboard cleanup hooks in the source-built release.",
+                  "Shows all imported Sleep Spot referrals by default instead of filtering the queue to today's date.",
+                  "Bundles the updated intake PDF template and official Vita Nova logo directly in the release JAR."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.24.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.24.jar",
-                    "jarSha256":  "E38075DC45816CEB697EF18D7BE2DFF39B3681B7483DF75766BED835990F3204"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.25.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.25.jar",
+                    "jarSha256":  "60C355B941BBD8A6B3CCD4F305B823E7A96CF67F2708668DC67DFB7C76D357F4"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.24.jar",
-                  "jarSha256":  "E38075DC45816CEB697EF18D7BE2DFF39B3681B7483DF75766BED835990F3204"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.25.jar",
+                  "jarSha256":  "60C355B941BBD8A6B3CCD4F305B823E7A96CF67F2708668DC67DFB7C76D357F4"
               }
 }

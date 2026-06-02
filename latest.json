@@ -1,18 +1,18 @@
 ﻿{
-    "version":  "1.0.26",
+    "version":  "1.0.27",
     "notes":  [
-                  "Adds a Role column to staff service notifications and stores the role on each notification row.",
-                  "Sorts Sleep Spot referral and stay views newest to oldest by Sleep Spot date.",
-                  "Sorts event lists newest to oldest by event date and start time."
+                  "Restores the Bus Passes dashboard on the staff/admin side.",
+                  "Simplifies youth check-in service choices and removes volunteering from service options.",
+                  "Collapses duplicate service labels such as Food Pantry/Pantry and Health Care/Health Services."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.26.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.26.jar",
-                    "jarSha256":  "E6D8D711929D916D7685EC3218F04339FC59279591F2318E53BD5FE8A29A93DD"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.27.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.27.jar",
+                    "jarSha256":  "3D64949ECE5CED36582816C7218EAD940B1B40921A6FE862F43A8A3705203F22"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.26.jar",
-                  "jarSha256":  "E6D8D711929D916D7685EC3218F04339FC59279591F2318E53BD5FE8A29A93DD"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.27.jar",
+                  "jarSha256":  "3D64949ECE5CED36582816C7218EAD940B1B40921A6FE862F43A8A3705203F22"
               }
 }

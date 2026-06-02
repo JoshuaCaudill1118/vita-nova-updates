@@ -1,18 +1,18 @@
 ﻿{
-    "version":  "1.0.28",
+    "version":  "1.0.29",
     "notes":  [
-                  "Adds Bus Passes to the desktop admin dashboard Programs \u0026 Forms section.",
-                  "Restores the full cleaned youth check-in service list and removes volunteering from saved service selections.",
-                  "Keeps same-date events in the service list and normalizes visit-date formats before event lookup."
+                  "Moves Bus Passes into the desktop program instead of opening the web staff portal.",
+                  "Adds an in-program Bus Pass dashboard with youth search, pass entry, HMIS update support, summary counts, and record history.",
+                  "Keeps the desktop dashboard Bus Passes tile fully inside Vita Nova."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.28.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.28.jar",
-                    "jarSha256":  "CC83862D8A440EC4B17CBE79BF86708363C1AD8C9D92535A7735846694293035"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.29.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.29.jar",
+                    "jarSha256":  "3D5B82E6940FF8F5CCA74644ABFE5780432AD8F008DC9BFAD15EAED1B4124D5D"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.28.jar",
-                  "jarSha256":  "CC83862D8A440EC4B17CBE79BF86708363C1AD8C9D92535A7735846694293035"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.29.jar",
+                  "jarSha256":  "3D5B82E6940FF8F5CCA74644ABFE5780432AD8F008DC9BFAD15EAED1B4124D5D"
               }
 }

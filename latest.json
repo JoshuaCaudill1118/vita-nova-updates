@@ -1,18 +1,18 @@
 ﻿{
-    "version":  "1.0.29",
+    "version":  "1.0.30",
     "notes":  [
-                  "Moves Bus Passes into the desktop program instead of opening the web staff portal.",
-                  "Adds an in-program Bus Pass dashboard with youth search, pass entry, HMIS update support, summary counts, and record history.",
-                  "Keeps the desktop dashboard Bus Passes tile fully inside Vita Nova."
+                  "Shows active Bus Pass status for selected youth and loads Team Member from active users.",
+                  "Archives youth after 90 days without sign-in and notes that a new intake is required.",
+                  "Fixes data-quality intake timestamp handling and aligns app version metadata."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.29.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.29.jar",
-                    "jarSha256":  "3D5B82E6940FF8F5CCA74644ABFE5780432AD8F008DC9BFAD15EAED1B4124D5D"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.30.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.30.jar",
+                    "jarSha256":  "A17FC89DAA5D4FE3BED3A9D8A7D390924C63985C288FD74101CB775701CB0A4A"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.29.jar",
-                  "jarSha256":  "3D5B82E6940FF8F5CCA74644ABFE5780432AD8F008DC9BFAD15EAED1B4124D5D"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.30.jar",
+                  "jarSha256":  "A17FC89DAA5D4FE3BED3A9D8A7D390924C63985C288FD74101CB775701CB0A4A"
               }
 }

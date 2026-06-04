@@ -1,18 +1,18 @@
 ﻿{
-    "version":  "1.0.30",
+    "version":  "1.0.31",
     "notes":  [
-                  "Shows active Bus Pass status for selected youth and loads Team Member from active users.",
-                  "Archives youth after 90 days without sign-in and notes that a new intake is required.",
-                  "Fixes data-quality intake timestamp handling and aligns app version metadata."
+                  "Requires a profile photo before check-in can be submitted for a matched youth with no photo on file.",
+                  "Applies the requirement in the tablet/web check-in flow, desktop check-in form, and server-side check-in API.",
+                  "Bumps Vita Nova to 1.0.31."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.30.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.30.jar",
-                    "jarSha256":  "A17FC89DAA5D4FE3BED3A9D8A7D390924C63985C288FD74101CB775701CB0A4A"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.31.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.31.jar",
+                    "jarSha256":  "188551336C8AAA0700EECD7ECEE29C8AFFE8FE1CE66B8AD036AAD03A7ED36E5D"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.30.jar",
-                  "jarSha256":  "A17FC89DAA5D4FE3BED3A9D8A7D390924C63985C288FD74101CB775701CB0A4A"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.31.jar",
+                  "jarSha256":  "188551336C8AAA0700EECD7ECEE29C8AFFE8FE1CE66B8AD036AAD03A7ED36E5D"
               }
 }

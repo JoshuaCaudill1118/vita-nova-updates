@@ -1,19 +1,18 @@
 ﻿{
-    "version":  "1.0.32",
+    "version":  "1.0.33",
     "notes":  [
-                  "Requires a visible youth face before a profile photo can be saved.",
-                  "Adds local OpenCV face detection as the server-side upload backstop.",
-                  "Adds a browser-side face check on supported tablet browsers before upload.",
-                  "Bumps Vita Nova to 1.0.32."
+                  "Removes the duplicate Service Use shortcut from the mobile home screen; Youth Service Use remains available.",
+                  "Adds a staff-side privacy screen after inactivity.",
+                  "Bumps Vita Nova to 1.0.33."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.32.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.32.jar",
-                    "jarSha256":  "B017FC0C14C2E603E13DE21ADA47605C08655B3EC9B539798CA013026A47D08E"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.33.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.33.jar",
+                    "jarSha256":  "95CEA5D92DDCC35FEC5E97BA19E273349AFA9BF83E1904ACA5F0D30B4FDEC4A6"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.32.jar",
-                  "jarSha256":  "B017FC0C14C2E603E13DE21ADA47605C08655B3EC9B539798CA013026A47D08E"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.33.jar",
+                  "jarSha256":  "95CEA5D92DDCC35FEC5E97BA19E273349AFA9BF83E1904ACA5F0D30B4FDEC4A6"
               }
 }

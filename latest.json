@@ -1,18 +1,19 @@
 ﻿{
-    "version":  "1.0.33",
+    "version":  "1.0.37",
     "notes":  [
-                  "Removes the duplicate Service Use shortcut from the mobile home screen; Youth Service Use remains available.",
-                  "Adds a staff-side privacy screen after inactivity.",
-                  "Bumps Vita Nova to 1.0.33."
+                  "Aligns the SOFI packet/dashboard with the official forms and generated PDFs.",
+                  "Adds the Immediate Needs Assessment to the intake dashboard.",
+                  "Removes local/private network links from the phone/tablet portal.",
+                  "Bumps Vita Nova to 1.0.37."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.33.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.33.jar",
-                    "jarSha256":  "95CEA5D92DDCC35FEC5E97BA19E273349AFA9BF83E1904ACA5F0D30B4FDEC4A6"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.37.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.37.jar",
+                    "jarSha256":  "0C3E0F243818BD4E2E8DD78F310FAA3BB8C2D9EFE8D6387285D88ACD5524C44E"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.33.jar",
-                  "jarSha256":  "95CEA5D92DDCC35FEC5E97BA19E273349AFA9BF83E1904ACA5F0D30B4FDEC4A6"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.37.jar",
+                  "jarSha256":  "0C3E0F243818BD4E2E8DD78F310FAA3BB8C2D9EFE8D6387285D88ACD5524C44E"
               }
 }

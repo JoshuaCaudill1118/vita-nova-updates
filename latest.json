@@ -1,18 +1,18 @@
-{
-    "version":  "1.0.38",
+﻿{
+    "version":  "1.0.39",
     "notes":  [
-                  "Adds forgot-password requests for staff accounts.",
-                  "Requires staff passwords to be changed every 30 days.",
-                  "Adds browser and desktop password-change prompts."
+                  "Fixes the desktop auto-update version mismatch from 1.0.38.",
+                  "Keeps forgot-password requests and monthly staff password changes.",
+                  "Keeps browser and desktop password-change prompts."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.38.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.38.jar",
-                    "jarSha256":  "55A8CD4256563E06A80060FE2296E4D298620FF97C52956144CE876359C6A7CA"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.39.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.39.jar",
+                    "jarSha256":  "08B30883C473FC8CF62F9E803C8EE4119E5D9AC64E23A0B4AD94FB1422FCC6F3"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.38.jar",
-                  "jarSha256":  "55A8CD4256563E06A80060FE2296E4D298620FF97C52956144CE876359C6A7CA"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.39.jar",
+                  "jarSha256":  "08B30883C473FC8CF62F9E803C8EE4119E5D9AC64E23A0B4AD94FB1422FCC6F3"
               }
 }

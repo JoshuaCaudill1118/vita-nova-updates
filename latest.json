@@ -1,19 +1,18 @@
-﻿{
-    "version":  "1.0.37",
+{
+    "version":  "1.0.38",
     "notes":  [
-                  "Aligns the SOFI packet/dashboard with the official forms and generated PDFs.",
-                  "Adds the Immediate Needs Assessment to the intake dashboard.",
-                  "Removes local/private network links from the phone/tablet portal.",
-                  "Bumps Vita Nova to 1.0.37."
+                  "Adds forgot-password requests for staff accounts.",
+                  "Requires staff passwords to be changed every 30 days.",
+                  "Adds browser and desktop password-change prompts."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.37.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.37.jar",
-                    "jarSha256":  "0C3E0F243818BD4E2E8DD78F310FAA3BB8C2D9EFE8D6387285D88ACD5524C44E"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.38.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.38.jar",
+                    "jarSha256":  "55A8CD4256563E06A80060FE2296E4D298620FF97C52956144CE876359C6A7CA"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.37.jar",
-                  "jarSha256":  "0C3E0F243818BD4E2E8DD78F310FAA3BB8C2D9EFE8D6387285D88ACD5524C44E"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.38.jar",
+                  "jarSha256":  "55A8CD4256563E06A80060FE2296E4D298620FF97C52956144CE876359C6A7CA"
               }
 }

@@ -2,17 +2,17 @@
     "version":  "1.0.39",
     "notes":  [
                   "Fixes the desktop auto-update version mismatch from 1.0.38.",
-                  "Keeps forgot-password requests and monthly staff password changes.",
-                  "Keeps browser and desktop password-change prompts."
+                  "Invalidates staff web sessions after an account is disabled or renamed.",
+                  "Adds Secure cookies for HTTPS staff web sessions."
               ],
     "windows":  {
                     "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.39.jar",
                     "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.39.jar",
-                    "jarSha256":  "08B30883C473FC8CF62F9E803C8EE4119E5D9AC64E23A0B4AD94FB1422FCC6F3"
+                    "jarSha256":  "2A93A5B3CEEBDD759EF31999BFF48FD17C007EF8894B8255618C0E49016EE084"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
                   "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.39.jar",
-                  "jarSha256":  "08B30883C473FC8CF62F9E803C8EE4119E5D9AC64E23A0B4AD94FB1422FCC6F3"
+                  "jarSha256":  "2A93A5B3CEEBDD759EF31999BFF48FD17C007EF8894B8255618C0E49016EE084"
               }
 }

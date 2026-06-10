@@ -3,16 +3,17 @@
     "notes":  [
                   "Restores staff web compatibility endpoints used by the launch staff screens.",
                   "Fixes staff web login sessions that succeeded but stayed visually on the login page.",
-                  "Improves mobile calendar and staff navigation layout before launch."
+                  "Improves mobile calendar and staff navigation layout before launch.",
+                  "Removes duplicate Bus Passes navigation from the staff web shell."
               ],
     "windows":  {
                     "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.40.jar",
                     "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.40.jar",
-                    "jarSha256":  "BB28B0D14202051E905E9B3BA3E845925C391B5A55E554F43C6D7A71A34B1990"
+                    "jarSha256":  "5E6E1F44FB582C9C50415D8AA6652072ED06685596D0585FE71F011AC3679D12"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
                   "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.40.jar",
-                  "jarSha256":  "BB28B0D14202051E905E9B3BA3E845925C391B5A55E554F43C6D7A71A34B1990"
+                  "jarSha256":  "5E6E1F44FB582C9C50415D8AA6652072ED06685596D0585FE71F011AC3679D12"
               }
 }

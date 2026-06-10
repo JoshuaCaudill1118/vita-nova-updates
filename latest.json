@@ -9,11 +9,11 @@
     "windows":  {
                     "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.40.jar",
                     "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.40.jar",
-                    "jarSha256":  "5E6E1F44FB582C9C50415D8AA6652072ED06685596D0585FE71F011AC3679D12"
+                    "jarSha256":  "F1DEFDB003934E26F990516C47F54E016A55F242F4EF37EDBEA4B7EE2107E4C3"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
                   "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.40.jar",
-                  "jarSha256":  "5E6E1F44FB582C9C50415D8AA6652072ED06685596D0585FE71F011AC3679D12"
+                  "jarSha256":  "F1DEFDB003934E26F990516C47F54E016A55F242F4EF37EDBEA4B7EE2107E4C3"
               }
 }

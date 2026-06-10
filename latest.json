@@ -1,18 +1,18 @@
 ﻿{
-    "version":  "1.0.39",
+    "version":  "1.0.40",
     "notes":  [
-                  "Fixes the desktop auto-update version mismatch from 1.0.38.",
-                  "Invalidates staff web sessions after an account is disabled or renamed.",
-                  "Adds Secure cookies for HTTPS staff web sessions."
+                  "Restores staff web compatibility endpoints used by the launch staff screens.",
+                  "Fixes staff web login sessions that succeeded but stayed visually on the login page.",
+                  "Improves mobile calendar and staff navigation layout before launch."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.39.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.39.jar",
-                    "jarSha256":  "2A93A5B3CEEBDD759EF31999BFF48FD17C007EF8894B8255618C0E49016EE084"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.40.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.40.jar",
+                    "jarSha256":  "BB28B0D14202051E905E9B3BA3E845925C391B5A55E554F43C6D7A71A34B1990"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.39.jar",
-                  "jarSha256":  "2A93A5B3CEEBDD759EF31999BFF48FD17C007EF8894B8255618C0E49016EE084"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.40.jar",
+                  "jarSha256":  "BB28B0D14202051E905E9B3BA3E845925C391B5A55E554F43C6D7A71A34B1990"
               }
 }

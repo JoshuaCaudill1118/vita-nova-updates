@@ -1,21 +1,18 @@
 ﻿{
-    "version":  "1.0.40",
+    "version":  "1.0.41",
     "notes":  [
-                  "Restores staff web compatibility endpoints used by the launch staff screens.",
-                  "Fixes staff web login sessions that succeeded but stayed visually on the login page.",
-                  "Improves mobile calendar and staff navigation layout before launch.",
-                  "Removes duplicate Bus Passes navigation from the staff web shell.",
-                  "Prevents blank staff scaffold routes by returning complete dashboard metadata.",
-                  "Routes IT Tickets to the stable staff scaffold for launch instead of a blank screen."
+                  "Adds an Add Walk-In action so staff can place an active youth on an event roster and mark attendance without a prior sign-up.",
+                  "Fixes intake packet metrics on the Reports dashboard when PostgreSQL timestamp fields are empty.",
+                  "Prevents the Windows Staff launcher from being hidden behind a downloaded-file security warning after installation."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.40.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.40.jar",
-                    "jarSha256":  "C8CFCE2E8E88E1DBE12623FF1530438C643293FD6DDF9AEBBCDFD843030891C0"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.41.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.41.jar",
+                    "jarSha256":  "4E473FDDA923BDF0860F1407369BB59FAA1BE377187229870A820BEBFC12883B"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.40.jar",
-                  "jarSha256":  "C8CFCE2E8E88E1DBE12623FF1530438C643293FD6DDF9AEBBCDFD843030891C0"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.41.jar",
+                  "jarSha256":  "4E473FDDA923BDF0860F1407369BB59FAA1BE377187229870A820BEBFC12883B"
               }
 }

@@ -5,16 +5,17 @@
                   "Fixes staff web login sessions that succeeded but stayed visually on the login page.",
                   "Improves mobile calendar and staff navigation layout before launch.",
                   "Removes duplicate Bus Passes navigation from the staff web shell.",
-                  "Prevents blank staff scaffold routes by returning complete dashboard metadata."
+                  "Prevents blank staff scaffold routes by returning complete dashboard metadata.",
+                  "Routes IT Tickets to the stable staff scaffold for launch instead of a blank screen."
               ],
     "windows":  {
                     "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.40.jar",
                     "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.40.jar",
-                    "jarSha256":  "200A3A4A709C304EBBD499A2DAEA0B942C28521BBC0B8355C368D81810ADEEEE"
+                    "jarSha256":  "C8CFCE2E8E88E1DBE12623FF1530438C643293FD6DDF9AEBBCDFD843030891C0"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
                   "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.40.jar",
-                  "jarSha256":  "200A3A4A709C304EBBD499A2DAEA0B942C28521BBC0B8355C368D81810ADEEEE"
+                  "jarSha256":  "C8CFCE2E8E88E1DBE12623FF1530438C643293FD6DDF9AEBBCDFD843030891C0"
               }
 }

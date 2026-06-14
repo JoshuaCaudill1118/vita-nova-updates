@@ -1,18 +1,19 @@
 ﻿{
-    "version":  "1.0.45",
+    "version":  "1.0.47",
     "notes":  [
                   "Shows the client phone/tablet portal link and QR code using the installed server configuration.",
                   "Changes the default staff password expiration period from 30 days to 90 days.",
-                  "Fixes the staff web Reports page so it displays live report metrics and table data."
+                  "Fixes the staff web Reports page so it displays live report metrics and table data.",
+                  "Fixes computers that stopped opening Vita Nova after 1.0.46 by removing the Windows Script Host dependency."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.45.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.45.jar",
-                    "jarSha256":  "E663638D36F980BD14278C62F737E2887EDBB6A12D940B24EDA64CA0EDCAF0C2"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.47.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.47.jar",
+                    "jarSha256":  "BC9E09B0C8BF771EDBA9EBF29A07CFB0E7B091326DD22D1E184327008904BDAC"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.45.jar",
-                  "jarSha256":  "E663638D36F980BD14278C62F737E2887EDBB6A12D940B24EDA64CA0EDCAF0C2"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.47.jar",
+                  "jarSha256":  "BC9E09B0C8BF771EDBA9EBF29A07CFB0E7B091326DD22D1E184327008904BDAC"
               }
 }

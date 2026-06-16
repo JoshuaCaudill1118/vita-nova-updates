@@ -1,21 +1,17 @@
 ﻿{
-    "version":  "1.0.49",
+    "version":  "1.0.50",
     "notes":  [
-                  "Shows the client phone/tablet portal link and QR code using the installed server configuration.",
-                  "Changes the default staff password expiration period from 30 days to 90 days.",
-                  "Fixes the staff web Reports page so it displays live report metrics and table data.",
-                  "Fixes computers that stopped opening Vita Nova after 1.0.46 by removing the Windows Script Host dependency.",
-                  "Adds every current-stay category found in the database to client check-in and the profile dashboard.",
-                  "Renames Unique ID to HMIS ID in the profile dashboard and profile Excel exports."
+                  "Rebrands the app logo, window titles, portal labels, and update prompts to Vita Link Database.",
+                  "Refreshes the Windows staff shortcut icon and creates the Vita Link Staff shortcut."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.49.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.49.jar",
-                    "jarSha256":  "F3191C3D8F708E42767EA99C6B33174BE4CD72D88F9831C23BA7E905A731CD4C"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.50.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.50.jar",
+                    "jarSha256":  "4A24BC487F0681D55A367FD57EA30D132AD2CAE6EEFFD5C084EDE83A5165E6D1"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.49.jar",
-                  "jarSha256":  "F3191C3D8F708E42767EA99C6B33174BE4CD72D88F9831C23BA7E905A731CD4C"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.50.jar",
+                  "jarSha256":  "4A24BC487F0681D55A367FD57EA30D132AD2CAE6EEFFD5C084EDE83A5165E6D1"
               }
 }

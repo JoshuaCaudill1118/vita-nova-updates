@@ -1,17 +1,18 @@
 ﻿{
-    "version":  "1.0.50",
+    "version":  "1.0.51",
     "notes":  [
-                  "Rebrands the app logo, window titles, portal labels, and update prompts to Vita Link Database.",
-                  "Refreshes the Windows staff shortcut icon and creates the Vita Link Staff shortcut."
+                  "Expands the staff Reports dashboard with date ranges, period comparisons, and executive snapshot totals.",
+                  "Adds grouped report views, report definitions, export bundles, data-quality triage, and Sleep Spot reporting.",
+                  "Improves report coverage for intake, housing milestones, files, verification, donations, archive activity, and staff access."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.50.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.50.jar",
-                    "jarSha256":  "4A24BC487F0681D55A367FD57EA30D132AD2CAE6EEFFD5C084EDE83A5165E6D1"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.51.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.51.jar",
+                    "jarSha256":  "8ADEA36CD99AFD4B76FA788E2E89EA6C07C3DDE6C687571E298779B3A0ADEC1C"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.50.jar",
-                  "jarSha256":  "4A24BC487F0681D55A367FD57EA30D132AD2CAE6EEFFD5C084EDE83A5165E6D1"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.51.jar",
+                  "jarSha256":  "8ADEA36CD99AFD4B76FA788E2E89EA6C07C3DDE6C687571E298779B3A0ADEC1C"
               }
 }

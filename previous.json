@@ -1,0 +1,18 @@
+﻿{
+    "version":  "1.0.52",
+    "notes":  [
+                  "Hotfixes Staff startup after the reports dashboard update.",
+                  "Includes the missing generated Staff Reports controller class so secure local services start normally.",
+                  "Keeps the expanded Reports dashboard from version 1.0.51."
+              ],
+    "windows":  {
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.52.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.52.jar",
+                    "jarSha256":  "4463E47A29DEA359ADCAA8A5DFA3FD024774892C0C23E972AB0AE073D2C0A693"
+                },
+    "macos":  {
+                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.52.jar",
+                  "jarSha256":  "4463E47A29DEA359ADCAA8A5DFA3FD024774892C0C23E972AB0AE073D2C0A693"
+              }
+}

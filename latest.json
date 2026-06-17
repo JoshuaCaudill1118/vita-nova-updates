@@ -1,18 +1,18 @@
 ﻿{
-    "version":  "1.0.51",
+    "version":  "1.0.52",
     "notes":  [
-                  "Expands the staff Reports dashboard with date ranges, period comparisons, and executive snapshot totals.",
-                  "Adds grouped report views, report definitions, export bundles, data-quality triage, and Sleep Spot reporting.",
-                  "Improves report coverage for intake, housing milestones, files, verification, donations, archive activity, and staff access."
+                  "Hotfixes Staff startup after the reports dashboard update.",
+                  "Includes the missing generated Staff Reports controller class so secure local services start normally.",
+                  "Keeps the expanded Reports dashboard from version 1.0.51."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.51.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.51.jar",
-                    "jarSha256":  "8ADEA36CD99AFD4B76FA788E2E89EA6C07C3DDE6C687571E298779B3A0ADEC1C"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.52.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.52.jar",
+                    "jarSha256":  "4463E47A29DEA359ADCAA8A5DFA3FD024774892C0C23E972AB0AE073D2C0A693"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.51.jar",
-                  "jarSha256":  "8ADEA36CD99AFD4B76FA788E2E89EA6C07C3DDE6C687571E298779B3A0ADEC1C"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.52.jar",
+                  "jarSha256":  "4463E47A29DEA359ADCAA8A5DFA3FD024774892C0C23E972AB0AE073D2C0A693"
               }
 }

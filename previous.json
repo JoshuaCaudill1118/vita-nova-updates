@@ -1,18 +1,19 @@
 ﻿{
-    "version":  "1.0.52",
+    "version":  "1.0.53",
     "notes":  [
-                  "Hotfixes Staff startup after the reports dashboard update.",
-                  "Includes the missing generated Staff Reports controller class so secure local services start normally.",
-                  "Keeps the expanded Reports dashboard from version 1.0.51."
+                  "Startup logging now captures fatal launch failures for faster support.",
+                  "Release publishing now runs a JAR smoke test before staff updates go live.",
+                  "Rollback support keeps the previous update manifest ready.",
+                  "Data-quality reports now sync into an actionable task queue for staff review."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.52.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.52.jar",
-                    "jarSha256":  "4463E47A29DEA359ADCAA8A5DFA3FD024774892C0C23E972AB0AE073D2C0A693"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.53.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.53.jar",
+                    "jarSha256":  "AB80B5E540149FBDB996C7B9CDAC2F13E564422986052AFFE71B84877475C0AD"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.52.jar",
-                  "jarSha256":  "4463E47A29DEA359ADCAA8A5DFA3FD024774892C0C23E972AB0AE073D2C0A693"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.53.jar",
+                  "jarSha256":  "AB80B5E540149FBDB996C7B9CDAC2F13E564422986052AFFE71B84877475C0AD"
               }
 }

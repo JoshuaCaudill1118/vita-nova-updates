@@ -1,19 +1,18 @@
-﻿{
-    "version":  "1.0.53",
+{
+    "version":  "1.0.54",
     "notes":  [
-                  "Startup logging now captures fatal launch failures for faster support.",
-                  "Release publishing now runs a JAR smoke test before staff updates go live.",
-                  "Rollback support keeps the previous update manifest ready.",
-                  "Data-quality reports now sync into an actionable task queue for staff review."
+                  "Profiles can now be assigned to generalized programs separate from tags.",
+                  "Profile search now includes assigned programs such as P2E, PSH, SOFI, TH, TH-RRH, VNILS, and VNV.",
+                  "Reports now include Program Event Participation with attended event counts, total event hours, and last attended event."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.53.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.53.jar",
-                    "jarSha256":  "AB80B5E540149FBDB996C7B9CDAC2F13E564422986052AFFE71B84877475C0AD"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.54.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.54.jar",
+                    "jarSha256":  "61CE6B3A805604F465B346803E87F6343DA3F71D599F69AB07326128FD71ABFB"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.53.jar",
-                  "jarSha256":  "AB80B5E540149FBDB996C7B9CDAC2F13E564422986052AFFE71B84877475C0AD"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.54.jar",
+                  "jarSha256":  "61CE6B3A805604F465B346803E87F6343DA3F71D599F69AB07326128FD71ABFB"
               }
 }

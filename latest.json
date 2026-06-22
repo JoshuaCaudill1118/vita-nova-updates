@@ -1,18 +1,19 @@
 {
-    "version":  "1.0.54",
+    "version":  "1.0.55",
     "notes":  [
+                  "Hotfix: rebuilds the programs update for the bundled Java 25 runtime so startup works after updating.",
                   "Profiles can now be assigned to generalized programs separate from tags.",
                   "Profile search now includes assigned programs such as P2E, PSH, SOFI, TH, TH-RRH, VNILS, and VNV.",
                   "Reports now include Program Event Participation with attended event counts, total event hours, and last attended event."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.54.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.54.jar",
-                    "jarSha256":  "61CE6B3A805604F465B346803E87F6343DA3F71D599F69AB07326128FD71ABFB"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.55.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.55.jar",
+                    "jarSha256":  "6CF9158E1DC0D6750D2B686A5BB1C0F2C01CBE53A0AF976FE1EC873F44B47E14"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.54.jar",
-                  "jarSha256":  "61CE6B3A805604F465B346803E87F6343DA3F71D599F69AB07326128FD71ABFB"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.55.jar",
+                  "jarSha256":  "6CF9158E1DC0D6750D2B686A5BB1C0F2C01CBE53A0AF976FE1EC873F44B47E14"
               }
 }

@@ -1,18 +1,19 @@
 {
-    "version":  "1.0.62",
+    "version":  "1.0.63",
     "notes":  [
-                  "Fixed the Reports dashboard popup that said Decompilation failed.",
-                  "Restored report table metadata checks so report metrics and tables load normally.",
-                  "Keeps the existing 1.0.61 photo/check-in temporary safeguards in place."
+                  "Youth Log: Start Intake now opens a new intake packet for the selected youth.",
+                  "Youth Log: added Services Received, including pantry/clothing/shower-style service usage and Sleep Spot activity.",
+                  "Youth Log: selected-youth panel now marks individual purposes as received without marking the rest.",
+                  "Service usage from desktop and phone/tablet forms continues to add the service to purpose when missing and marks it received automatically."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.62.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.62.jar",
-                    "jarSha256":  "6BC962A0A0282072FD868B094B0CB7DE12A0CCB8D4A5A4C1B898C5E5DAF30360"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.63.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.63.jar",
+                    "jarSha256":  "198A30DD3B33F75ED267BE623BBF12F9DCA0D1B34E933E9068521784C98D6E95"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.62.jar",
-                  "jarSha256":  "6BC962A0A0282072FD868B094B0CB7DE12A0CCB8D4A5A4C1B898C5E5DAF30360"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.63.jar",
+                  "jarSha256":  "198A30DD3B33F75ED267BE623BBF12F9DCA0D1B34E933E9068521784C98D6E95"
               }
 }

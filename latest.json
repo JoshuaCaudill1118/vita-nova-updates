@@ -1,19 +1,18 @@
 {
-    "version":  "1.0.63",
+    "version":  "1.0.64",
     "notes":  [
-                  "Youth Log: Start Intake now opens a new intake packet for the selected youth.",
-                  "Youth Log: added Services Received, including pantry/clothing/shower-style service usage and Sleep Spot activity.",
-                  "Youth Log: selected-youth panel now marks individual purposes as received without marking the rest.",
-                  "Service usage from desktop and phone/tablet forms continues to add the service to purpose when missing and marks it received automatically."
+                  "SOFI packet PDFs now keep the Vita Nova logo separate from page titles across the packet.",
+                  "Fixed spacing in the SOFI grievance acknowledgment box so print name, date, and signature no longer overlap the text.",
+                  "Intake and SOFI packet dashboard actions now say Edit, and saving edits recreates and attaches a fresh PDF."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.63.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.63.jar",
-                    "jarSha256":  "198A30DD3B33F75ED267BE623BBF12F9DCA0D1B34E933E9068521784C98D6E95"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.64.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.64.jar",
+                    "jarSha256":  "19C1E73A5F681512E0DDF186AE4084D40A85F7031E5BF21EF27B545D53144373"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.63.jar",
-                  "jarSha256":  "198A30DD3B33F75ED267BE623BBF12F9DCA0D1B34E933E9068521784C98D6E95"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.64.jar",
+                  "jarSha256":  "19C1E73A5F681512E0DDF186AE4084D40A85F7031E5BF21EF27B545D53144373"
               }
 }

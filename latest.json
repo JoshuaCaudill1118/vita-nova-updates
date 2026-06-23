@@ -1,18 +1,18 @@
 {
-    "version":  "1.0.65",
+    "version":  "1.0.66",
     "notes":  [
-                  "Youth Log service received picker now uses checkboxes so staff can mark any combination of received services.",
-                  "Intake dashboard now has one visible Edit Form button for saved Intake and SOFI forms.",
-                  "Intake dashboard now has Delete Form for saved Intake and SOFI forms and PDF-only form rows."
+                  "Intake dashboard selected-document actions now stay visible under the create buttons, including Edit Form and Delete Form.",
+                  "Tablet and phone check-in photo upload remains optional and no longer runs browser face verification.",
+                  "Public check-in page cache-busting was updated so devices fetch the latest photo-check-in script."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.65.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.65.jar",
-                    "jarSha256":  "3E06F821301B2400AE78551F9DA3F8392C72D0E7008B897C801258F0DEF67F56"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.66.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.66.jar",
+                    "jarSha256":  "215CEF592BC809359ABD7D05892B7AAE3902E7FC13C35B20051FB53C368640C5"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.65.jar",
-                  "jarSha256":  "3E06F821301B2400AE78551F9DA3F8392C72D0E7008B897C801258F0DEF67F56"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.66.jar",
+                  "jarSha256":  "215CEF592BC809359ABD7D05892B7AAE3902E7FC13C35B20051FB53C368640C5"
               }
 }

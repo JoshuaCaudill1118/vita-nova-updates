@@ -1,18 +1,18 @@
 {
-    "version":  "1.0.60",
+    "version":  "1.0.61",
     "notes":  [
-                  "Temporarily disabled browser face detection in the phone/tablet check-in photo upload flow.",
-                  "Matched youth can now complete phone/tablet check-in without a profile photo while camera/photo issues are being fixed.",
-                  "Photo upload is still available from the phone/tablet check-in flow, but it is optional for now."
+                  "Matched youth can now complete website and desktop check-in without a profile photo while camera/photo issues are being fixed.",
+                  "Temporarily disabled browser and backend face detection for profile photo uploads.",
+                  "Added a tablet portal cache-bust so phones and tablets load the newest check-in script."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.60.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.60.jar",
-                    "jarSha256":  "C785E946BEF15FFDE73D7A6800A6A9502DC66B76CD044E6C1BEAC36C34E26F83"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.61.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.61.jar",
+                    "jarSha256":  "BA0120A4A0911191B860513EEF4DDAC739ACCFB70136DEBAC68A274A25E04C19"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.60.jar",
-                  "jarSha256":  "C785E946BEF15FFDE73D7A6800A6A9502DC66B76CD044E6C1BEAC36C34E26F83"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.61.jar",
+                  "jarSha256":  "BA0120A4A0911191B860513EEF4DDAC739ACCFB70136DEBAC68A274A25E04C19"
               }
 }

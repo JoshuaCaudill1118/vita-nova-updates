@@ -1,18 +1,18 @@
-{
-    "version":  "1.0.61",
+﻿{
+    "version":  "1.0.62",
     "notes":  [
-                  "Matched youth can now complete website and desktop check-in without a profile photo while camera/photo issues are being fixed.",
-                  "Temporarily disabled browser and backend face detection for profile photo uploads.",
-                  "Added a tablet portal cache-bust so phones and tablets load the newest check-in script."
+                  "Fixed the Reports dashboard popup that said Decompilation failed.",
+                  "Restored report table metadata checks so report metrics and tables load normally.",
+                  "Keeps the existing 1.0.61 photo/check-in temporary safeguards in place."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.61.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.61.jar",
-                    "jarSha256":  "BA0120A4A0911191B860513EEF4DDAC739ACCFB70136DEBAC68A274A25E04C19"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.62.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.62.jar",
+                    "jarSha256":  "6BC962A0A0282072FD868B094B0CB7DE12A0CCB8D4A5A4C1B898C5E5DAF30360"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.61.jar",
-                  "jarSha256":  "BA0120A4A0911191B860513EEF4DDAC739ACCFB70136DEBAC68A274A25E04C19"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.62.jar",
+                  "jarSha256":  "6BC962A0A0282072FD868B094B0CB7DE12A0CCB8D4A5A4C1B898C5E5DAF30360"
               }
 }

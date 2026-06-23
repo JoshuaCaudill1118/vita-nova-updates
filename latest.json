@@ -1,18 +1,18 @@
 {
-    "version":  "1.0.64",
+    "version":  "1.0.65",
     "notes":  [
-                  "SOFI packet PDFs now keep the Vita Nova logo separate from page titles across the packet.",
-                  "Fixed spacing in the SOFI grievance acknowledgment box so print name, date, and signature no longer overlap the text.",
-                  "Intake and SOFI packet dashboard actions now say Edit, and saving edits recreates and attaches a fresh PDF."
+                  "Youth Log service received picker now uses checkboxes so staff can mark any combination of received services.",
+                  "Intake dashboard now has one visible Edit Form button for saved Intake and SOFI forms.",
+                  "Intake dashboard now has Delete Form for saved Intake and SOFI forms and PDF-only form rows."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.64.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.64.jar",
-                    "jarSha256":  "19C1E73A5F681512E0DDF186AE4084D40A85F7031E5BF21EF27B545D53144373"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.65.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.65.jar",
+                    "jarSha256":  "3E06F821301B2400AE78551F9DA3F8392C72D0E7008B897C801258F0DEF67F56"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.64.jar",
-                  "jarSha256":  "19C1E73A5F681512E0DDF186AE4084D40A85F7031E5BF21EF27B545D53144373"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.65.jar",
+                  "jarSha256":  "3E06F821301B2400AE78551F9DA3F8392C72D0E7008B897C801258F0DEF67F56"
               }
 }

@@ -1,19 +1,19 @@
 {
-    "version":  "1.0.57",
+    "version":  "1.0.58",
     "notes":  [
-                  "Hotfix: speeds startup by skipping heavy database migrations after the programs schema update is applied.",
-                  "Hotfix: speeds Profile Dashboard loading by batch-loading profile nicknames instead of querying one profile at a time.",
-                  "Profiles can now be assigned to generalized programs separate from tags.",
-                  "Reports now include Program Event Participation with attended event counts, total event hours, and last attended event."
+                  "Mass Email can now select recipients by assigned programs.",
+                  "Profile Dashboard now has table filters for tags and programs.",
+                  "Archive reason wording has been changed from banned to restricted across the app and reports.",
+                  "Startup and Profile Dashboard loading performance fixes remain in place."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.57.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.57.jar",
-                    "jarSha256":  "F24A478729C32AEBD255B443E9B08D83140F53F9223FD30D5A78A1693D28D2A2"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.58.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.58.jar",
+                    "jarSha256":  "D43CD6B7CD56CEE8138387AF89355EADE6A4AD717EFACA678BAE6299341F8FF6"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.57.jar",
-                  "jarSha256":  "F24A478729C32AEBD255B443E9B08D83140F53F9223FD30D5A78A1693D28D2A2"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.58.jar",
+                  "jarSha256":  "D43CD6B7CD56CEE8138387AF89355EADE6A4AD717EFACA678BAE6299341F8FF6"
               }
 }

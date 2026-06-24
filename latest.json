@@ -1,19 +1,20 @@
 {
-    "version":  "1.0.68",
+    "version":  "1.0.69",
     "notes":  [
                   "Staff Intake regeneration now replaces the linked PDF instead of leaving duplicate generated PDFs.",
                   "Staff timestamps in Intake and Notifications now use a standard display format.",
                   "Youth Log received-service handling is hardened and Reports now include Requested vs Received services.",
-                  "Phone/tablet check-in photo capture no longer requires a matched profile; pending photos attach during staff verification when a profile photo is needed."
+                  "Phone/tablet check-in photo capture no longer requires a matched profile; pending photos attach during staff verification when a profile photo is needed.",
+                  "Staff event reminder and age alert notification duplicate checks were restored from the prior compiled behavior so notification startup paths stay stable."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.68.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.68.jar",
-                    "jarSha256":  "3FD4A33687D82BD84E69157D31DB6F876C0598BD586579C9E8F4EB52B56F166E"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.69.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.69.jar",
+                    "jarSha256":  "B9D32572E07A796B10CA1E2E76C769073AE36A39F8FF95DF9F1DFB444A18A435"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.68.jar",
-                  "jarSha256":  "3FD4A33687D82BD84E69157D31DB6F876C0598BD586579C9E8F4EB52B56F166E"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.69.jar",
+                  "jarSha256":  "B9D32572E07A796B10CA1E2E76C769073AE36A39F8FF95DF9F1DFB444A18A435"
               }
 }

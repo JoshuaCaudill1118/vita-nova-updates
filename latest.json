@@ -1,19 +1,18 @@
 {
-    "version":  "1.0.70",
+    "version":  "1.0.71",
     "notes":  [
-                  "Reports dashboard now lazy-loads the visible report tables first so the tab opens faster.",
-                  "Immediate Needs Assessment forms now save editable answers and can be edited, regenerated, or deleted from the Intake dashboard for newly saved forms.",
-                  "Youth Log dashboard refresh and received-service actions are hardened against stale selections and null table states.",
-                  "Face detection initialization now fails quietly when OpenCV is unavailable instead of flooding startup logs."
+                  "Immediate Needs Assessment PDFs now have corrected logo/title spacing and compact checkbox rows so the final page clears the footer.",
+                  "Youth check-in verification submitted times now use Eastern time on the hosted server instead of UTC.",
+                  "Verification display now standardizes submitted-at timestamps and corrects pending submissions that are visibly future-dated from the prior UTC offset."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.70.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.70.jar",
-                    "jarSha256":  "CEE394594A99C285585D23AB5EA5E12594559EC3C788EA7BCE2E0AF6997E042D"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.71.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.71.jar",
+                    "jarSha256":  "E138B6D5C755AE3B2786BF635ACC47872DCD43D0151E3780658D48C1137165CD"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.70.jar",
-                  "jarSha256":  "CEE394594A99C285585D23AB5EA5E12594559EC3C788EA7BCE2E0AF6997E042D"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.71.jar",
+                  "jarSha256":  "E138B6D5C755AE3B2786BF635ACC47872DCD43D0151E3780658D48C1137165CD"
               }
 }

@@ -1,19 +1,19 @@
 {
-    "version":  "1.0.74",
+    "version":  "1.0.75",
     "notes":  [
-                  "Reports Dashboard now adds useful summaries and breakdowns across the Vita Nova Staff reports, so grant-reporting data is easier to review.",
-                  "Requested vs Received now includes fulfillment, mismatch, service-level, and youth-review breakdowns.",
-                  "Program, Immediate Needs, Bus Pass, Import Health, and Data Quality Task reports are now exposed in the Staff reports dashboard.",
-                  "The desktop Staff Reports screen now shows summary panels above report tables while preserving the detailed rows and existing charts."
+                  "Reports now separate active and archived youth so historical data stays reportable without inflating current-action counts.",
+                  "Follow-Up, Age Flags, current check-ins, profile completeness, and active review signals now focus on active youth.",
+                  "Requested vs Received now keeps archived youth in the history while separating them from active mismatch review.",
+                  "Youth-level report rows now include Youth Status where available, so exports and summaries clearly show Active, Archived, or No Profile."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.74.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/e2fa6167e2b174bb9bc985d18d0d93c1d60ff116/windows/VitaNovaDatabase-1.0.74.jar",
-                    "jarSha256":  "5DBA2218DB85BDDE3932B0274C084834C62F6EC09618753D72859FAD40D0446E"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.75.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.75.jar",
+                    "jarSha256":  "5B8581449F0EA5CADF08F9E5FA3C9C0C9AB77B55F3CB328608F4FDFA7916C611"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/e2fa6167e2b174bb9bc985d18d0d93c1d60ff116/windows/VitaNovaDatabase-1.0.74.jar",
-                  "jarSha256":  "5DBA2218DB85BDDE3932B0274C084834C62F6EC09618753D72859FAD40D0446E"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.75.jar",
+                  "jarSha256":  "5B8581449F0EA5CADF08F9E5FA3C9C0C9AB77B55F3CB328608F4FDFA7916C611"
               }
 }

@@ -1,20 +1,18 @@
 {
-    "version":  "1.0.76",
+    "version":  "1.0.77",
     "notes":  [
-                  "Dashboard Navigator counts now auto-refresh every 15 seconds so pending youth check-in verification and current check-in tiles update after new check-ins.",
-                  "Youth check-ins auto-approve into an existing active profile when the submitted profile information matches, ignoring purpose of visit for matching.",
-                  "FYI was added as a program; FYI/PSH youth are flagged as event-only, can remain active at 25+, and are blocked from service usage while still allowing event participation.",
-                  "Chart notes can notify multiple staff and pinned chart notes now appear in the Youth Log selected-youth panel.",
-                  "Reports now break current stay into Homeless, Short Term, Shelter, Supported Housing, and Non-Supported Housing, with category timing metrics and charts that preserve all-time first-contact history."
+                  "Staff reports now load the initial dashboard quickly and fetch selected report tables on demand.",
+                  "Report bundle exports now load their required tables before generating CSV output.",
+                  "The Windows update JAR is compatible with the Java 25 staff runtime to prevent class-version startup failures."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.76.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.76.jar",
-                    "jarSha256":  "ECF786031F9121D2F35447B85E644617D1E500C506554154E74376EADCE3BEEC"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.77.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.77.jar",
+                    "jarSha256":  "1941F5FBC8BEBAADE892CFED6C9A96290868E9EFAA9693F8219FC8A7F0EFC689"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.76.jar",
-                  "jarSha256":  "ECF786031F9121D2F35447B85E644617D1E500C506554154E74376EADCE3BEEC"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.77.jar",
+                  "jarSha256":  "1941F5FBC8BEBAADE892CFED6C9A96290868E9EFAA9693F8219FC8A7F0EFC689"
               }
 }

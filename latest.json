@@ -1,18 +1,19 @@
-{
-    "version":  "1.0.77",
+﻿{
+    "version":  "1.0.78",
     "notes":  [
-                  "Staff reports now load the initial dashboard quickly and fetch selected report tables on demand.",
-                  "Report bundle exports now load their required tables before generating CSV output.",
-                  "The Windows update JAR is compatible with the Java 25 staff runtime to prevent class-version startup failures."
+                  "Profile workflow improvements, auto-merge verification matches, and cleaner chart-note notifications.",
+                  "Reports updates including requested vs received services, housing category cleanup, and refreshed overview metrics.",
+                  "Daily maintenance now checks youth out at 6:00 PM and exits running staff apps at midnight.",
+                  "Visible Unique ID wording has been replaced with HMIS ID where staff search or view profiles."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.77.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.77.jar",
-                    "jarSha256":  "1941F5FBC8BEBAADE892CFED6C9A96290868E9EFAA9693F8219FC8A7F0EFC689"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.78.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.78.jar",
+                    "jarSha256":  "237D3659C4DA29076252453944EB063C8072F567646EC06BA5ACF97BA21F435F"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.77.jar",
-                  "jarSha256":  "1941F5FBC8BEBAADE892CFED6C9A96290868E9EFAA9693F8219FC8A7F0EFC689"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.78.jar",
+                  "jarSha256":  "237D3659C4DA29076252453944EB063C8072F567646EC06BA5ACF97BA21F435F"
               }
 }

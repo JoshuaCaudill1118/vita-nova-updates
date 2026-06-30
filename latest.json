@@ -8,11 +8,11 @@
     "windows":  {
                     "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.88/VitaNovaDatabase-1.0.88.jar",
                     "jarUrl":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.88/VitaNovaDatabase-1.0.88.jar",
-                    "jarSha256":  "DDBCE67B0D8AC2B3B3D9D415F54B9E5AF56225A4354FFE3F75650AED0E6D666A"
+                    "jarSha256":  "1658E320F4D3D288D85A95E65A67461707895E224E6D3E2F0A02DF842782ACF8"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
                   "jarUrl":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.88/VitaNovaDatabase-1.0.88.jar",
-                  "jarSha256":  "DDBCE67B0D8AC2B3B3D9D415F54B9E5AF56225A4354FFE3F75650AED0E6D666A"
+                  "jarSha256":  "1658E320F4D3D288D85A95E65A67461707895E224E6D3E2F0A02DF842782ACF8"
               }
 }

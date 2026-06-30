@@ -1,18 +1,19 @@
 {
-    "version":  "1.0.80",
+    "version":  "1.0.81",
     "notes":  [
-                  "Youth Log Services Received is now the main selected-youth action and shows services already recorded.",
-                  "Current stay restores homeless-detail and Vita Nova Housing options with Homeless and Short Term bucket mapping.",
-                  "Sleep Spot current stay now reports as Short Term."
+                  "Pantry service usage now stores and displays as Pantry.",
+                  "Requested vs Received services now collapse equivalent labels and ignore events.",
+                  "Profile programs and FYI/PSH event-only service access markers are restored.",
+                  "Reports restore service-access context for age flags and exclude event-only profiles from 25+ service-age counts."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.80.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.80.jar",
-                    "jarSha256":  "40F073DC5B39254554B1A06C1F3D73B17F630E9A98FB0C38C8267771EDAA004C"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.81.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.81.jar",
+                    "jarSha256":  "A280D4DCE4C70D53025B39719CA669B708B70598BCC9D421B1127CBBBC5FFF9B"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.80.jar",
-                  "jarSha256":  "40F073DC5B39254554B1A06C1F3D73B17F630E9A98FB0C38C8267771EDAA004C"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.81.jar",
+                  "jarSha256":  "A280D4DCE4C70D53025B39719CA669B708B70598BCC9D421B1127CBBBC5FFF9B"
               }
 }

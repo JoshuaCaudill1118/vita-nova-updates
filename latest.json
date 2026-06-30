@@ -1,19 +1,17 @@
-{
-    "version":  "1.0.81",
+﻿{
+    "version":  "1.0.82",
     "notes":  [
-                  "Pantry service usage now stores and displays as Pantry.",
-                  "Requested vs Received services now collapse equivalent labels and ignore events.",
-                  "Profile programs and FYI/PSH event-only service access markers are restored.",
-                  "Reports restore service-access context for age flags and exclude event-only profiles from 25+ service-age counts."
+                  "Fixes startup when refreshing the youth profile reporting view with Programs enabled.",
+                  "Keeps the restored service normalization, FYI/PSH event-only access, and report updates from 1.0.81."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.81.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.81.jar",
-                    "jarSha256":  "A280D4DCE4C70D53025B39719CA669B708B70598BCC9D421B1127CBBBC5FFF9B"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.82.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.82.jar",
+                    "jarSha256":  "F0218A2B8E8EDE9C69BAF418D6EE563BC8EAED28C09663FFB3195E024A666E7D"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.81.jar",
-                  "jarSha256":  "A280D4DCE4C70D53025B39719CA669B708B70598BCC9D421B1127CBBBC5FFF9B"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.82.jar",
+                  "jarSha256":  "F0218A2B8E8EDE9C69BAF418D6EE563BC8EAED28C09663FFB3195E024A666E7D"
               }
 }

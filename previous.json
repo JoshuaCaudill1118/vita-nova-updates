@@ -1,18 +1,18 @@
 ﻿{
-    "version":  "1.0.84",
+    "version":  "1.0.85",
     "notes":  [
-                  "Profile program options are corrected to P2E, ILS, PSH, SOFI, TH, TH-RRH, VNILS, and VNV.",
-                  "Existing program values now remain visible in the picker so editing a profile does not silently remove them.",
+                  "FYI is restored as an official profile program option.",
+                  "Program options are FYI, P2E, ILS, PSH, SOFI, TH, TH-RRH, VNILS, and VNV.",
                   "Keeps the profile program filter and prior service/report/startup fixes."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.84.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.84.jar",
-                    "jarSha256":  "9F0AF786502202C945620B246E8063BBBF879939A63C671B28503C93D7726526"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.85.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.85.jar",
+                    "jarSha256":  "5F877FB0F9B52BF3A18645E9EEA233440C2F3D39A3A1E0E37EB15A52FE43E323"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.84.jar",
-                  "jarSha256":  "9F0AF786502202C945620B246E8063BBBF879939A63C671B28503C93D7726526"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.85.jar",
+                  "jarSha256":  "5F877FB0F9B52BF3A18645E9EEA233440C2F3D39A3A1E0E37EB15A52FE43E323"
               }
 }

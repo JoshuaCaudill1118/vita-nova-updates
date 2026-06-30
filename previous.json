@@ -1,18 +1,18 @@
 ﻿{
-    "version":  "1.0.83",
+    "version":  "1.0.84",
     "notes":  [
-                  "Profile Dashboard can now filter profiles by program.",
-                  "ILS is available as a program option.",
-                  "Keeps the restored service normalization, event-only access, reporting, and startup fixes from prior updates."
+                  "Profile program options are corrected to P2E, ILS, PSH, SOFI, TH, TH-RRH, VNILS, and VNV.",
+                  "Existing program values now remain visible in the picker so editing a profile does not silently remove them.",
+                  "Keeps the profile program filter and prior service/report/startup fixes."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.83.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.83.jar",
-                    "jarSha256":  "2F0F2B22720B54A9FAC694060FBAD96A11ACCD8BAC55E27C637E61C1A58D5999"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.84.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.84.jar",
+                    "jarSha256":  "9F0AF786502202C945620B246E8063BBBF879939A63C671B28503C93D7726526"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.83.jar",
-                  "jarSha256":  "2F0F2B22720B54A9FAC694060FBAD96A11ACCD8BAC55E27C637E61C1A58D5999"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.84.jar",
+                  "jarSha256":  "9F0AF786502202C945620B246E8063BBBF879939A63C671B28503C93D7726526"
               }
 }

@@ -1,17 +1,18 @@
 ﻿{
-    "version":  "1.0.82",
+    "version":  "1.0.83",
     "notes":  [
-                  "Fixes startup when refreshing the youth profile reporting view with Programs enabled.",
-                  "Keeps the restored service normalization, FYI/PSH event-only access, and report updates from 1.0.81."
+                  "Profile Dashboard can now filter profiles by program.",
+                  "ILS is available as a program option.",
+                  "Keeps the restored service normalization, event-only access, reporting, and startup fixes from prior updates."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.82.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.82.jar",
-                    "jarSha256":  "F0218A2B8E8EDE9C69BAF418D6EE563BC8EAED28C09663FFB3195E024A666E7D"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/blob/main/windows/VitaNovaDatabase-1.0.83.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.83.jar",
+                    "jarSha256":  "2F0F2B22720B54A9FAC694060FBAD96A11ACCD8BAC55E27C637E61C1A58D5999"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.82.jar",
-                  "jarSha256":  "F0218A2B8E8EDE9C69BAF418D6EE563BC8EAED28C09663FFB3195E024A666E7D"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.83.jar",
+                  "jarSha256":  "2F0F2B22720B54A9FAC694060FBAD96A11ACCD8BAC55E27C637E61C1A58D5999"
               }
 }

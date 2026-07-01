@@ -1,19 +1,19 @@
 {
-  "version": "1.0.91",
+  "version": "1.0.92",
   "notes": [
-    "Keeps the 1.0.90 intake dashboard actions and current program/check-in functionality.",
-    "Corrects Combined Intake, SOFI, and Immediate Needs PDF spacing and regenerates saved intake dashboard PDFs on update.",
-    "Fixes staff-created youth intake links so they open the mobile/desktop youth completion page instead of showing not found.",
-    "Keeps the tablet/phone check-in photo requirement without requiring face recognition."
+    "Keeps the 1.0.91 intake dashboard actions, program/check-in functionality, and tablet/phone photo requirement.",
+    "Corrects Combined Intake checkbox placement and raises the Client Grievance Procedure acknowledgement signature.",
+    "Regenerates saved Combined Intake, SOFI, and Immediate Needs dashboard PDFs on update and deletes superseded generated packet PDFs.",
+    "Generates youth intake links directly to the mobile/desktop completion page and deploys the youth page on the server."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.91/VitaNovaDatabase-1.0.91.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.91/VitaNovaDatabase-1.0.91.jar",
-    "jarSha256": "C4C17B04FE209F712F1882A3EBC012A58263B8C69EE3FDA3EEBA96C471D57A1A"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.92/VitaNovaDatabase-1.0.92.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.92/VitaNovaDatabase-1.0.92.jar",
+    "jarSha256": "7E79492BA1A4035E9414E424DE788411B938CA65B33E91A6F147965F91D0C2F4"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.91/VitaNovaDatabase-1.0.91.jar",
-    "jarSha256": "C4C17B04FE209F712F1882A3EBC012A58263B8C69EE3FDA3EEBA96C471D57A1A"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.92/VitaNovaDatabase-1.0.92.jar",
+    "jarSha256": "7E79492BA1A4035E9414E424DE788411B938CA65B33E91A6F147965F91D0C2F4"
   }
 }

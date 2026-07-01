@@ -1,19 +1,19 @@
 {
-  "version": "1.0.94",
+  "version": "1.0.95",
   "notes": [
-    "Keeps the 1.0.93 intake dashboard, youth intake link, Reports Programs tab, ILS program selection, and check-in photo requirement fixes in place.",
-    "Fixes staff approval of pending check-ins when the only archived matches are lower-confidence history matches.",
-    "Archived matches still show a staff warning, and high-confidence archived matches still block approval pending admin review.",
-    "Active exact duplicate matches continue to block approval as a new youth."
+    "Keeps the 1.0.94 archived-match approval rules and all 1.0.93 intake, reports, ILS, and photo requirement fixes in place.",
+    "Fixes the staff pending check-in confirmation dialog so the Approve and Cancel buttons remain visible on smaller screens.",
+    "Approval warnings now appear in a scrollable dialog with an explicit Approve As New Youth action button.",
+    "Active exact duplicate matches and high-confidence archived matches continue to block approval for admin review."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.94/VitaNovaDatabase-1.0.94.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.94/VitaNovaDatabase-1.0.94.jar",
-    "jarSha256": "804984ACCB413BE8E1FD82E5AA439EFEE6505CDC89F541DEF650FDEC9970963A"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.95/VitaNovaDatabase-1.0.95.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.95/VitaNovaDatabase-1.0.95.jar",
+    "jarSha256": "FDB4FE37D676D6E8882D9027F99138C4340B48D68635419001421E818CB67A73"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.94/VitaNovaDatabase-1.0.94.jar",
-    "jarSha256": "804984ACCB413BE8E1FD82E5AA439EFEE6505CDC89F541DEF650FDEC9970963A"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.95/VitaNovaDatabase-1.0.95.jar",
+    "jarSha256": "FDB4FE37D676D6E8882D9027F99138C4340B48D68635419001421E818CB67A73"
   }
 }

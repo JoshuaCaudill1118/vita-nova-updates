@@ -1,18 +1,18 @@
-﻿{
-    "version":  "1.0.88",
-    "notes":  [
-                  "Restores the Intake dashboard edit/delete actions and corrected action layout.",
-                  "Tablet/phone portal face recognition is now advisory so check-in is not blocked when detection fails or no photo is on file.",
-                  "Tablet/phone portal shell now refreshes app.js and styles.css for this update instead of using stale browser cache."
-              ],
-    "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.88/VitaNovaDatabase-1.0.88.jar",
-                    "jarUrl":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.88/VitaNovaDatabase-1.0.88.jar",
-                    "jarSha256":  "1658E320F4D3D288D85A95E65A67461707895E224E6D3E2F0A02DF842782ACF8"
-                },
-    "macos":  {
-                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.88/VitaNovaDatabase-1.0.88.jar",
-                  "jarSha256":  "1658E320F4D3D288D85A95E65A67461707895E224E6D3E2F0A02DF842782ACF8"
-              }
+{
+  "version": "1.0.89",
+  "notes": [
+    "Compacts the Intake dashboard Packet Actions area so Recent Intake Documents has usable table space.",
+    "Keeps the restored Intake edit/delete actions from 1.0.88.",
+    "Keeps tablet/phone portal face recognition advisory so check-in is not blocked when detection fails or no photo is on file."
+  ],
+  "windows": {
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.89/VitaNovaDatabase-1.0.89.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.89/VitaNovaDatabase-1.0.89.jar",
+    "jarSha256": "C6FD4A713DF2236DBDE88E0B7F86F6483E3294211B9CF6786C75FAC9EB962C87"
+  },
+  "macos": {
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.89/VitaNovaDatabase-1.0.89.jar",
+    "jarSha256": "C6FD4A713DF2236DBDE88E0B7F86F6483E3294211B9CF6786C75FAC9EB962C87"
+  }
 }

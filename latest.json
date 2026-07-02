@@ -1,6 +1,7 @@
 {
-  "version": "1.0.97",
+  "version": "1.0.98",
   "notes": [
+    "Recovery build compiled for the Staff Java runtime so computers that could not open 1.0.97 can update successfully.",
     "Keeps all 1.0.96 youth log services behavior and prior hotfixes in place.",
     "Improves FAU roster printing so the roster uses a page-width print layout.",
     "Restores keyboard text-size controls for larger, smaller, and reset text.",
@@ -10,13 +11,13 @@
     "Records new check-in timestamps in the Vita Nova Eastern time zone."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.97/VitaNovaDatabase-1.0.97.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.97/VitaNovaDatabase-1.0.97.jar",
-    "jarSha256": "63D75E6796C13A5710E81AB816042E3575FBB9A4F57189FA34428FCB48D2BC30"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.98/VitaNovaDatabase-1.0.98.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.98/VitaNovaDatabase-1.0.98.jar",
+    "jarSha256": "FC138D2414C1E0DC811B0F4E3F20C2271FF68BAA8DA034A61C1A987FB011238C"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.97/VitaNovaDatabase-1.0.97.jar",
-    "jarSha256": "63D75E6796C13A5710E81AB816042E3575FBB9A4F57189FA34428FCB48D2BC30"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.98/VitaNovaDatabase-1.0.98.jar",
+    "jarSha256": "FC138D2414C1E0DC811B0F4E3F20C2271FF68BAA8DA034A61C1A987FB011238C"
   }
 }

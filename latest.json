@@ -1,19 +1,22 @@
 {
-  "version": "1.0.96",
+  "version": "1.0.97",
   "notes": [
-    "Keeps the 1.0.95 pending check-in confirmation dialog fix and all prior intake, reports, ILS, photo, and archived-match fixes in place.",
-    "Fixes the Youth Log Services Received dialog so it lists the selected youth's requested services instead of the old fixed service list.",
-    "Services already recorded for the visit show checked and locked to prevent duplicate service usage records.",
-    "If a check-in has no requested services recorded, the dialog still falls back to the prior manual service list."
+    "Keeps all 1.0.96 youth log services behavior and prior hotfixes in place.",
+    "Improves FAU roster printing so the roster uses a page-width print layout.",
+    "Restores keyboard text-size controls for larger, smaller, and reset text.",
+    "Updates visible wording from Nickname to Preferred Name and from Banned to Restricted where staff see it.",
+    "Adds The Spot restricted profile marking separately from Sleep Spot restriction.",
+    "Adds intake packet date auto-dashing, event staff options, and additional Vita Nova housing locations.",
+    "Records new check-in timestamps in the Vita Nova Eastern time zone."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.96/VitaNovaDatabase-1.0.96.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.96/VitaNovaDatabase-1.0.96.jar",
-    "jarSha256": "5D7DE9A04DDAB73041E0D32C24A47E69A9B461A7A7BBC248A118E306709D36F2"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.97/VitaNovaDatabase-1.0.97.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.97/VitaNovaDatabase-1.0.97.jar",
+    "jarSha256": "63D75E6796C13A5710E81AB816042E3575FBB9A4F57189FA34428FCB48D2BC30"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.96/VitaNovaDatabase-1.0.96.jar",
-    "jarSha256": "5D7DE9A04DDAB73041E0D32C24A47E69A9B461A7A7BBC248A118E306709D36F2"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.97/VitaNovaDatabase-1.0.97.jar",
+    "jarSha256": "63D75E6796C13A5710E81AB816042E3575FBB9A4F57189FA34428FCB48D2BC30"
   }
 }

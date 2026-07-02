@@ -1,7 +1,8 @@
 {
-  "version": "1.0.99",
+  "version": "1.0.100",
   "notes": [
     "Built from the 1.0.96 base and compiled for the Staff Java runtime so existing functionality stays intact.",
+    "Fixes the Reports Dashboard load error caused by a decompiled table-check helper while preserving the existing report updates.",
     "Fixes event staffing so Outside Volunteer and Intern remain assigned, display in the event table, and count as event staff.",
     "Adds auto-dash formatting to Intake and SOFI packet date fields inside the staff dashboard packet editor.",
     "Improves FAU roster printing so the roster uses a page-width print layout.",
@@ -12,13 +13,13 @@
     "Records new check-in timestamps in the Vita Nova Eastern time zone."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.99/VitaNovaDatabase-1.0.99.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.99/VitaNovaDatabase-1.0.99.jar",
-    "jarSha256": "89FE86F28ED0027FB31AD9582C7CE15C154000236757C7E6AC7DEC2CAB1512D4"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.100/VitaNovaDatabase-1.0.100.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.100/VitaNovaDatabase-1.0.100.jar",
+    "jarSha256": "40722096C7CFF7DCA95DA25FFDF65A66CCC8948AF3BB4F8EC181F6505BD432EF"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.99/VitaNovaDatabase-1.0.99.jar",
-    "jarSha256": "89FE86F28ED0027FB31AD9582C7CE15C154000236757C7E6AC7DEC2CAB1512D4"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.100/VitaNovaDatabase-1.0.100.jar",
+    "jarSha256": "40722096C7CFF7DCA95DA25FFDF65A66CCC8948AF3BB4F8EC181F6505BD432EF"
   }
 }

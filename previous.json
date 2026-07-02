@@ -1,7 +1,11 @@
 {
-  "version": "1.0.101",
+  "version": "1.0.102",
   "notes": [
     "Built from the 1.0.96 base and compiled for the Staff Java runtime so existing functionality stays intact.",
+    "Keeps the 1.0.101 check-in timestamp and Reports Dashboard fixes intact while adding the 1.0.102 workflow updates.",
+    "Adds a separate Services Declined action in Youth Log so staff can remove unneeded requested services without marking them received.",
+    "Fixes intake packet field placement for Client Track demographics, Basic Needs signatures, registration details, and Release & License signature lines.",
+    "Auto-fills youth signature/name lines in generated intake packets from the youth's full name.",
     "Fixes future check-in times by storing check-in and checkout timestamps from the Vita Nova Eastern time shown to staff instead of the database server timestamp.",
     "Fixes the Reports Dashboard load error caused by a decompiled table-check helper while preserving the existing report updates.",
     "Fixes event staffing so Outside Volunteer and Intern remain assigned, display in the event table, and count as event staff.",
@@ -14,13 +18,13 @@
     "Records new check-in timestamps in the Vita Nova Eastern time zone."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.101/VitaNovaDatabase-1.0.101.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.101/VitaNovaDatabase-1.0.101.jar",
-    "jarSha256": "34285F906E79B71416E8B4CB217B97F3B00E991693E0F9B8C5DE1E1F69C28037"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.102/VitaNovaDatabase-1.0.102.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.102/VitaNovaDatabase-1.0.102.jar",
+    "jarSha256": "4FE73E263D830AFACF8C1A5E324BCB7D56F2010F5078FCCCB64DB10A0C7782D2"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.101/VitaNovaDatabase-1.0.101.jar",
-    "jarSha256": "34285F906E79B71416E8B4CB217B97F3B00E991693E0F9B8C5DE1E1F69C28037"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.102/VitaNovaDatabase-1.0.102.jar",
+    "jarSha256": "4FE73E263D830AFACF8C1A5E324BCB7D56F2010F5078FCCCB64DB10A0C7782D2"
   }
 }

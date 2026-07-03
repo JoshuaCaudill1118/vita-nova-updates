@@ -1,25 +1,22 @@
 {
-  "version": "1.0.108",
+  "version": "1.0.109",
   "notes": [
-    "Desktop Staff Reports Dashboard load-time hotfix.",
-    "Stops the dashboard from automatically loading every raw report table after the summary loads.",
-    "Refresh now loads only the fast summary by default, then keeps drill-down tables on demand.",
-    "Adds Load Selected Report so staff can load only the tab they are using.",
-    "Adds Load All Reports as an explicit action for staff who intentionally need the full package.",
-    "Clicking a report tab now loads that tab's report instead of loading unrelated report areas.",
-    "Detailed report tables now show an on-demand message until opened or loaded.",
-    "Full Report Package export now prompts staff to load all reports first instead of exporting unloaded placeholder sheets.",
-    "Keeps the 1.0.107 executive breakdown, youth journey, inferred journey, and data completion reports.",
+    "Desktop Staff Reports Dashboard lazy-loading chart hotfix.",
+    "Fixes the Unable to load selected report: 5 >= 1 popup seen when opening report tabs after the 1.0.108 load-time update.",
+    "Prevents dashboard charts from reading unloaded one-column placeholder tables while reports are still loading on demand.",
+    "Allows Requested vs Received, Journey Summary, Intake Timing, Follow-Up Reason, Executive Breakdowns, and Data Completion reports to load independently.",
+    "Keeps Refresh fast by loading only the summary first, then loading drill-down report tables only when selected or when Load All Reports is clicked.",
+    "Keeps raw drill-down tables available while preserving the executive summary and breakdown-focused reports.",
     "Keeps Java 25 bytecode compatibility so Staff secure local services start correctly on staff computers."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.108/VitaNovaDatabase-1.0.108.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.108/VitaNovaDatabase-1.0.108.jar",
-    "jarSha256": "2737BC6A8CB3966251C0189EAAD890E1379925F334E5DA35FB7581124D8EA6ED"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.109/VitaNovaDatabase-1.0.109.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.109/VitaNovaDatabase-1.0.109.jar",
+    "jarSha256": "41915427C8281369A1679339CF47127139E1FB79A2ED88C8E5778F86378A3521"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.108/VitaNovaDatabase-1.0.108.jar",
-    "jarSha256": "2737BC6A8CB3966251C0189EAAD890E1379925F334E5DA35FB7581124D8EA6ED"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.109/VitaNovaDatabase-1.0.109.jar",
+    "jarSha256": "41915427C8281369A1679339CF47127139E1FB79A2ED88C8E5778F86378A3521"
   }
 }

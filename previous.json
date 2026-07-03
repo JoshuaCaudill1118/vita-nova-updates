@@ -1,30 +1,23 @@
 {
-  "version": "1.0.102",
+  "version": "1.0.104",
   "notes": [
-    "Built from the 1.0.96 base and compiled for the Staff Java runtime so existing functionality stays intact.",
-    "Keeps the 1.0.101 check-in timestamp and Reports Dashboard fixes intact while adding the 1.0.102 workflow updates.",
-    "Adds a separate Services Declined action in Youth Log so staff can remove unneeded requested services without marking them received.",
-    "Fixes intake packet field placement for Client Track demographics, Basic Needs signatures, registration details, and Release & License signature lines.",
-    "Auto-fills youth signature/name lines in generated intake packets from the youth's full name.",
-    "Fixes future check-in times by storing check-in and checkout timestamps from the Vita Nova Eastern time shown to staff instead of the database server timestamp.",
-    "Fixes the Reports Dashboard load error caused by a decompiled table-check helper while preserving the existing report updates.",
-    "Fixes event staffing so Outside Volunteer and Intern remain assigned, display in the event table, and count as event staff.",
-    "Adds auto-dash formatting to Intake and SOFI packet date fields inside the staff dashboard packet editor.",
-    "Improves FAU roster printing so the roster uses a page-width print layout.",
-    "Restores keyboard text-size controls for larger, smaller, and reset text.",
-    "Updates visible wording from Nickname to Preferred Name and from Banned to Restricted where staff see it.",
-    "Adds The Spot restricted profile marking separately from Sleep Spot restriction.",
-    "Adds intake packet date auto-dashing, event staff options, and additional Vita Nova housing locations.",
-    "Records new check-in timestamps in the Vita Nova Eastern time zone."
+    "Java 25 compatibility hotfix for the 1.0.103 Reports dashboard patch.",
+    "Rebuilds the Reports dashboard update with Java 25 bytecode so Staff secure local services start correctly on staff computers.",
+    "Keeps the redesigned Vita Nova Staff Reports dashboard with the higher-signal admin snapshot.",
+    "Keeps the Admin Action Center for data-quality issues, open tasks, missing intake PDFs, follow-up needs, open intakes, pending verification, scheduling needs, and active Sleep Spot stays.",
+    "Keeps the searchable report library with row counts, loaded states, and loading feedback.",
+    "Keeps tracked-data coverage cards across Services, Youth, Intake, Housing, Programs, Guests/Donations, Files, and Admin Quality.",
+    "Keeps split housing averages for Shelter, Short-Term, Supported Housing, and Unsupported Housing.",
+    "Keeps restored Staff web report tables for program enrollment, program services, program event participation, Immediate Needs, bus passes, import batches, and import issue details."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.102/VitaNovaDatabase-1.0.102.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.102/VitaNovaDatabase-1.0.102.jar",
-    "jarSha256": "4FE73E263D830AFACF8C1A5E324BCB7D56F2010F5078FCCCB64DB10A0C7782D2"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.104/VitaNovaDatabase-1.0.104.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.104/VitaNovaDatabase-1.0.104.jar",
+    "jarSha256": "AB442EA88062DEFB85EFCE952446B8EE042E1A0356BAE3297191D867E0D5529F"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.102/VitaNovaDatabase-1.0.102.jar",
-    "jarSha256": "4FE73E263D830AFACF8C1A5E324BCB7D56F2010F5078FCCCB64DB10A0C7782D2"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.104/VitaNovaDatabase-1.0.104.jar",
+    "jarSha256": "AB442EA88062DEFB85EFCE952446B8EE042E1A0356BAE3297191D867E0D5529F"
   }
 }

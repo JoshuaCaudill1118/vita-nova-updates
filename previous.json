@@ -1,23 +1,25 @@
 {
-  "version": "1.0.110",
+  "version": "1.0.111",
   "notes": [
-    "Desktop Staff Reports Dashboard lazy-loading chart hotfix, final guard pass.",
-    "Fixes the Unable to load selected report: 5 >= 1 popup seen when opening report tabs after the 1.0.108 load-time update.",
-    "Adds the remaining event participation chart guard so charts do not read unloaded one-column placeholder tables.",
-    "Prevents dashboard charts from reading unloaded placeholder tables while reports are still loading on demand.",
-    "Allows Requested vs Received, Journey Summary, Intake Timing, Follow-Up Reason, Executive Breakdowns, and Data Completion reports to load independently.",
-    "Keeps Refresh fast by loading only the summary first, then loading drill-down report tables only when selected or when Load All Reports is clicked.",
-    "Keeps raw drill-down tables available while preserving the executive summary and breakdown-focused reports.",
+    "Desktop Staff Reports Dashboard operations-synopsis improvement pass.",
+    "Adds an Overview Operations Synopsis that translates raw report data into operational readouts, breakdowns, meaning, and suggested staff next actions.",
+    "Overview now loads its full executive summary, synopsis, and visual snapshot instead of leaving cards or overview tables as on-demand placeholders.",
+    "Adds Service Match Summary so Requested vs Received is broken down into matched, requested-not-received, received-not-requested, and no-received-service signals before staff open raw rows.",
+    "Optimizes Requested vs Received by indexing received-service evidence once instead of running per-check-in lookups.",
+    "Fixes the Follow-Up Reasons chart so it reads actual follow-up reasons instead of days-since-last-visit values.",
+    "Adds Bus Pass Summary and Bus Pass Log to Specialized Reports, exports, and report definitions.",
+    "Adds missing specialized summary tabs for Sleep Spot Referrals, Master Forms, and Profile Files.",
+    "Keeps raw drill-down tables available while making breakdowns and executive meaning the first reporting surface.",
     "Keeps Java 25 bytecode compatibility so Staff secure local services start correctly on staff computers."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.110/VitaNovaDatabase-1.0.110.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.110/VitaNovaDatabase-1.0.110.jar",
-    "jarSha256": "F904460D8DBBE79A25A0080D9D7E62E771D8695321FA4ADCF61800C6B1EA85C6"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.111/VitaNovaDatabase-1.0.111.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.111/VitaNovaDatabase-1.0.111.jar",
+    "jarSha256": "DA09B802C8D989504A70C982886C5A3385582D1B8140F2E2548278A66B3B722F"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.110/VitaNovaDatabase-1.0.110.jar",
-    "jarSha256": "F904460D8DBBE79A25A0080D9D7E62E771D8695321FA4ADCF61800C6B1EA85C6"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.111/VitaNovaDatabase-1.0.111.jar",
+    "jarSha256": "DA09B802C8D989504A70C982886C5A3385582D1B8140F2E2548278A66B3B722F"
   }
 }

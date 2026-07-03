@@ -1,25 +1,25 @@
 {
-  "version": "1.0.111",
+  "version": "1.0.112",
   "notes": [
-    "Desktop Staff Reports Dashboard operations-synopsis improvement pass.",
-    "Adds an Overview Operations Synopsis that translates raw report data into operational readouts, breakdowns, meaning, and suggested staff next actions.",
-    "Overview now loads its full executive summary, synopsis, and visual snapshot instead of leaving cards or overview tables as on-demand placeholders.",
-    "Adds Service Match Summary so Requested vs Received is broken down into matched, requested-not-received, received-not-requested, and no-received-service signals before staff open raw rows.",
-    "Optimizes Requested vs Received by indexing received-service evidence once instead of running per-check-in lookups.",
-    "Fixes the Follow-Up Reasons chart so it reads actual follow-up reasons instead of days-since-last-visit values.",
-    "Adds Bus Pass Summary and Bus Pass Log to Specialized Reports, exports, and report definitions.",
-    "Adds missing specialized summary tabs for Sleep Spot Referrals, Master Forms, and Profile Files.",
-    "Keeps raw drill-down tables available while making breakdowns and executive meaning the first reporting surface.",
+    "Desktop Staff Reports Dashboard follow-through and data cleanup patch.",
+    "Moves Operations Synopsis under Executive Breakdowns so staff read the executive story before drilling into raw report tabs.",
+    "Adds Requested vs Received By Service so services such as Pantry show requested count, received count, fulfillment rate, gap, and staff-use guidance.",
+    "Keeps raw Requested vs Received rows available as an audit drill-down after the summary and by-service breakdowns.",
+    "Improves requested/received load behavior by sharing the raw report model across summary, by-service, and raw tabs during a refresh.",
+    "Changes Sleep Spot active-stay reporting so only today's one-night Sleep Spot stay can appear active.",
+    "Cleans noisy Monthly Activity and Follow-Up Reasons visuals so they show usable summaries instead of raw arrays or unreadable labels.",
+    "Removes Sleep Spot and Group Activities from phone/tablet check-in purposes while keeping real event selections available.",
+    "Removes Sleep Spot, Street / Outdoors, and generic Shelter from the phone/tablet current-stay dropdown.",
     "Keeps Java 25 bytecode compatibility so Staff secure local services start correctly on staff computers."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.111/VitaNovaDatabase-1.0.111.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.111/VitaNovaDatabase-1.0.111.jar",
-    "jarSha256": "DA09B802C8D989504A70C982886C5A3385582D1B8140F2E2548278A66B3B722F"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.112/VitaNovaDatabase-1.0.112.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.112/VitaNovaDatabase-1.0.112.jar",
+    "jarSha256": "51FEE87DD6E13379941D13BB596C6B623AD8C429ACFB2BA8B378D5A0EAB16022"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.111/VitaNovaDatabase-1.0.111.jar",
-    "jarSha256": "DA09B802C8D989504A70C982886C5A3385582D1B8140F2E2548278A66B3B722F"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.112/VitaNovaDatabase-1.0.112.jar",
+    "jarSha256": "51FEE87DD6E13379941D13BB596C6B623AD8C429ACFB2BA8B378D5A0EAB16022"
   }
 }

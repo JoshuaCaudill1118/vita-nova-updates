@@ -1,25 +1,25 @@
 {
-  "version": "1.0.107",
+  "version": "1.0.108",
   "notes": [
-    "Desktop Vita Nova Staff Reports Dashboard performance and meaning pass.",
-    "Loads a fast summary first, then fills executive breakdowns and drill-down report tables in staged background chunks.",
-    "Adds Executive Breakdowns so admins see what raw report rows mean for operations, not only pure data tables.",
-    "Adds Youth Journey Stages to summarize where youth appear to be in the path from first contact through intake, temporary supports, supported housing, and unsupported housing.",
-    "Adds Inferred Youth Journey to piece together profile data, check-ins, pending check-ins, Sleep Spot stays, current stay, and profile change history without overwriting raw records.",
-    "Adds Data Completion to show which imported data areas can be trusted and where staff review is still needed.",
-    "Adds the new breakdown reports to the Overview, Housing & Intake, Admin Metrics, Full, Leadership, Grant, and Intake/Housing export packages.",
-    "Renames the unclear Top Staff Owner card to Most Event Assignments and explains that it means the staff person with the most assigned events in range.",
-    "Keeps raw report tables available for audit while adding confidence, evidence-used, and missing-story-piece columns for reconstructed youth journeys.",
+    "Desktop Staff Reports Dashboard load-time hotfix.",
+    "Stops the dashboard from automatically loading every raw report table after the summary loads.",
+    "Refresh now loads only the fast summary by default, then keeps drill-down tables on demand.",
+    "Adds Load Selected Report so staff can load only the tab they are using.",
+    "Adds Load All Reports as an explicit action for staff who intentionally need the full package.",
+    "Clicking a report tab now loads that tab's report instead of loading unrelated report areas.",
+    "Detailed report tables now show an on-demand message until opened or loaded.",
+    "Full Report Package export now prompts staff to load all reports first instead of exporting unloaded placeholder sheets.",
+    "Keeps the 1.0.107 executive breakdown, youth journey, inferred journey, and data completion reports.",
     "Keeps Java 25 bytecode compatibility so Staff secure local services start correctly on staff computers."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.107/VitaNovaDatabase-1.0.107.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.107/VitaNovaDatabase-1.0.107.jar",
-    "jarSha256": "5B7D98AE7A346FA45392C058A59B6AE3AA30376B4112EBC3362FDABA80A81C9C"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.108/VitaNovaDatabase-1.0.108.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.108/VitaNovaDatabase-1.0.108.jar",
+    "jarSha256": "2737BC6A8CB3966251C0189EAAD890E1379925F334E5DA35FB7581124D8EA6ED"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.107/VitaNovaDatabase-1.0.107.jar",
-    "jarSha256": "5B7D98AE7A346FA45392C058A59B6AE3AA30376B4112EBC3362FDABA80A81C9C"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.108/VitaNovaDatabase-1.0.108.jar",
+    "jarSha256": "2737BC6A8CB3966251C0189EAAD890E1379925F334E5DA35FB7581124D8EA6ED"
   }
 }

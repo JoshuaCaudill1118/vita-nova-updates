@@ -1,26 +1,25 @@
 {
-  "version": "1.0.106",
+  "version": "1.0.107",
   "notes": [
-    "Full Vita Nova Staff Reports Dashboard redesign and reporting coverage pass.",
-    "Adds a Reports Console with loaded-report count, row count, action signal total, and active date range.",
-    "Adds Load All Reports, Load Group, All Reports, Complete Data Pack, and expanded export packs so admins can intentionally load and export the full report set.",
-    "Adds a Complete Report Coverage matrix covering all 51 Staff report tables by domain, tracked counts, report links, loaded status, and row counts.",
-    "Adds a Report Health panel showing loaded/unloaded reports and largest loaded report row counts.",
-    "Expands Staff report metrics for program enrollments, program service/event rows, Immediate Needs, verification, age flags, Sleep Spot referrals, bus passes, imports, staff access, and archive audit.",
-    "Expands the Report Definitions table into a fuller data dictionary across services, youth, intake, housing, programs, Sleep Spot, guests, health, donations, files, staff access, imports, archive, and data quality.",
-    "Removes stale combined Staff web housing average metrics so Staff reports use Shelter, Short-Term, Supported Housing, and Unsupported Housing categories consistently.",
-    "Keeps the desktop Reports Dashboard split housing cards from 1.0.105.",
-    "Keeps Java 25 bytecode compatibility so Staff secure local services start correctly on staff computers.",
-    "Keeps restored Staff web report tables for program enrollment, program services, program event participation, Immediate Needs, bus passes, import batches, and import issue details."
+    "Desktop Vita Nova Staff Reports Dashboard performance and meaning pass.",
+    "Loads a fast summary first, then fills executive breakdowns and drill-down report tables in staged background chunks.",
+    "Adds Executive Breakdowns so admins see what raw report rows mean for operations, not only pure data tables.",
+    "Adds Youth Journey Stages to summarize where youth appear to be in the path from first contact through intake, temporary supports, supported housing, and unsupported housing.",
+    "Adds Inferred Youth Journey to piece together profile data, check-ins, pending check-ins, Sleep Spot stays, current stay, and profile change history without overwriting raw records.",
+    "Adds Data Completion to show which imported data areas can be trusted and where staff review is still needed.",
+    "Adds the new breakdown reports to the Overview, Housing & Intake, Admin Metrics, Full, Leadership, Grant, and Intake/Housing export packages.",
+    "Renames the unclear Top Staff Owner card to Most Event Assignments and explains that it means the staff person with the most assigned events in range.",
+    "Keeps raw report tables available for audit while adding confidence, evidence-used, and missing-story-piece columns for reconstructed youth journeys.",
+    "Keeps Java 25 bytecode compatibility so Staff secure local services start correctly on staff computers."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.106/VitaNovaDatabase-1.0.106.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.106/VitaNovaDatabase-1.0.106.jar",
-    "jarSha256": "1C03BCB3ED1152AEEE0492EEB8FAB711F536D0FAEF7FC339B79CC1D346D7DB61"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.107/VitaNovaDatabase-1.0.107.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.107/VitaNovaDatabase-1.0.107.jar",
+    "jarSha256": "5B7D98AE7A346FA45392C058A59B6AE3AA30376B4112EBC3362FDABA80A81C9C"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.106/VitaNovaDatabase-1.0.106.jar",
-    "jarSha256": "1C03BCB3ED1152AEEE0492EEB8FAB711F536D0FAEF7FC339B79CC1D346D7DB61"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.107/VitaNovaDatabase-1.0.107.jar",
+    "jarSha256": "5B7D98AE7A346FA45392C058A59B6AE3AA30376B4112EBC3362FDABA80A81C9C"
   }
 }

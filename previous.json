@@ -1,25 +1,25 @@
 {
-  "version": "1.0.112",
+  "version": "1.0.113",
   "notes": [
-    "Desktop Staff Reports Dashboard follow-through and data cleanup patch.",
-    "Moves Operations Synopsis under Executive Breakdowns so staff read the executive story before drilling into raw report tabs.",
-    "Adds Requested vs Received By Service so services such as Pantry show requested count, received count, fulfillment rate, gap, and staff-use guidance.",
-    "Keeps raw Requested vs Received rows available as an audit drill-down after the summary and by-service breakdowns.",
-    "Improves requested/received load behavior by sharing the raw report model across summary, by-service, and raw tabs during a refresh.",
-    "Changes Sleep Spot active-stay reporting so only today's one-night Sleep Spot stay can appear active.",
-    "Cleans noisy Monthly Activity and Follow-Up Reasons visuals so they show usable summaries instead of raw arrays or unreadable labels.",
-    "Removes Sleep Spot and Group Activities from phone/tablet check-in purposes while keeping real event selections available.",
-    "Removes Sleep Spot, Street / Outdoors, and generic Shelter from the phone/tablet current-stay dropdown.",
+    "Reports accuracy and service-normalization patch for the Vita Nova Staff Reports Dashboard.",
+    "Merges equivalent service labels such as Pantry/Food Pantry, Employment/Employment Services, Health Care/Health Services, Mental Health/Mental Health Services, Clothing/Clothing Closet, and Intake/Outreach so reports compare the same services.",
+    "Fixes Requested vs Received By Service so services no longer show false 0% fulfillment when matching received-service records exist under a related label.",
+    "Separates event-like labels such as Group Activities and Volunteering @ Spot from service reports so service fulfillment excludes event activity.",
+    "Fixes Unsupported Housing classification so Unsupported Housing is not misread as Supported Housing.",
+    "Stops journey reports from backdating current stay to first contact and uses earliest reliable dated evidence from check-ins, intake, Sleep Spot, and placement history.",
+    "Corrects Joshua Caudill's Unsupported Housing journey date to 01-01-2025 and fixes additional wrong-year imported service/Sleep Spot dates found during audit.",
+    "Updates the hosted phone/tablet portal to filter event-like service options and remove Sleep Spot, Group Activities, Living Outside, Homeless Shelter, and shelter-style current-stay options from check-in entry.",
+    "Improves Follow-Up Reasons summary rendering so long reason labels do not crowd the chart panel.",
     "Keeps Java 25 bytecode compatibility so Staff secure local services start correctly on staff computers."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.112/VitaNovaDatabase-1.0.112.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.112/VitaNovaDatabase-1.0.112.jar",
-    "jarSha256": "51FEE87DD6E13379941D13BB596C6B623AD8C429ACFB2BA8B378D5A0EAB16022"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.113/VitaNovaDatabase-1.0.113.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.113/VitaNovaDatabase-1.0.113.jar",
+    "jarSha256": "F0C8C4C3F9CBD4374CEBD0E10A53E7020AA8C2FB08CE69C32EAE733F40217305"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.112/VitaNovaDatabase-1.0.112.jar",
-    "jarSha256": "51FEE87DD6E13379941D13BB596C6B623AD8C429ACFB2BA8B378D5A0EAB16022"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.113/VitaNovaDatabase-1.0.113.jar",
+    "jarSha256": "F0C8C4C3F9CBD4374CEBD0E10A53E7020AA8C2FB08CE69C32EAE733F40217305"
   }
 }

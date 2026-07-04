@@ -1,25 +1,21 @@
 {
-  "version": "1.0.113",
+  "version": "1.0.114",
   "notes": [
-    "Reports accuracy and service-normalization patch for the Vita Nova Staff Reports Dashboard.",
-    "Merges equivalent service labels such as Pantry/Food Pantry, Employment/Employment Services, Health Care/Health Services, Mental Health/Mental Health Services, Clothing/Clothing Closet, and Intake/Outreach so reports compare the same services.",
-    "Fixes Requested vs Received By Service so services no longer show false 0% fulfillment when matching received-service records exist under a related label.",
-    "Separates event-like labels such as Group Activities and Volunteering @ Spot from service reports so service fulfillment excludes event activity.",
-    "Fixes Unsupported Housing classification so Unsupported Housing is not misread as Supported Housing.",
-    "Stops journey reports from backdating current stay to first contact and uses earliest reliable dated evidence from check-ins, intake, Sleep Spot, and placement history.",
-    "Corrects Joshua Caudill's Unsupported Housing journey date to 01-01-2025 and fixes additional wrong-year imported service/Sleep Spot dates found during audit.",
-    "Updates the hosted phone/tablet portal to filter event-like service options and remove Sleep Spot, Group Activities, Living Outside, Homeless Shelter, and shelter-style current-stay options from check-in entry.",
-    "Improves Follow-Up Reasons summary rendering so long reason labels do not crowd the chart panel.",
-    "Keeps Java 25 bytecode compatibility so Staff secure local services start correctly on staff computers."
+    "Reports dashboard usability patch for the Vita Nova Staff software.",
+    "Makes Housing & Intake > Journey Summary table-first so the executive breakdown visibly loads instead of being dominated by the chart panel.",
+    "Adds All Youth % and Active % columns to Journey Summary so staff can understand journey stages as an operations breakdown instead of raw counts only.",
+    "Normalizes Intake dashboard date display for birth dates, completed dates, and last-updated values.",
+    "Adds name search to the Sleep Spot dashboard Guest Log so staff can quickly find a youth stay record.",
+    "Builds on Vita Nova Staff 1.0.113 and keeps Java 25 bytecode compatibility for staff computers."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.113/VitaNovaDatabase-1.0.113.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.113/VitaNovaDatabase-1.0.113.jar",
-    "jarSha256": "F0C8C4C3F9CBD4374CEBD0E10A53E7020AA8C2FB08CE69C32EAE733F40217305"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.114/VitaNovaDatabase-1.0.114.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.114/VitaNovaDatabase-1.0.114.jar",
+    "jarSha256": "D13C53670BEE788CC5EE4D7B37956A3FA82CA849CE214EB251D2C7E4D258FFBB"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.113/VitaNovaDatabase-1.0.113.jar",
-    "jarSha256": "F0C8C4C3F9CBD4374CEBD0E10A53E7020AA8C2FB08CE69C32EAE733F40217305"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.114/VitaNovaDatabase-1.0.114.jar",
+    "jarSha256": "D13C53670BEE788CC5EE4D7B37956A3FA82CA849CE214EB251D2C7E4D258FFBB"
   }
 }

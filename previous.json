@@ -1,21 +1,22 @@
 {
-  "version": "1.0.114",
+  "version": "1.0.120",
   "notes": [
-    "Reports dashboard usability patch for the Vita Nova Staff software.",
-    "Makes Housing & Intake > Journey Summary table-first so the executive breakdown visibly loads instead of being dominated by the chart panel.",
-    "Adds All Youth % and Active % columns to Journey Summary so staff can understand journey stages as an operations breakdown instead of raw counts only.",
-    "Normalizes Intake dashboard date display for birth dates, completed dates, and last-updated values.",
-    "Adds name search to the Sleep Spot dashboard Guest Log so staff can quickly find a youth stay record.",
-    "Builds on Vita Nova Staff 1.0.113 and keeps Java 25 bytecode compatibility for staff computers."
+    "Fixes Donation Receipts layout so Receipt Information is no longer clipped in the staff app workspace.",
+    "Stops desktop event attendance and walk-in attendance from adding event names to profile tags.",
+    "Keeps event membership in event_signups and hides exact event-name tags from the mass-email tag picker.",
+    "Redesigns mass-email event selection with event search, date-range filtering, and attendance-status filtering.",
+    "Expands mass-email program filtering to use the full program selection list including ILS subcategories.",
+    "Narrows default tag choices toward youth needs and services rather than events, programs, or current-stay labels."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.114/VitaNovaDatabase-1.0.114.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.114/VitaNovaDatabase-1.0.114.jar",
-    "jarSha256": "D13C53670BEE788CC5EE4D7B37956A3FA82CA849CE214EB251D2C7E4D258FFBB"
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.120.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.120.jar",
+    "jarSha256": "EDB41A60AD2998B35613535338218CDF3D3457527783C9056A0CC55B52DB206A"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.114/VitaNovaDatabase-1.0.114.jar",
-    "jarSha256": "D13C53670BEE788CC5EE4D7B37956A3FA82CA849CE214EB251D2C7E4D258FFBB"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.120.jar",
+    "jarSha256": "EDB41A60AD2998B35613535338218CDF3D3457527783C9056A0CC55B52DB206A"
   }
 }
+

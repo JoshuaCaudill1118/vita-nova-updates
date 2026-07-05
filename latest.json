@@ -1,22 +1,19 @@
 {
-  "version": "1.0.120",
-  "notes": [
-    "Fixes Donation Receipts layout so Receipt Information is no longer clipped in the staff app workspace.",
-    "Stops desktop event attendance and walk-in attendance from adding event names to profile tags.",
-    "Keeps event membership in event_signups and hides exact event-name tags from the mass-email tag picker.",
-    "Redesigns mass-email event selection with event search, date-range filtering, and attendance-status filtering.",
-    "Expands mass-email program filtering to use the full program selection list including ILS subcategories.",
-    "Narrows default tag choices toward youth needs and services rather than events, programs, or current-stay labels."
-  ],
-  "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.120.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.120.jar",
-    "jarSha256": "EDB41A60AD2998B35613535338218CDF3D3457527783C9056A0CC55B52DB206A"
-  },
-  "macos": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.120.jar",
-    "jarSha256": "EDB41A60AD2998B35613535338218CDF3D3457527783C9056A0CC55B52DB206A"
-  }
+    "version":  "1.0.121",
+    "notes":  [
+                  "Adds profile categorization fields for assigned staff, case manager, engagement status, communication preference/consent, document status, follow-up dates/notes, safety flags, and last contact date.",
+                  "Adds a Case Plan tab to the Profile Dashboard and shows assigned staff, case manager, engagement, follow-up due, and document status in the profile table.",
+                  "Adds database migration 2026-07-05-profile-categorization with indexes and youth_profiles reporting-view columns.",
+                  "Extends profile API, search, and Excel import/export to preserve the new categorization fields."
+              ],
+    "windows":  {
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.121.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.121.jar",
+                    "jarSha256":  "99E14B0D3DB8AB1DFF022CCE58836307CE5CFE184ECCD1FF877F6824D0401C8B"
+                },
+    "macos":  {
+                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.121.jar",
+                  "jarSha256":  "99E14B0D3DB8AB1DFF022CCE58836307CE5CFE184ECCD1FF877F6824D0401C8B"
+              }
 }
-

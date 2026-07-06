@@ -1,23 +1,21 @@
 {
-  "version": "1.0.124",
+  "version": "1.0.125",
   "notes": [
-    "Rebuilds from the known-good Vita Nova Staff 1.0.122 baseline while preserving the 1.0.123 workflow fixes.",
-    "Keeps Profile Dashboard search, Select Tags, matching gender options, and The Spot restricted action working.",
-    "Restores Mass Email and Reports compatibility by carrying forward the program utility APIs those dashboards expect.",
-    "Fixes the Intake dashboard Java runtime mismatch by enforcing Java class major version 69 or lower for releases.",
-    "Orders Event Dashboard events by dates closest to today, with upcoming events first.",
-    "Keeps tablet/phone event purpose options deduplicated and automatically adds youth to the selected event attendance roster during check-in.",
-    "Fixes tablet/phone event attendance Add Youth search authorization by using the staff-authenticated API.",
-    "Exports only the currently visible filtered rows from the Profile Dashboard and Event Dashboard."
+    "Preserves all Vita Nova Staff 1.0.124 and 1.0.123 workflow fixes.",
+    "Fixes phone/tablet Event Attendance Add Youth search by moving it to a narrow event-attendance profile search endpoint allowed by the kiosk/staff attendance flow.",
+    "Keeps staff-authenticated portal calls carrying the kiosk token so tablet event-attendance routes have the authorization context they need.",
+    "Cleans up the Mass Email dialog layout with scrollable content and larger compose/status areas so controls do not get clipped on staff screens.",
+    "Auto-merges pending check-ins when there is exactly one active Very High duplicate candidate and both email and phone match, including on verification queue refresh.",
+    "Keeps release Java class files compatible with the Java 25 staff runtime."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.124.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.124.jar",
-    "jarSha256": "DA0F44CC1651FDFE2013A6B6E45704916FB0FD86DA5192D6B35B881F6C1D25F6"
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.125.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.125.jar",
+    "jarSha256": "348234489113FFD81424E508CC01D7C06038933C6190D1F790F7F14064D83903"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.124.jar",
-    "jarSha256": "DA0F44CC1651FDFE2013A6B6E45704916FB0FD86DA5192D6B35B881F6C1D25F6"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.125.jar",
+    "jarSha256": "348234489113FFD81424E508CC01D7C06038933C6190D1F790F7F14064D83903"
   }
 }

@@ -1,19 +1,20 @@
 {
-    "version":  "1.0.121",
-    "notes":  [
-                  "Adds profile categorization fields for assigned staff, case manager, engagement status, communication preference/consent, document status, follow-up dates/notes, safety flags, and last contact date.",
-                  "Adds a Case Plan tab to the Profile Dashboard and shows assigned staff, case manager, engagement, follow-up due, and document status in the profile table.",
-                  "Adds database migration 2026-07-05-profile-categorization with indexes and youth_profiles reporting-view columns.",
-                  "Extends profile API, search, and Excel import/export to preserve the new categorization fields."
-              ],
-    "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.121.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.121.jar",
-                    "jarSha256":  "99E14B0D3DB8AB1DFF022CCE58836307CE5CFE184ECCD1FF877F6824D0401C8B"
-                },
-    "macos":  {
-                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.121.jar",
-                  "jarSha256":  "99E14B0D3DB8AB1DFF022CCE58836307CE5CFE184ECCD1FF877F6824D0401C8B"
-              }
+  "version": "1.0.122",
+  "notes": [
+    "Adds profile categorization fields for assigned staff, case manager, engagement status, communication preference/consent, document status, follow-up dates/notes, safety flags, and last contact date.",
+    "Adds a Case Plan tab to the Profile Dashboard and shows assigned staff, case manager, engagement, follow-up due, and document status in the profile table.",
+    "Adds database migration 2026-07-05-profile-categorization with indexes and youth_profiles reporting-view columns.",
+    "Extends profile API, search, and Excel import/export to preserve the new categorization fields.",
+    "Keeps events separate from needs tags by making the legacy event-tag helper non-mutating."
+  ],
+  "windows": {
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.122.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.122.jar",
+    "jarSha256": "2EECD71412AF7DA260F586009E8C21C803DF05EA03D02074E6BA2492991BA559"
+  },
+  "macos": {
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.122.jar",
+    "jarSha256": "2EECD71412AF7DA260F586009E8C21C803DF05EA03D02074E6BA2492991BA559"
+  }
 }

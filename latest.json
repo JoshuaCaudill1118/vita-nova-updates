@@ -1,20 +1,22 @@
 {
-    "version":  "1.0.122",
-    "notes":  [
-                  "Adds profile categorization fields for assigned staff, case manager, engagement status, communication preference/consent, document status, follow-up dates/notes, safety flags, and last contact date.",
-                  "Adds a Case Plan tab to the Profile Dashboard and shows assigned staff, case manager, engagement, follow-up due, and document status in the profile table.",
-                  "Adds database migration 2026-07-05-profile-categorization with indexes and youth_profiles reporting-view columns.",
-                  "Extends profile API, search, and Excel import/export to preserve the new categorization fields.",
-                  "Keeps events separate from needs tags by making the legacy event-tag helper non-mutating."
-              ],
-    "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.122.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.122.jar",
-                    "jarSha256":  "2EECD71412AF7DA260F586009E8C21C803DF05EA03D02074E6BA2492991BA559"
-                },
-    "macos":  {
-                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.122.jar",
-                  "jarSha256":  "2EECD71412AF7DA260F586009E8C21C803DF05EA03D02074E6BA2492991BA559"
-              }
+  "version": "1.0.123",
+  "notes": [
+    "Vita Link Staff profile and tablet portal workflow patch.",
+    "Restores Profile Dashboard search, tag selection availability, matching gender options, and The Spot restricted action.",
+    "Makes Mass Email and Intake dashboard launches visible and error-reporting from the main dashboard.",
+    "Deduplicates tablet/phone event purpose options and event attendance lists.",
+    "Automatically adds youth to an event roster when an approved or merged check-in includes that event as the visit purpose.",
+    "Adds youth search and add-to-roster controls to tablet/phone event attendance.",
+    "Builds on Vita Nova Staff 1.0.122 and keeps the current staff functionality intact."
+  ],
+  "windows": {
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.123.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.123.jar",
+    "jarSha256": "ABA4F21EFA9A568C2C1404F50F6E4BA37E767893DDBC200D6F9FF0C7EBC02075"
+  },
+  "macos": {
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.123.jar",
+    "jarSha256": "ABA4F21EFA9A568C2C1404F50F6E4BA37E767893DDBC200D6F9FF0C7EBC02075"
+  }
 }

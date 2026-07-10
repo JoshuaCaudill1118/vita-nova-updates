@@ -1,21 +1,19 @@
 ﻿{
-    "version":  "1.0.131",
+    "version":  "1.0.132",
     "notes":  [
-                  "Restores regressed staff workflows from the launchable desktop application, including Intake Dashboard Delete Form, reports coverage, intake search, and intake DOB/phone auto-formatting.",
-                  "Restores the redesigned Mass Email Youth workflow with Programs selection and searchable Event selection for large event lists.",
-                  "Fixes public Send to Youth intake packet rendering so youth see the form fields, and keeps completed submissions merged into existing youth profiles and Youth Log intake completion.",
-                  "Restores phone/tablet Event Attendance by using authenticated staff event-signup endpoints instead of unauthorized client-app routes.",
-                  "Adds Services Requested vs Received Raw and Youth Service Log reporting support, plus All Youth vs Current Youth Only report scoping.",
-                  "Keeps HMIS ID as the visible youth identifier and keeps Profile ID hidden from day-to-day table views where staff do not need it."
+                  "Restores 1.0.129-era report/dashboard functionality while keeping later fixes.",
+                  "Adds/restores Requested vs Received Raw and related specialized reports.",
+                  "Restores no-staff-login tablet event attendance routes.",
+                  "Restores Profile Dashboard Spot restriction action and hardens youth intake links to show the full web form."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.131.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.131.jar",
-                    "jarSha256":  "1054226D751147C736CAE5BB449290DB3495651A6FA22A15C6B8DD7BCCE93807"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.132.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.132.jar",
+                    "jarSha256":  "F09B55031772944DE2DFC4036F52F5E112E3266366015FCD3115CB93A9DCE3E8"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.131.jar",
-                  "jarSha256":  "1054226D751147C736CAE5BB449290DB3495651A6FA22A15C6B8DD7BCCE93807"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.132.jar",
+                  "jarSha256":  "F09B55031772944DE2DFC4036F52F5E112E3266366015FCD3115CB93A9DCE3E8"
               }
 }

@@ -1,21 +1,21 @@
 ﻿{
-    "version":  "1.0.130",
+    "version":  "1.0.131",
     "notes":  [
-                  "Polishes the launchable desktop staff application while preserving existing workflows and actions.",
-                  "Simplifies the Profile Dashboard daily table around staff-facing identifiers, keeps HMIS ID visible, keeps Profile ID hidden for internal use, and restores all Add/Update/Archive/Clear/Undo/Redo/Chart Notes/Pantry QR/Youth Files/Restore actions.",
-                  "Makes Intake Dashboard packet actions easier to find by separating create actions from selected-document update, regenerate, open, and refresh actions.",
-                  "Improves desktop Reports table search coverage so Youth Service Log, Requested vs Received, and Sign-In Intake Timeline participate in global search; Excel export confirms visible-row export counts.",
-                  "Improves the phone/tablet purpose picker with event-first grouping, Event badges, and purpose search while keeping existing check-in submission behavior.",
-                  "Keeps the 1.0.129 intake hotfixes and 1.0.127 requested fix set intact."
+                  "Restores regressed staff workflows from the launchable desktop application, including Intake Dashboard Delete Form, reports coverage, intake search, and intake DOB/phone auto-formatting.",
+                  "Restores the redesigned Mass Email Youth workflow with Programs selection and searchable Event selection for large event lists.",
+                  "Fixes public Send to Youth intake packet rendering so youth see the form fields, and keeps completed submissions merged into existing youth profiles and Youth Log intake completion.",
+                  "Restores phone/tablet Event Attendance by using authenticated staff event-signup endpoints instead of unauthorized client-app routes.",
+                  "Adds Services Requested vs Received Raw and Youth Service Log reporting support, plus All Youth vs Current Youth Only report scoping.",
+                  "Keeps HMIS ID as the visible youth identifier and keeps Profile ID hidden from day-to-day table views where staff do not need it."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.130.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.130.jar",
-                    "jarSha256":  "ACD3A2165B6EB4506137E658FE5236CC0A5C50A7642DCFAB9F7B9A77309B3C4C"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.131.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.131.jar",
+                    "jarSha256":  "1054226D751147C736CAE5BB449290DB3495651A6FA22A15C6B8DD7BCCE93807"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.130.jar",
-                  "jarSha256":  "ACD3A2165B6EB4506137E658FE5236CC0A5C50A7642DCFAB9F7B9A77309B3C4C"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.131.jar",
+                  "jarSha256":  "1054226D751147C736CAE5BB449290DB3495651A6FA22A15C6B8DD7BCCE93807"
               }
 }

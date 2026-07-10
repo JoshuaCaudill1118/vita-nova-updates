@@ -1,18 +1,23 @@
-﻿{
-    "version":  "1.0.135",
+{
+    "version":  "1.0.136",
     "notes":  [
-                  "Shows upcoming events first across event lists, with the nearest upcoming date and time at the top.",
-                  "Expands the Profile Dashboard The Spot restriction action button so the full label is visible.",
-                  "Adds role search to Service Role Assignments and makes Account Role a safer single-choice section."
+                  "Adds Phase 1-6 safe-baseline improvements for permissions, staff UX, phone/tablet portal, reports, release pipeline, and architecture guardrails.",
+                  "Keeps event purposes at the top of check-in while syncing completed event check-ins into event attendance.",
+                  "Expands service received marking to the full non-event check-in service list and keeps event attendance tracked separately.",
+                  "Updates visible profile alias wording from Nickname to Preferred Name without changing existing data fields."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.135.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.135.jar",
-                    "jarSha256":  "2E5B7F85D2917F5414F06CE6CE7AE3958733F7560FF5B2193EAD41C7E26C58FF"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.136.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.136.jar",
+                    "jarSha256":  "27B4CD25FBDD232D0A9F27432232DBD07B42F14BCFCFC89635EBE941ECD79194"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.135.jar",
-                  "jarSha256":  "2E5B7F85D2917F5414F06CE6CE7AE3958733F7560FF5B2193EAD41C7E26C58FF"
-              }
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.136.jar",
+                  "jarSha256":  "27B4CD25FBDD232D0A9F27432232DBD07B42F14BCFCFC89635EBE941ECD79194"
+              },
+    "baseline":  {
+                     "rollbackTag":  "safe-1.0.135",
+                     "notes":  "safe-1.0.135 remains the rollback/reference baseline."
+                 }
 }

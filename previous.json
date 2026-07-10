@@ -1,7 +1,8 @@
 {
-  "version": "1.0.125",
+  "version": "1.0.126",
   "notes": [
     "Preserves all Vita Nova Staff 1.0.124 and 1.0.123 workflow fixes.",
+    "Filters phone/tablet Event Attendance Add Youth search results to youth identity fields only, so unrelated youth are not returned because of staff/case-manager/program text.",
     "Fixes phone/tablet Event Attendance Add Youth search by moving it to a narrow event-attendance profile search endpoint allowed by the kiosk/staff attendance flow.",
     "Keeps staff-authenticated portal calls carrying the kiosk token so tablet event-attendance routes have the authorization context they need.",
     "Cleans up the Mass Email dialog layout with scrollable content and larger compose/status areas so controls do not get clipped on staff screens.",
@@ -9,13 +10,13 @@
     "Keeps release Java class files compatible with the Java 25 staff runtime."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.125.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.125.jar",
-    "jarSha256": "348234489113FFD81424E508CC01D7C06038933C6190D1F790F7F14064D83903"
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.126.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.126.jar",
+    "jarSha256": "4465FC6051E7602FEC7F6347EB244288B1E41567D2016B53D0AE06000FCD7378"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.125.jar",
-    "jarSha256": "348234489113FFD81424E508CC01D7C06038933C6190D1F790F7F14064D83903"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.126.jar",
+    "jarSha256": "4465FC6051E7602FEC7F6347EB244288B1E41567D2016B53D0AE06000FCD7378"
   }
 }

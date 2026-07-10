@@ -1,22 +1,18 @@
-{
-  "version": "1.0.126",
-  "notes": [
-    "Preserves all Vita Nova Staff 1.0.124 and 1.0.123 workflow fixes.",
-    "Filters phone/tablet Event Attendance Add Youth search results to youth identity fields only, so unrelated youth are not returned because of staff/case-manager/program text.",
-    "Fixes phone/tablet Event Attendance Add Youth search by moving it to a narrow event-attendance profile search endpoint allowed by the kiosk/staff attendance flow.",
-    "Keeps staff-authenticated portal calls carrying the kiosk token so tablet event-attendance routes have the authorization context they need.",
-    "Cleans up the Mass Email dialog layout with scrollable content and larger compose/status areas so controls do not get clipped on staff screens.",
-    "Auto-merges pending check-ins when there is exactly one active Very High duplicate candidate and both email and phone match, including on verification queue refresh.",
-    "Keeps release Java class files compatible with the Java 25 staff runtime."
-  ],
-  "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.126.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.126.jar",
-    "jarSha256": "4465FC6051E7602FEC7F6347EB244288B1E41567D2016B53D0AE06000FCD7378"
-  },
-  "macos": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.126.jar",
-    "jarSha256": "4465FC6051E7602FEC7F6347EB244288B1E41567D2016B53D0AE06000FCD7378"
-  }
+﻿{
+    "version":  "1.0.127",
+    "notes":  [
+                  "Adds Youth Service Log report with delivered-service rows, check-in fallback rows, youth filtering, and Excel export support.",
+                  "Fixes youth intake packet public links, intake merge/update behavior, Youth Log completion, and Find Youth search.",
+                  "Allows staff profile archive/restore, aligns Current Stay options, auto-closes Sleep Spot stays, restores report table search, renames Unique ID to HMIS ID, formats intake DOB/phone fields, and orders Events first in the phone/tablet portal."
+              ],
+    "windows":  {
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.127.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.127.jar",
+                    "jarSha256":  "1EFD038E2DE075ABB05273894D3449791ED868CFD43C9AD7E97B0761E248056D"
+                },
+    "macos":  {
+                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.127.jar",
+                  "jarSha256":  "1EFD038E2DE075ABB05273894D3449791ED868CFD43C9AD7E97B0761E248056D"
+              }
 }

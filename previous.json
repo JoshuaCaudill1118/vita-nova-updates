@@ -1,19 +1,18 @@
 ﻿{
-    "version":  "1.0.132",
+    "version":  "1.0.133",
     "notes":  [
-                  "Restores 1.0.129-era report/dashboard functionality while keeping later fixes.",
-                  "Adds/restores Requested vs Received Raw and related specialized reports.",
-                  "Restores no-staff-login tablet event attendance routes.",
-                  "Restores Profile Dashboard Spot restriction action and hardens youth intake links to show the full web form."
+                  "Improves Reports dashboard load time by loading Overview first and lazy-loading detailed report tabs.",
+                  "Restores Overview breakdown tables for Operations Synopsis, Executive Breakdowns, Youth Journey Stages, and Data Completion.",
+                  "Keeps report search and Excel/PDF exports working with lazy-loaded report data."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.132.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.132.jar",
-                    "jarSha256":  "F09B55031772944DE2DFC4036F52F5E112E3266366015FCD3115CB93A9DCE3E8"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.133.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.133.jar",
+                    "jarSha256":  "DB2E6A2222FD7E4CC021E7ACC517582D5890BBE08BFADA3B2D707057C994A4BF"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.132.jar",
-                  "jarSha256":  "F09B55031772944DE2DFC4036F52F5E112E3266366015FCD3115CB93A9DCE3E8"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.133.jar",
+                  "jarSha256":  "DB2E6A2222FD7E4CC021E7ACC517582D5890BBE08BFADA3B2D707057C994A4BF"
               }
 }

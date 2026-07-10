@@ -1,18 +1,18 @@
 ﻿{
-    "version":  "1.0.133",
+    "version":  "1.0.134",
     "notes":  [
-                  "Improves Reports dashboard load time by loading Overview first and lazy-loading detailed report tabs.",
-                  "Restores Overview breakdown tables for Operations Synopsis, Executive Breakdowns, Youth Journey Stages, and Data Completion.",
-                  "Keeps report search and Excel/PDF exports working with lazy-loaded report data."
+                  "Fixes Reports dashboard popup errors caused by lazy-loaded chart placeholders.",
+                  "Keeps the faster Overview-first report loading from 1.0.133.",
+                  "Maintains restored Overview breakdown tables and report export behavior."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.133.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.133.jar",
-                    "jarSha256":  "DB2E6A2222FD7E4CC021E7ACC517582D5890BBE08BFADA3B2D707057C994A4BF"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.134.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.134.jar",
+                    "jarSha256":  "E10C4732567014523DC1201E8B5C55585D9D07483D45E1D0CE9901697A68390C"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.133.jar",
-                  "jarSha256":  "DB2E6A2222FD7E4CC021E7ACC517582D5890BBE08BFADA3B2D707057C994A4BF"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.134.jar",
+                  "jarSha256":  "E10C4732567014523DC1201E8B5C55585D9D07483D45E1D0CE9901697A68390C"
               }
 }

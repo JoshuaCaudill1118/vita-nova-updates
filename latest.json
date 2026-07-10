@@ -1,18 +1,21 @@
 ﻿{
-    "version":  "1.0.128",
+    "version":  "1.0.129",
     "notes":  [
+                  "Hotfixes desktop intake Find Youth search so typed searches filter the visible youth list instead of showing all active youth.",
+                  "Hotfixes desktop intake DOB and phone fields to auto-format with dashes while staff type.",
+                  "Adjusts intake packet PDF page 24 image-release signature, printed name, and date placement.",
                   "Builds from the verified 1.0.126 baseline to preserve existing dashboards, buttons, workflows, and report UI while applying the requested fixes.",
                   "Adds Youth Service Log report with recorded delivered services, check-in fallback rows, Source column, youth/month filtering through report table search, and visible-row export support.",
                   "Fixes youth intake packet public links, profile update/Youth Log completion behavior, staff archive/restore access, Current Stay consistency without duplicate options, Sleep Spot auto-close support, report table search, HMIS ID label, intake DOB/phone auto-formatting, Events-first portal purpose ordering, and Find Youth search support."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.128.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.128.jar",
-                    "jarSha256":  "8AE3F6CFDF2096140B0F236D52F5F37CF56EACD85BCC10AB30C2135E81CAF4FD"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.129.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.129.jar",
+                    "jarSha256":  "0DF0580110A4688D8688EE3B94D0F9E883CE5D15C754157670FA09AEE5F35376"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.128.jar",
-                  "jarSha256":  "8AE3F6CFDF2096140B0F236D52F5F37CF56EACD85BCC10AB30C2135E81CAF4FD"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.129.jar",
+                  "jarSha256":  "0DF0580110A4688D8688EE3B94D0F9E883CE5D15C754157670FA09AEE5F35376"
               }
 }

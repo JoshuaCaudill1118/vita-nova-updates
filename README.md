@@ -2,6 +2,9 @@
 
 Public update manifest and release downloads for Vita Nova Database.
 
+Current safe baseline: `1.0.135`, tagged as `safe-1.0.135`.
+See `SAFE_BASELINE.md` before replacing the staff update manifest with a newer version.
+
 Installed apps read the update manifest from:
 
 https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/latest.json

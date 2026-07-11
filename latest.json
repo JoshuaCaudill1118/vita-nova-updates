@@ -1,19 +1,19 @@
 {
-    "version":  "1.0.144",
+    "version":  "1.0.145",
     "notes":  [
-                  "Restores Profile Dashboard details and selected-youth snapshot.",
-                  "Fixes Youth Log purpose/event filters, Mass Email clipping, Donation Receipts layout, and intake PDF answer placement.",
-                  "Regenerates existing intake packet PDFs with corrected answer placement."
+                  "Tablet portal now requires a youth photo for matched existing youth profiles that do not already have one.",
+                  "Removed face-recognition gating from profile photo uploads; photos are accepted after normal image validation.",
+                  "If the tablet camera or photo upload fails, check-in can continue with an explicit photo-failure flag so staff can add the photo later."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.144.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.144.jar",
-                    "jarSha256":  "764D75FF515DCB957E98C77ADDDC0C3AF4A480AC69B239826FDCB2D7D7FD6380"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.145.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.145.jar",
+                    "jarSha256":  "FEAEFEA39A889EB1ECA95E4D6BAE43D3B4BE415F1A8B9BC970F98B76AB1F37EF"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.144.jar",
-                  "jarSha256":  "764D75FF515DCB957E98C77ADDDC0C3AF4A480AC69B239826FDCB2D7D7FD6380"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.145.jar",
+                  "jarSha256":  "FEAEFEA39A889EB1ECA95E4D6BAE43D3B4BE415F1A8B9BC970F98B76AB1F37EF"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.144",

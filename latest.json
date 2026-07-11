@@ -1,19 +1,19 @@
 {
-    "version":  "1.0.140",
+    "version":  "1.0.141",
     "notes":  [
-                  "Restores the Youth Log Service Declined workflow for requested services that a youth no longer needs.",
-                  "Keeps tablet and phone service-use submissions adding delivered services back to the youth check-in needs list when they were not originally selected.",
-                  "Preserves safe-1.0.138 rollback guardrails and existing Youth Log services received reporting."
+                  "Fixes server startup by safely recreating clean-schema database views during migrations.",
+                  "Includes the 1.0.140 Youth Log Service Declined workflow and service-use needs-list guard.",
+                  "Preserves safe-1.0.138 rollback guardrails and verifies the staff update source points to the same build."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.140.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.140.jar",
-                    "jarSha256":  "612D89F365E864BE9D16C6F4905A907154B7E525E38CA592874DAB89C640FCA4"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.141.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.141.jar",
+                    "jarSha256":  "82476ED1304FFCC5193A2DEE85BAE958991D4A63C964EA004EAB49A066E63B33"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.140.jar",
-                  "jarSha256":  "612D89F365E864BE9D16C6F4905A907154B7E525E38CA592874DAB89C640FCA4"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.141.jar",
+                  "jarSha256":  "82476ED1304FFCC5193A2DEE85BAE958991D4A63C964EA004EAB49A066E63B33"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.138",

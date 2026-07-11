@@ -1,17 +1,17 @@
 {
-    "version":  "1.0.142",
+    "version":  "1.0.143",
     "notes":  [
-                  "Adds Today\u0027s Operations Board, live service queue, reminders, profile timeline, duplicate profile wizard, saved report views, scheduled monthly exports, campaign analytics, portal offline queue, returning youth lookup, walk-in event attendance, and confirmation screens.,Keeps safe-1.0.138 as the rollback/reference baseline and preserves existing dashboard/report/portal workflows."
+                  "Polishes Profile Dashboard actions, splits report exports, adds scrollable Mass Email and Donation Receipt workspaces, fixes intake packet answer placement, and regenerates stored intake PDFs."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.142.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.142.jar",
-                    "jarSha256":  "A215B56BD2E148F2BBE83BDCF581D1F36D25FC4282EE42E1FF4C95E5A4653F27"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.143.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.143.jar",
+                    "jarSha256":  "832B938CAF83311F8B73E01A481230E8A9254871CCFF47C5C8A12BEF2584373E"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.142.jar",
-                  "jarSha256":  "A215B56BD2E148F2BBE83BDCF581D1F36D25FC4282EE42E1FF4C95E5A4653F27"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.143.jar",
+                  "jarSha256":  "832B938CAF83311F8B73E01A481230E8A9254871CCFF47C5C8A12BEF2584373E"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.138",

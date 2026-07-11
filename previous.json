@@ -1,19 +1,19 @@
 {
-    "version":  "1.0.137",
+    "version":  "1.0.138",
     "notes":  [
-                  "Fixes the Youth Log Services Received dialog so it uses the shared non-event service list instead of the old five-item list.",
-                  "Preselects the services a youth requested during check-in so staff can mark those services received from the Youth Log.",
-                  "Keeps events out of Services Received while leaving event purposes at the top of check-in and tracking attendance separately."
+                  "Improves Youth Log usability with HMIS ID visibility, quick filters, clearer selected-youth service status, and faster current-list refreshes.",
+                  "Improves Services Received so requested services appear first, already-recorded services are locked, and duplicate service rows are prevented.",
+                  "Adds an end-of-day review warning for requested services that have not yet been marked received."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.137.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.137.jar",
-                    "jarSha256":  "3C6F688F02FCFDDE5F25FF4BDAE947A599647701017C70491409029234ADBCFF"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.138.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.138.jar",
+                    "jarSha256":  "B640959B545EA62C148D91A5BA1DF610B45573D2CAC57C0D06546ADDF82E82BC"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.137.jar",
-                  "jarSha256":  "3C6F688F02FCFDDE5F25FF4BDAE947A599647701017C70491409029234ADBCFF"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.138.jar",
+                  "jarSha256":  "B640959B545EA62C148D91A5BA1DF610B45573D2CAC57C0D06546ADDF82E82BC"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.135",

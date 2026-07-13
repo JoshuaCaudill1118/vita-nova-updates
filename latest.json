@@ -1,18 +1,18 @@
 {
-    "version":  "1.0.147",
+    "version":  "1.0.148",
     "notes":  [
-                  "Fixes youth check-in, checkout, service, event signup, FAU health, non-client, and portal today timestamps to use Florida time consistently.",
-                  "Restores automatic refresh on the main dashboard navigator counts while preserving the safe-1.0.146 rollback baseline."
+                  "Aligns Profile Dashboard gender options with the phone/tablet check-in options so selections like Woman, Man, Transgender Woman, Non-Binary, and Prefer not to say save correctly.",
+                  "Adds shared gender options to the client portal options API so staff desktop and phone/tablet workflows use the same list."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.147.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.147.jar",
-                    "jarSha256":  "E46F378DBA84DAF975C1D7D34995FD9E1FA91288CA1E5B84DB62312C999BA3A3"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.148.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.148.jar",
+                    "jarSha256":  "7B82E711763F1A8A28C488414078B5BC2F3CAE291FF6D862F6989635CAB4648F"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.147.jar",
-                  "jarSha256":  "E46F378DBA84DAF975C1D7D34995FD9E1FA91288CA1E5B84DB62312C999BA3A3"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.148.jar",
+                  "jarSha256":  "7B82E711763F1A8A28C488414078B5BC2F3CAE291FF6D862F6989635CAB4648F"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.146",

@@ -2,7 +2,7 @@
     "version":  "1.0.146",
     "notes":  [
                   "Adds staff workflow utilities, global search, task follow-up center, audit history viewer, profile timeline upgrades, service queue batch actions, and tablet portal offline queue visibility.",
-                  "Keeps safe-1.0.144 documented as rollback/reference baseline and preserves existing workflows."
+                  "Keeps safe-1.0.146 documented as rollback/reference baseline and preserves existing workflows."
               ],
     "windows":  {
                     "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.146.jar",
@@ -15,7 +15,7 @@
                   "jarSha256":  "C265C40DC721096879AF13FA8EB1345C8A5E07C278EED3EA95674FC4F5A3406B"
               },
     "baseline":  {
-                     "rollbackTag":  "safe-1.0.144",
-                     "notes":  "safe-1.0.144 remains the rollback/reference baseline."
+                     "rollbackTag":  "safe-1.0.146",
+                     "notes":  "safe-1.0.146 remains the rollback/reference baseline."
                  }
 }

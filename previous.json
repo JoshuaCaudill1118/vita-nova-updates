@@ -1,20 +1,19 @@
 {
-    "version":  "1.0.149",
+    "version":  "1.0.150",
     "notes":  [
-                  "Improves staff notification details for IT tickets, intake scheduling alerts, and check-in service needs.",
-                  "IT tickets now include when they were submitted.",
-                  "Intake scheduling notifications now include youth name, visit date, phone, and email when available.",
-                  "Service notifications now clearly state that a youth checked in with a need for the selected service."
+                  "Restore Youth Log Start Intake visibility and complete-intake status updates.",
+                  "Update merged youth profiles with submitted non-name details including DOB.",
+                  "Base intake timing reports on first intake request/submission timestamps."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.149.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.149.jar",
-                    "jarSha256":  "0AAC7045CDFA3B605FA2DC751E126C53BAA22AFE0AD46492F7EA58F2988C5754"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.150.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.150.jar",
+                    "jarSha256":  "ACF237C362638AFB2746CAD24A87D58A801726A75B69260B5A9B2ACD0D7299A4"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.149.jar",
-                  "jarSha256":  "0AAC7045CDFA3B605FA2DC751E126C53BAA22AFE0AD46492F7EA58F2988C5754"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.150.jar",
+                  "jarSha256":  "ACF237C362638AFB2746CAD24A87D58A801726A75B69260B5A9B2ACD0D7299A4"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.146",

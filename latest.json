@@ -1,4 +1,4 @@
-﻿{
+{
     "version":  "1.0.153",
     "notes":  [
                   "Fix Account Settings so staff can save account/contact changes without changing their password.",

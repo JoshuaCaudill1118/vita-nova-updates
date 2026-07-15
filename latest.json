@@ -6,13 +6,13 @@
                   "Fix Youth Check-In Verification archived match warnings and add an explicit Approve Anyway override for true archived matches."
               ],
     "windows":  {
-                    "url":  "http://157.230.8.171/public-updates/windows/VitaNovaDatabase-1.0.153.jar",
-                    "jarUrl":  "http://157.230.8.171/public-updates/windows/VitaNovaDatabase-1.0.153.jar",
+                    "url":  "https://157-230-8-171.sslip.io/public-updates/windows/VitaNovaDatabase-1.0.153.jar",
+                    "jarUrl":  "https://157-230-8-171.sslip.io/public-updates/windows/VitaNovaDatabase-1.0.153.jar",
                     "jarSha256":  "74FEBC125C427B6ADAE2304C6D0A330ED2CAB98CBB947BA98874B87FCF5250E6"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "http://157.230.8.171/public-updates/windows/VitaNovaDatabase-1.0.153.jar",
+                  "jarUrl":  "https://157-230-8-171.sslip.io/public-updates/windows/VitaNovaDatabase-1.0.153.jar",
                   "jarSha256":  "74FEBC125C427B6ADAE2304C6D0A330ED2CAB98CBB947BA98874B87FCF5250E6"
               },
     "baseline":  {

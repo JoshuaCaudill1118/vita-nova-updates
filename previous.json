@@ -1,20 +1,19 @@
 {
-    "version":  "1.0.151",
+    "version":  "1.0.153",
     "notes":  [
-                  "Operations Board and Youth Log layout/service queue refinements.",
-                  "Fix Sleep Spot referral Needs attention filter for referrals without outcomes.",
-                  "Remove Group Activities from phone/tablet check-in purpose picker while preserving historical service support.",
-                  "Improve tablet offline queue status and delete confirmation."
+                  "Fix Account Settings so staff can save account/contact changes without changing their password.",
+                  "Resolve Windows Recent shortcuts when attaching Sleep Spot signed agreement documents.",
+                  "Fix Youth Check-In Verification archived match warnings and add an explicit Approve Anyway override for true archived matches."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.151.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.151.jar",
-                    "jarSha256":  "EF6D61F9E5686626F77E33671D94BB3DF6E2F20709C825A3E5742201FE2C9485"
+                    "url":  "https://157-230-8-171.sslip.io/public-updates/windows/VitaNovaDatabase-1.0.153.jar",
+                    "jarUrl":  "https://157-230-8-171.sslip.io/public-updates/windows/VitaNovaDatabase-1.0.153.jar",
+                    "jarSha256":  "74FEBC125C427B6ADAE2304C6D0A330ED2CAB98CBB947BA98874B87FCF5250E6"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.151.jar",
-                  "jarSha256":  "EF6D61F9E5686626F77E33671D94BB3DF6E2F20709C825A3E5742201FE2C9485"
+                  "jarUrl":  "https://157-230-8-171.sslip.io/public-updates/windows/VitaNovaDatabase-1.0.153.jar",
+                  "jarSha256":  "74FEBC125C427B6ADAE2304C6D0A330ED2CAB98CBB947BA98874B87FCF5250E6"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.146",

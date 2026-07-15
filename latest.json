@@ -1,17 +1,17 @@
 {
-    "version":  "1.0.154",
+    "version":  "1.0.155",
     "notes":  [
-                  "Fix Sleep Spot referral outcome edits, bed count reconciliation, and referral form editing."
+                  "Fix Sleep Spot active bed reconciliation when referral outcomes change away from approval."
               ],
     "windows":  {
-                    "url":  "https://157-230-8-171.sslip.io/public-updates/windows/VitaNovaDatabase-1.0.154.jar",
-                    "jarUrl":  "https://157-230-8-171.sslip.io/public-updates/windows/VitaNovaDatabase-1.0.154.jar",
-                    "jarSha256":  "504C2CFA0A9236D9A03FCC6C7C0B3062186C87F8FD52D1194997417B0B512367"
+                    "url":  "https://157-230-8-171.sslip.io/public-updates/windows/VitaNovaDatabase-1.0.155.jar",
+                    "jarUrl":  "https://157-230-8-171.sslip.io/public-updates/windows/VitaNovaDatabase-1.0.155.jar",
+                    "jarSha256":  "FF8C44653F645AE0380E522A39D986B2D36CA83A1A5838003A873E0154C104A0"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://157-230-8-171.sslip.io/public-updates/windows/VitaNovaDatabase-1.0.154.jar",
-                  "jarSha256":  "504C2CFA0A9236D9A03FCC6C7C0B3062186C87F8FD52D1194997417B0B512367"
+                  "jarUrl":  "https://157-230-8-171.sslip.io/public-updates/windows/VitaNovaDatabase-1.0.155.jar",
+                  "jarSha256":  "FF8C44653F645AE0380E522A39D986B2D36CA83A1A5838003A873E0154C104A0"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.146",

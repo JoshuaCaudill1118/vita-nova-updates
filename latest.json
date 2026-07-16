@@ -1,18 +1,19 @@
 {
-    "version":  "1.0.157",
+    "version":  "1.0.158",
     "notes":  [
-                  "Keeps server startup resilient when existing database guardrail functions are owned by a different database role.",
-                  "Preserves the 1.0.156 data cleanup guardrails for duplicate events, duplicate check-ins, service cleanup, and Sleep Spot current-stay handling."
+                  "Fixes Sleep Spot approvals so Yes referrals create or restore an active current-night bed stay.",
+                  "Repairs approved current-night Sleep Spot referrals whose stay was auto-closed before the referral decision finished saving.",
+                  "Counts active Sleep Spot beds only for the current stay window instead of future approvals."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.157.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.157.jar",
-                    "jarSha256":  "333998E02BB19E3B8785C1D3B47FFA23572FFA8B8E95CFD4895C041C18FA21C3"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.158.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.158.jar",
+                    "jarSha256":  "4124512B51BE523019F4AAD69DE4A5FF4D5FF36D0FCF4AC03448736128BC1008"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.157.jar",
-                  "jarSha256":  "333998E02BB19E3B8785C1D3B47FFA23572FFA8B8E95CFD4895C041C18FA21C3"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.158.jar",
+                  "jarSha256":  "4124512B51BE523019F4AAD69DE4A5FF4D5FF36D0FCF4AC03448736128BC1008"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.146",

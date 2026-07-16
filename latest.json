@@ -1,19 +1,18 @@
 {
-    "version":  "1.0.156",
+    "version":  "1.0.157",
     "notes":  [
-                  "Data cleanup guardrails for duplicate events, check-ins, services, and current-stay reporting.",
-                  "Sleep Spot can no longer be selected during check-in and is only set after Sleep Spot approval.",
-                  "Reports now use the five current-stay categories: Homeless, Shelter, Short-Term, Unsupported Housing, and Supported Housing."
+                  "Keeps server startup resilient when existing database guardrail functions are owned by a different database role.",
+                  "Preserves the 1.0.156 data cleanup guardrails for duplicate events, duplicate check-ins, service cleanup, and Sleep Spot current-stay handling."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.156.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.156.jar",
-                    "jarSha256":  "C6A9482E460B1EA98A625C4F638700274BEDCEB493A3BC2291877D455E1A3655"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.157.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.157.jar",
+                    "jarSha256":  "333998E02BB19E3B8785C1D3B47FFA23572FFA8B8E95CFD4895C041C18FA21C3"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.156.jar",
-                  "jarSha256":  "C6A9482E460B1EA98A625C4F638700274BEDCEB493A3BC2291877D455E1A3655"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.157.jar",
+                  "jarSha256":  "333998E02BB19E3B8785C1D3B47FFA23572FFA8B8E95CFD4895C041C18FA21C3"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.146",

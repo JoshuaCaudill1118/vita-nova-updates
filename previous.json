@@ -1,19 +1,18 @@
 {
-    "version":  "1.0.158",
+    "version":  "1.0.159",
     "notes":  [
-                  "Fixes Sleep Spot approvals so Yes referrals create or restore an active current-night bed stay.",
-                  "Repairs approved current-night Sleep Spot referrals whose stay was auto-closed before the referral decision finished saving.",
-                  "Counts active Sleep Spot beds only for the current stay window instead of future approvals."
+                  "Adds staff/date assignment for Still Needed service follow-up tasks with due-date notifications.",
+                  "Improves Today\u0027s Operations Board with searchable tabs, clickable summary cards, row detail panels, refresh status, and grouped actions."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.158.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.158.jar",
-                    "jarSha256":  "4124512B51BE523019F4AAD69DE4A5FF4D5FF36D0FCF4AC03448736128BC1008"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.159.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.159.jar",
+                    "jarSha256":  "C5A78CEADB15E65DA2DE739750E3A857DB1A64A5F44E1284D647ADCF3069D897"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.158.jar",
-                  "jarSha256":  "4124512B51BE523019F4AAD69DE4A5FF4D5FF36D0FCF4AC03448736128BC1008"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.159.jar",
+                  "jarSha256":  "C5A78CEADB15E65DA2DE739750E3A857DB1A64A5F44E1284D647ADCF3069D897"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.146",

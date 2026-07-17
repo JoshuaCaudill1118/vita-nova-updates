@@ -1,17 +1,17 @@
 {
-    "version":  "1.0.161",
+    "version":  "1.0.162",
     "notes":  [
-                  "Florida-time consistency; tablet service-list correction; staff launcher repair; report and schema regression coverage"
+                  "Correct phone-camera orientation for existing and newly uploaded profile photo previews"
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.161.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.161.jar",
-                    "jarSha256":  "F5D01F1986689ECDDE76DEB97305BBF732575143A73C1EBA36EDB5F0F206DEA5"
+                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.162/VitaNovaDatabase-1.0.162.jar",
+                    "jarUrl":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.162/VitaNovaDatabase-1.0.162.jar",
+                    "jarSha256":  "22B2D9A67DDE3804486D23EC78ABB2C6D9C20CE1FB93E94B74FC52A6CC2A0E2F"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.161.jar",
-                  "jarSha256":  "F5D01F1986689ECDDE76DEB97305BBF732575143A73C1EBA36EDB5F0F206DEA5"
+                  "jarUrl":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.162/VitaNovaDatabase-1.0.162.jar",
+                  "jarSha256":  "22B2D9A67DDE3804486D23EC78ABB2C6D9C20CE1FB93E94B74FC52A6CC2A0E2F"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.146",

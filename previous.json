@@ -1,20 +1,17 @@
 {
-    "version":  "1.0.160",
+    "version":  "1.0.161",
     "notes":  [
-                  "Reduces the Today\u0027s Operations Board selected-row detail area so tables have more room.",
-                  "Replaces the Sleep Spot Checkout summary card with Pending Check-Ins and opens the verification queue from that card.",
-                  "Makes the Follow-Up Task Center open without blocking Vita Link and load its tables in the background.",
-                  "Defaults Task Center to focused follow-up tasks while keeping All Active cleanup available."
+                  "Florida-time consistency; tablet service-list correction; staff launcher repair; report and schema regression coverage"
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.160.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.160.jar",
-                    "jarSha256":  "F31FDA57FA017B3CEB229F435374EC86173B9715655D5931BC652D58C9237127"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.161.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.161.jar",
+                    "jarSha256":  "F5D01F1986689ECDDE76DEB97305BBF732575143A73C1EBA36EDB5F0F206DEA5"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.160.jar",
-                  "jarSha256":  "F31FDA57FA017B3CEB229F435374EC86173B9715655D5931BC652D58C9237127"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.161.jar",
+                  "jarSha256":  "F5D01F1986689ECDDE76DEB97305BBF732575143A73C1EBA36EDB5F0F206DEA5"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.146",

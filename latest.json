@@ -1,20 +1,22 @@
 {
-    "version":  "1.0.169",
+    "version":  "1.0.170",
     "notes":  [
-                  "Automated password-reset delivery through the Gmail API",
-                  "Added secure one-time Gmail authorization with reusable refresh-token configuration",
-                  "Kept SMTP fallback while avoiding blocked outbound mail ports"
+                  "Added My Work with assigned youth, due tasks, unresolved services, intake follow-ups, referrals, notifications, and portal sync status.",
+                  "Added outside-provider referral tracking, case-plan goals and outcomes, notification rules, guided data-quality resolution, and curated self-service reporting.",
+                  "Moved database work off the desktop interface thread in high-use dashboards with consistent loading, timeout, retry, cancellation, and stale-result protection.",
+                  "Strengthened phone and tablet offline reliability with IndexedDB, idempotent submissions, attachment retry, service-worker support, and staff-visible device synchronization status.",
+                  "Standardized report metadata, table-first layouts, persistent workspace preferences, keyboard navigation, and collapsible row details while preserving safe-1.0.169 behavior."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.169.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.169.jar",
-                    "jarSha256":  "A018455BC3E3A06E091779197A519F79B2F2966D800AF89EE0BC58AC45A9C073",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.170.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.170.jar",
+                    "jarSha256":  "0B6D5CCD4298C66C2B8C134696153136BF5F2B9E44E04F877603D8E9713BAF29",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.169.jar",
-                  "jarSha256":  "A018455BC3E3A06E091779197A519F79B2F2966D800AF89EE0BC58AC45A9C073"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.170.jar",
+                  "jarSha256":  "0B6D5CCD4298C66C2B8C134696153136BF5F2B9E44E04F877603D8E9713BAF29"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

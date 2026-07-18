@@ -17,7 +17,7 @@
                   "jarSha256":  "A018455BC3E3A06E091779197A519F79B2F2966D800AF89EE0BC58AC45A9C073"
               },
     "baseline":  {
-                     "rollbackTag":  "safe-1.0.146",
-                     "notes":  "safe-1.0.146 remains the rollback/reference baseline."
+                     "rollbackTag":  "safe-1.0.169",
+                     "notes":  "safe-1.0.169 remains the rollback/reference baseline."
                  }
 }

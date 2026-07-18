@@ -1,21 +1,20 @@
 {
-    "version":  "1.0.166",
+    "version":  "1.0.167",
     "notes":  [
-                  "Rebuilt IT Support into a guided ticket workspace with clearer category, priority, affected area, contact, troubleshooting, and attachment fields.",
-                  "Added ticket numbers, My Tickets tracking, searchable ticket history, replies, status updates, and attachment access.",
-                  "Added an administrative ticket queue with assignment, status, and resolution controls while preserving older IT ticket history.",
-                  "Kept the staff web ticket form compatible and standardized IT ticket timestamps to Florida time."
+                  "Profile Dashboard photos now fit their snapshot box and Services Needed is separated from events.",
+                  "Engagement Status and Last Contact now update automatically from check-in history.",
+                  "Legacy imported profile notes are condensed into readable summaries while originals remain archived for traceability."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.166.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.166.jar",
-                    "jarSha256":  "BEBB76B5E52FD5ACB53FA701CA9D77DF38490438B1C4682BE78EBAD40105C04F",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.167.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.167.jar",
+                    "jarSha256":  "98FEF314635E7DD2F31B09BB16BAC8CE74E705BE01B7CEC93199A05AF71D78AD",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.166.jar",
-                  "jarSha256":  "BEBB76B5E52FD5ACB53FA701CA9D77DF38490438B1C4682BE78EBAD40105C04F"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.167.jar",
+                  "jarSha256":  "98FEF314635E7DD2F31B09BB16BAC8CE74E705BE01B7CEC93199A05AF71D78AD"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.146",

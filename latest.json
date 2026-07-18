@@ -1,17 +1,20 @@
 {
-    "version":  "1.0.162",
+    "version":  "1.0.163",
     "notes":  [
-                  "Correct phone-camera orientation for existing and newly uploaded profile photo previews"
+                  "Expanded Reports Dashboard overview with Total Youth, active Needs to Schedule, four housing transition averages, and separate Spot restrictions",
+                  "Corrected service fulfillment and event participation reporting while consolidating duplicate requested-versus-received views",
+                  "Improved housing, intake, specialized, monthly export, and campaign analytics reports",
+                  "Standardized Florida time across Vita Link and corrected historical check-in timestamp inconsistencies"
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.162/VitaNovaDatabase-1.0.162.jar",
-                    "jarUrl":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.162/VitaNovaDatabase-1.0.162.jar",
-                    "jarSha256":  "22B2D9A67DDE3804486D23EC78ABB2C6D9C20CE1FB93E94B74FC52A6CC2A0E2F"
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.163.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.163.jar",
+                    "jarSha256":  "4D8C4AC332E5495D75F046F6A2B48B97A8B8BDE2527FCAA43A5E8ED427328A35"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.162/VitaNovaDatabase-1.0.162.jar",
-                  "jarSha256":  "22B2D9A67DDE3804486D23EC78ABB2C6D9C20CE1FB93E94B74FC52A6CC2A0E2F"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.163.jar",
+                  "jarSha256":  "4D8C4AC332E5495D75F046F6A2B48B97A8B8BDE2527FCAA43A5E8ED427328A35"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.146",

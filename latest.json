@@ -1,20 +1,20 @@
 {
-    "version":  "1.0.173",
+    "version":  "1.0.174",
     "notes":  [
-                  "Expanded the Curated Report Builder with approved datasets across services, events, housing, intake, operations, donations, Sleep Spot, and data quality.",
-                  "Added date and current-youth scope, two-level grouping, multiple measures, compound filters, sorting, top-N limits, and matching source-row drilldown.",
-                  "Added private/shared saved report views and scoped Excel exports with report-definition metadata while preserving existing saved views."
+                  "Case Manager on Profile Dashboard is now an active staff account dropdown while preserving existing assignments.",
+                  "My Work now lets staff assign or reassign a youth to themselves and updates the youth profile case manager immediately.",
+                  "Case-manager changes from Profile Dashboard and My Work are recorded in audit history, and My Work uses consistent staff assignment names."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.173.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.173.jar",
-                    "jarSha256":  "189CB9C6319AA66000AC2F884DD98702A131CDE91A11F5D7A14D282C4102CC02",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.174.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.174.jar",
+                    "jarSha256":  "851DE8317FD62E66DDD31E3C39C4D39005BF522D4B8E0BA71A5F0ECA30F11B0D",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.173.jar",
-                  "jarSha256":  "189CB9C6319AA66000AC2F884DD98702A131CDE91A11F5D7A14D282C4102CC02"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.174.jar",
+                  "jarSha256":  "851DE8317FD62E66DDD31E3C39C4D39005BF522D4B8E0BA71A5F0ECA30F11B0D"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

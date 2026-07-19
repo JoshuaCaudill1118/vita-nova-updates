@@ -1,20 +1,20 @@
 {
-    "version":  "1.0.171",
+    "version":  "1.0.172",
     "notes":  [
-                  "Fixed My Work dashboard timeouts by removing the full data-quality rebuild from normal dashboard loading",
-                  "My Work sections now load independently so available tabs and counts appear progressively",
-                  "Added production regression coverage for every My Work section against current data volumes"
+                  "My Work Due Tasks now shows only active tasks for youth assigned to the signed-in staff member.",
+                  "The organization-wide Task Center remains available for broader task management.",
+                  "Preserves progressive My Work loading and the safe-1.0.169 rollback baseline."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.171.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.171.jar",
-                    "jarSha256":  "A731423A0FF59509197FF2A00E08952B992650E84DF142C198CE0189165C8632",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.172.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.172.jar",
+                    "jarSha256":  "67654FC157EFAF35A33B2F24F348D77E56E34D27F3F4262DB7F2423F46F3A47C",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.171.jar",
-                  "jarSha256":  "A731423A0FF59509197FF2A00E08952B992650E84DF142C198CE0189165C8632"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.172.jar",
+                  "jarSha256":  "67654FC157EFAF35A33B2F24F348D77E56E34D27F3F4262DB7F2423F46F3A47C"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

@@ -1,20 +1,19 @@
 {
-    "version":  "1.0.174",
+    "version":  "1.0.175",
     "notes":  [
-                  "Case Manager on Profile Dashboard is now an active staff account dropdown while preserving existing assignments.",
-                  "My Work now lets staff assign or reassign a youth to themselves and updates the youth profile case manager immediately.",
-                  "Case-manager changes from Profile Dashboard and My Work are recorded in audit history, and My Work uses consistent staff assignment names."
+                  "Faster staff startup when the production database schema is already current.",
+                  "Full migration, report-view, index, trigger, data synchronization, and automatic-checkout setup remain preserved for actual schema upgrades."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.174.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.174.jar",
-                    "jarSha256":  "851DE8317FD62E66DDD31E3C39C4D39005BF522D4B8E0BA71A5F0ECA30F11B0D",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.175.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.175.jar",
+                    "jarSha256":  "BEE20FBB6A104EF9A8F0A252736C30616FBA37CFACE18AB435A733AF37927DA0",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.174.jar",
-                  "jarSha256":  "851DE8317FD62E66DDD31E3C39C4D39005BF522D4B8E0BA71A5F0ECA30F11B0D"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.175.jar",
+                  "jarSha256":  "BEE20FBB6A104EF9A8F0A252736C30616FBA37CFACE18AB435A733AF37927DA0"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

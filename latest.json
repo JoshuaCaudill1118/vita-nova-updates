@@ -1,19 +1,20 @@
 {
-    "version":  "1.0.175",
+    "version":  "1.0.176",
     "notes":  [
-                  "Faster staff startup when the production database schema is already current.",
-                  "Full migration, report-view, index, trigger, data synchronization, and automatic-checkout setup remain preserved for actual schema upgrades."
+                  "Added Cohort \u0026 Outcomes Builder for combining approved Vita Link datasets with staff-selected report ranges and timing windows.",
+                  "Added General and In-Depth summaries with separate Excel exports and a complete report workbook.",
+                  "Added traceable qualified and not-qualified youth lists with source evidence while preserving existing report tools."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.175.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.175.jar",
-                    "jarSha256":  "BEE20FBB6A104EF9A8F0A252736C30616FBA37CFACE18AB435A733AF37927DA0",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.176.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.176.jar",
+                    "jarSha256":  "E1214F0619C53AC4536ED396A06E58676C8CF9F6E333C79683F5C855E5935976",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.175.jar",
-                  "jarSha256":  "BEE20FBB6A104EF9A8F0A252736C30616FBA37CFACE18AB435A733AF37927DA0"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.176.jar",
+                  "jarSha256":  "E1214F0619C53AC4536ED396A06E58676C8CF9F6E333C79683F5C855E5935976"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

@@ -1,19 +1,19 @@
 {
-    "version":  "1.0.178",
+    "version":  "1.0.179",
     "notes":  [
-                  "Added an in-app required Sleep Spot Guest Agreement with readable pages, required initials, and automatic completed-PDF attachment.",
-                  "Fit the Cohort \u0026 Outcomes Builder within laptop screens while preserving its report controls and exports."
+                  "Made the Sleep Spot Guest Agreement fit the screen without sideways scrolling.",
+                  "Fixed Cohort \u0026 Outcomes window-day controls and separated overlapping export controls."
               ],
     "windows":  {
-                    "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.178/VitaNovaDatabase-1.0.178.jar",
-                    "jarUrl":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.178/VitaNovaDatabase-1.0.178.jar",
-                    "jarSha256":  "98B87F8E9BCE149F9747989508723DD39D6A4A7A88E559CC0AFA2799BB042D71",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.179.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.179.jar",
+                    "jarSha256":  "31397B597E8EC67595AD1BD8D02F9253138A7D936E7359721E2749FD466B5BC6",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.178/VitaNovaDatabase-1.0.178.jar",
-                  "jarSha256":  "98B87F8E9BCE149F9747989508723DD39D6A4A7A88E559CC0AFA2799BB042D71"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.179.jar",
+                  "jarSha256":  "31397B597E8EC67595AD1BD8D02F9253138A7D936E7359721E2749FD466B5BC6"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

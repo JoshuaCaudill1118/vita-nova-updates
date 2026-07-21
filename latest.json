@@ -1,19 +1,19 @@
 {
-    "version":  "1.0.182",
+    "version":  "1.0.183",
     "notes":  [
-                  "Added PSH and Housing+ as selectable Event Dashboard locations.",
-                  "Preserved all existing event locations, event records, imports, rosters, and attendance workflows."
+                  "Added Ctrl+Plus and Ctrl+Minus zoom controls across all Vita Link staff dashboards, dialogs, tables, and intake packet forms.",
+                  "Added Ctrl+0 to restore 100% and saved each workstation zoom preference without changing dashboard workflows or data."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.182.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.182.jar",
-                    "jarSha256":  "7C881E0941CF46F4E0466AE5A1DD3A77119D1464EAF9D73CB1EFF3DD64E2832E",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.183.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.183.jar",
+                    "jarSha256":  "EE251A5CE04AC79D3ABD60ACD9296EB2DE429BD34321F902A92D622A45EE088B",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.182.jar",
-                  "jarSha256":  "7C881E0941CF46F4E0466AE5A1DD3A77119D1464EAF9D73CB1EFF3DD64E2832E"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.183.jar",
+                  "jarSha256":  "EE251A5CE04AC79D3ABD60ACD9296EB2DE429BD34321F902A92D622A45EE088B"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

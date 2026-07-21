@@ -1,18 +1,20 @@
 {
-    "version":  "1.0.180",
+    "version":  "1.0.181",
     "notes":  [
-                  "Improved the FAU Health printed roster with clear Name, Birthdate, and Phone headers and a readable landscape layout."
+                  "Added a dedicated Milestone Transitions report with summary and youth-level timing from first contact, intake, and housing milestones.",
+                  "Added intake-to-housing and chronological housing-to-housing transition statistics with average, median, minimum, and maximum days.",
+                  "Added desktop, staff web, Excel, scheduled export, and curated report builder support without changing the database schema."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.180.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.180.jar",
-                    "jarSha256":  "352EB38DF30642D0AC37B1EADF0BB6CD877B781156D0C94C19A55E8685B88D86",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.181.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.181.jar",
+                    "jarSha256":  "9599A00E05BC00D9946F01CA2D77CE298A8508223297C86A99B94291D2A26D8E",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.180.jar",
-                  "jarSha256":  "352EB38DF30642D0AC37B1EADF0BB6CD877B781156D0C94C19A55E8685B88D86"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.181.jar",
+                  "jarSha256":  "9599A00E05BC00D9946F01CA2D77CE298A8508223297C86A99B94291D2A26D8E"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

@@ -1,18 +1,19 @@
 {
-    "version":  "1.0.189",
+    "version":  "1.0.190",
     "notes":  [
-                  "Fixed youth intake links to use the canonical HTTPS form address and added backward-compatible intake routes that preserve the token."
+                  "Prevented end-of-day checkout from closing current-day youth before 6:00 PM Florida time.",
+                  "Restored Youth Log visibility for records affected by the premature checkout incident."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.189.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.189.jar",
-                    "jarSha256":  "647CA84135F9651A29C007C291077E4733013E00140068DA167BD7EF6DB18170",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.190.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.190.jar",
+                    "jarSha256":  "D7CF0C878D289905DEE0EF99D0B4BE7FAD1B0CB7C4774AAB660F166650E75775",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.189.jar",
-                  "jarSha256":  "647CA84135F9651A29C007C291077E4733013E00140068DA167BD7EF6DB18170"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.190.jar",
+                  "jarSha256":  "D7CF0C878D289905DEE0EF99D0B4BE7FAD1B0CB7C4774AAB660F166650E75775"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

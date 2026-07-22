@@ -1,22 +1,21 @@
 {
-    "version":  "1.0.185",
+    "version":  "1.0.186",
     "notes":  [
-                  "Added scheduled intake dates to phone and tablet check-in when Scheduled is selected.",
-                  "Added a Scheduled Intakes workspace for staff to add, search, open, and manage appointments.",
-                  "Assigned one resumable intake packet and stable youth link per scheduled intake, including appointments before profile creation.",
-                  "Added Copy Link support so staff can resend the existing packet without creating a duplicate.",
-                  "Corrected the staff update package so the complete runnable application is installed."
+                  "Staff can manage optional organization-wide and service-need notification preferences from Staff Notifications.",
+                  "Staff Account and Role Assignments now uses clearer access, notification, report, event, and saved-assignment sections with compact summaries.",
+                  "Direct youth, task, referral, case plan, and event assignments continue to notify assigned staff while explicit notification opt-outs are respected.",
+                  "Scheduled intakes can be created without a birth date, and existing youth intake links can be copied or resent without creating a new packet."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.185.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.185.jar",
-                    "jarSha256":  "67FBD0B18AA86AB0AA37609DE65EDEB6A583B45C0E2A2DB63F46CED83B3DE25C",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.186.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.186.jar",
+                    "jarSha256":  "4C6255ED7CC82077314B515278F852EE04B5808636AE7E10239B5FAC7613377F",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.185.jar",
-                  "jarSha256":  "67FBD0B18AA86AB0AA37609DE65EDEB6A583B45C0E2A2DB63F46CED83B3DE25C"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.186.jar",
+                  "jarSha256":  "4C6255ED7CC82077314B515278F852EE04B5808636AE7E10239B5FAC7613377F"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

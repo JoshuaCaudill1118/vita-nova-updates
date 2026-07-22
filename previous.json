@@ -1,18 +1,20 @@
 {
-    "version":  "1.0.187",
+    "version":  "1.0.188",
     "notes":  [
-                  "Scheduled intake phone numbers now auto-format as 000-000-0000 while staff type."
+                  "My Work now lists recent unresolved intake requests even when the youth is not currently checked in.",
+                  "Today\u0027s Operations remains focused on intake follow-ups for youth who are currently checked in.",
+                  "Previously unmarked recognized service requests were reconciled as received in production data."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.187.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.187.jar",
-                    "jarSha256":  "8A7C9CCEDFFA4432FB9C91BEB1A151585B1B9445A35D09195029098D3A48B2DD",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.188.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.188.jar",
+                    "jarSha256":  "96DE9588DA0AC270086AFA863628884DCD18F90CFADD9ACF0ECBE664E0DFEEC3",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.187.jar",
-                  "jarSha256":  "8A7C9CCEDFFA4432FB9C91BEB1A151585B1B9445A35D09195029098D3A48B2DD"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.188.jar",
+                  "jarSha256":  "96DE9588DA0AC270086AFA863628884DCD18F90CFADD9ACF0ECBE664E0DFEEC3"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

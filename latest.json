@@ -1,20 +1,18 @@
 {
-    "version":  "1.0.188",
+    "version":  "1.0.189",
     "notes":  [
-                  "My Work now lists recent unresolved intake requests even when the youth is not currently checked in.",
-                  "Today\u0027s Operations remains focused on intake follow-ups for youth who are currently checked in.",
-                  "Previously unmarked recognized service requests were reconciled as received in production data."
+                  "Fixed youth intake links to use the canonical HTTPS form address and added backward-compatible intake routes that preserve the token."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.188.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.188.jar",
-                    "jarSha256":  "96DE9588DA0AC270086AFA863628884DCD18F90CFADD9ACF0ECBE664E0DFEEC3",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.189.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.189.jar",
+                    "jarSha256":  "647CA84135F9651A29C007C291077E4733013E00140068DA167BD7EF6DB18170",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.188.jar",
-                  "jarSha256":  "96DE9588DA0AC270086AFA863628884DCD18F90CFADD9ACF0ECBE664E0DFEEC3"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.189.jar",
+                  "jarSha256":  "647CA84135F9651A29C007C291077E4733013E00140068DA167BD7EF6DB18170"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

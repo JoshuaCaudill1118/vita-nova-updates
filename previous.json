@@ -1,20 +1,19 @@
 {
-    "version":  "1.0.193",
+    "version":  "1.0.194",
     "notes":  [
-                  "Added an assisted calendar image importer to Events with required review and duplicate safeguards.",
-                  "Matched event facilitators to active staff and labeled other facilitators as Outside Volunteer.",
-                  "Moved automatic 6:00 PM youth checkout to the always-on hosted server with missed-run catch-up."
+                  "Displayed the assisted calendar importer year as a plain four-digit value without a thousands separator.",
+                  "Preserved assisted calendar review, duplicate safeguards, facilitator matching, and hosted 6:00 PM checkout reliability."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.193.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.193.jar",
-                    "jarSha256":  "71A5A9236514C36A387FDDEAFFEB0316B04C0723ACF8DF30B0F1CA19287C7CF0",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.194.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.194.jar",
+                    "jarSha256":  "8EFE391C212C9B342DF35BCFD45BA40AA4AE0290B69818F128A92C85C587DB50",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.193.jar",
-                  "jarSha256":  "71A5A9236514C36A387FDDEAFFEB0316B04C0723ACF8DF30B0F1CA19287C7CF0"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.194.jar",
+                  "jarSha256":  "8EFE391C212C9B342DF35BCFD45BA40AA4AE0290B69818F128A92C85C587DB50"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

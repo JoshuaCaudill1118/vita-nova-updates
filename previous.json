@@ -1,19 +1,20 @@
 {
-    "version":  "1.0.191",
+    "version":  "1.0.192",
     "notes":  [
-                  "Completed intake packets now mark open intake requests as received",
-                  "Youth profiles and Youth Log intake statuses now synchronize to Completed"
+                  "Keep youth check-in counts consistent across the Navigator, Youth Log, and Today\u0027s Operations Board.",
+                  "Consolidate duplicate open visits without losing purposes or service activity.",
+                  "Prevent multiple open check-ins for the same youth and close all legacy open rows together."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.191.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.191.jar",
-                    "jarSha256":  "8D5C926BB270FF534B24021FDBD76309AB73C058E6F45A955F90FA54D60BFE3B",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.192.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.192.jar",
+                    "jarSha256":  "C5ECD3F2378448E1555434F59B5540378F385E83AF0ACDF265F811EDF81B26DB",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.191.jar",
-                  "jarSha256":  "8D5C926BB270FF534B24021FDBD76309AB73C058E6F45A955F90FA54D60BFE3B"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.192.jar",
+                  "jarSha256":  "C5ECD3F2378448E1555434F59B5540378F385E83AF0ACDF265F811EDF81B26DB"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

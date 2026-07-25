@@ -1,19 +1,19 @@
 {
-    "version":  "1.0.195",
+    "version":  "1.0.196",
     "notes":  [
-                  "Kept every existing Event Dashboard action and added a Back button that remains visible at laptop and scaled Windows resolutions.",
-                  "Back returns to the Dashboard Navigator without leaving a duplicate Event Dashboard window open."
+                  "Dashboard Navigator Intake now shows the number of packets that need staff follow-up instead of a capped recent-packet total.",
+                  "Follow-up includes open intake packets and completed packets missing an attached generated PDF."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.195.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.195.jar",
-                    "jarSha256":  "8A250CFE9426411DD93D5670BF2590E5D4AB7A3EB2783D1BD5416292AE3E47D5",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.196.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.196.jar",
+                    "jarSha256":  "A04E892318217704D2EA2A4BDE68C11AC9A32F3A0039E775434CE138ED35D250",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.195.jar",
-                  "jarSha256":  "8A250CFE9426411DD93D5670BF2590E5D4AB7A3EB2783D1BD5416292AE3E47D5"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.196.jar",
+                  "jarSha256":  "A04E892318217704D2EA2A4BDE68C11AC9A32F3A0039E775434CE138ED35D250"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

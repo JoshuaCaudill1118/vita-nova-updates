@@ -1,20 +1,20 @@
 {
-    "version":  "1.0.198",
+    "version":  "1.0.199",
     "notes":  [
-                  "Fixes profile-photo retention for first-time youth check-ins on existing Vita Link databases.",
-                  "Adds a compatibility migration so pending check-in photos transfer safely during approval and profile merge.",
-                  "Preserves Shift Handoff, Supervisor Exceptions, Portal Recovery, and all safe-baseline workflows."
+                  "Preserves first-time youth profile photos through verification and profile creation.",
+                  "Repairs legacy pending-photo storage so uploads can be safely replaced and transferred.",
+                  "Adds supervisor recovery visibility for active youth who still need a profile photo."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.198.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.198.jar",
-                    "jarSha256":  "5C3A9B2CC20BACFDBBC2942165A94350C269CAD2C20FEEF27E62FBB3FF84D394",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.199.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.199.jar",
+                    "jarSha256":  "A9B13CAD0AEE81A9C0EAAD47596B22E2C87ECF945DB94F07024857F862D23490",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.198.jar",
-                  "jarSha256":  "5C3A9B2CC20BACFDBBC2942165A94350C269CAD2C20FEEF27E62FBB3FF84D394"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.199.jar",
+                  "jarSha256":  "A9B13CAD0AEE81A9C0EAAD47596B22E2C87ECF945DB94F07024857F862D23490"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

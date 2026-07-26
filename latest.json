@@ -1,21 +1,20 @@
 {
-    "version":  "1.0.201",
+    "version":  "1.0.202",
     "notes":  [
-                  "Program Enrollment now uses Vita Link\u0027s canonical program catalog while preserving existing program values.",
-                  "Consent and release records now load reliably across current and historical date formats.",
-                  "Referral Partner Responses now links directly to referral creation and management.",
-                  "Phone and tablet staff tools now include Mobile Case Notes and remove non-check-in workflow items."
+                  "Fixed Consent and Releases loading for staff.",
+                  "Expanded the outside-provider referral form for clearer next actions, notes, and document details.",
+                  "Kept Mobile Case Notes in the phone/tablet Staff Tools workspace and removed the duplicate desktop tile."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.201.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.201.jar",
-                    "jarSha256":  "B6AF61A3D398ADAA024EC8573F1E700C84BC3C0C63717674960CF92F76E3E96D",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.202.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.202.jar",
+                    "jarSha256":  "FE69E3EFE1B17968A8309BF8C1E62FA0E839BF6DB5A3D81934AB90351F0BB7F5",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.201.jar",
-                  "jarSha256":  "B6AF61A3D398ADAA024EC8573F1E700C84BC3C0C63717674960CF92F76E3E96D"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.202.jar",
+                  "jarSha256":  "FE69E3EFE1B17968A8309BF8C1E62FA0E839BF6DB5A3D81934AB90351F0BB7F5"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

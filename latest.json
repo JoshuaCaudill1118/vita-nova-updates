@@ -1,20 +1,20 @@
 {
-    "version":  "1.0.204",
+    "version":  "1.0.205",
     "notes":  [
-                  "Fix Mobile Case Notes authentication transition and defeat stale cached scripts.",
-                  "Load Program Enrollment and Consent dashboards without repeating historical synchronization.",
-                  "Preserve startup and intake-completion synchronization, manual records, and duplicate protections."
+                  "Add self-service staff workflow usage and adoption reports to the Reports Dashboard.",
+                  "Add All Youth and Active Youth scope choices inside the report filter panel.",
+                  "Show lifetime first recorded check-ins in Inferred Youth Journey and identify genuinely missing source dates."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.204.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.204.jar",
-                    "jarSha256":  "84EDC0E7632E72B36C443788C9BF39FA3A2D77F7A979EC83B6A4D3076396F9DA",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.205.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.205.jar",
+                    "jarSha256":  "C0CA96075F1D4B0E3B2DC599022AE7603BC8DBC2A9E08BCA793F68944EA58A7B",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.204.jar",
-                  "jarSha256":  "84EDC0E7632E72B36C443788C9BF39FA3A2D77F7A979EC83B6A4D3076396F9DA"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.205.jar",
+                  "jarSha256":  "C0CA96075F1D4B0E3B2DC599022AE7603BC8DBC2A9E08BCA793F68944EA58A7B"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

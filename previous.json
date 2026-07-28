@@ -1,20 +1,20 @@
 {
     "version":  "1.0.205",
     "notes":  [
-                  "Add self-service staff workflow usage and adoption reports to the Reports Dashboard.",
-                  "Add All Youth and Active Youth scope choices inside the report filter panel.",
-                  "Show lifetime first recorded check-ins in Inferred Youth Journey and identify genuinely missing source dates."
+                  "Fix Open Packet PDF by serving bundled intake forms through the public forms route.",
+                  "Keep the authoritative 26-page Vita Nova intake packet unchanged.",
+                  "Add a real HTTP regression test for the packet URL and PDF response."
               ],
     "windows":  {
                     "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.205.jar",
                     "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.205.jar",
-                    "jarSha256":  "C0CA96075F1D4B0E3B2DC599022AE7603BC8DBC2A9E08BCA793F68944EA58A7B",
+                    "jarSha256":  "C4247F681BEC772A8E3F354E32E73621E8D5A7B78985F7FA6EFBB82ADC21FF20",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
                   "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.205.jar",
-                  "jarSha256":  "C0CA96075F1D4B0E3B2DC599022AE7603BC8DBC2A9E08BCA793F68944EA58A7B"
+                  "jarSha256":  "C4247F681BEC772A8E3F354E32E73621E8D5A7B78985F7FA6EFBB82ADC21FF20"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

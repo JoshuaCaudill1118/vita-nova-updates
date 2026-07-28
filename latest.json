@@ -1,20 +1,21 @@
 {
-    "version":  "1.0.205",
+    "version":  "1.0.206",
     "notes":  [
-                  "Fix Open Packet PDF by serving bundled intake forms through the public forms route.",
-                  "Keep the authoritative 26-page Vita Nova intake packet unchanged.",
-                  "Add a real HTTP regression test for the packet URL and PDF response."
+                  "Add a guarded No Show action for active scheduled intakes.",
+                  "Remove only the selected appointment and its unfinished packet, answers, link, and unreferenced generated file.",
+                  "Preserve youth profiles, pending check-in history, completed intakes, and future scheduling eligibility.",
+                  "Retain and verify the authoritative Vita Nova Intake Packet PDF route."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.205.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.205.jar",
-                    "jarSha256":  "C4247F681BEC772A8E3F354E32E73621E8D5A7B78985F7FA6EFBB82ADC21FF20",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.206.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.206.jar",
+                    "jarSha256":  "FBAC74DA1694F8FEF8FC0F338B321668BC6A49774FBA54E2F2564F4C827AAC38",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.205.jar",
-                  "jarSha256":  "C4247F681BEC772A8E3F354E32E73621E8D5A7B78985F7FA6EFBB82ADC21FF20"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.206.jar",
+                  "jarSha256":  "FBAC74DA1694F8FEF8FC0F338B321668BC6A49774FBA54E2F2564F4C827AAC38"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

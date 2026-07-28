@@ -1,24 +1,24 @@
 {
-    "version":  "1.0.201",
-    "notes":  [
-                  "Program Enrollment now uses Vita Link\u0027s canonical program catalog while preserving existing program values.",
-                  "Consent and release records now load reliably across current and historical date formats.",
-                  "Referral Partner Responses now links directly to referral creation and management.",
-                  "Phone and tablet staff tools now include Mobile Case Notes and remove non-check-in workflow items."
-              ],
-    "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.201.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.201.jar",
-                    "jarSha256":  "B6AF61A3D398ADAA024EC8573F1E700C84BC3C0C63717674960CF92F76E3E96D",
-                    "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
-                },
-    "macos":  {
-                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.201.jar",
-                  "jarSha256":  "B6AF61A3D398ADAA024EC8573F1E700C84BC3C0C63717674960CF92F76E3E96D"
-              },
-    "baseline":  {
-                     "rollbackTag":  "safe-1.0.169",
-                     "notes":  "safe-1.0.169 remains the rollback/reference baseline."
-                 }
+  "version": "1.0.201",
+  "notes": [
+    "Program Enrollment now uses Vita Link's canonical program catalog while preserving existing program values.",
+    "Consent and release records now load reliably across current and historical date formats.",
+    "Referral Partner Responses now links directly to referral creation and management.",
+    "Phone and tablet staff tools now include Mobile Case Notes and remove non-check-in workflow items."
+  ],
+  "windows": {
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.201.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.201.jar",
+    "jarSha256": "B6AF61A3D398ADAA024EC8573F1E700C84BC3C0C63717674960CF92F76E3E96D",
+    "installerUrl": "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
+  },
+  "macos": {
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.201.jar",
+    "jarSha256": "B6AF61A3D398ADAA024EC8573F1E700C84BC3C0C63717674960CF92F76E3E96D"
+  },
+  "baseline": {
+    "rollbackTag": "safe-1.0.169",
+    "notes": "safe-1.0.169 remains the rollback/reference baseline."
+  }
 }

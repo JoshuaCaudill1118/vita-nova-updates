@@ -1,21 +1,22 @@
 {
-    "version":  "1.0.210",
-    "notes":  [
-                  "Keep new dashboards on the monitor where staff are working."
-              ],
-    "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.210.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.210.jar",
-                    "jarSha256":  "CC306B2CCE426A9D260697C637EAE2EA2E968BD29A04AC60C78520C4A95920E7",
-                    "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
-                },
-    "macos":  {
-                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.210.jar",
-                  "jarSha256":  "CC306B2CCE426A9D260697C637EAE2EA2E968BD29A04AC60C78520C4A95920E7"
-              },
-    "baseline":  {
-                     "rollbackTag":  "safe-1.0.169",
-                     "notes":  "safe-1.0.169 remains the rollback/reference baseline."
-                 }
+  "version": "1.0.211",
+  "notes": [
+    "Restore Outside Volunteer and Intern event assignees and remove staff role suffixes.",
+    "Standardize staff-facing dates to MM/DD/YYYY and auto-format date, phone, and ZIP inputs."
+  ],
+  "windows": {
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.211.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.211.jar",
+    "jarSha256": "049040BB71DA6358DB731468177039783F67EABB793E564F44394753F8C5EFB7",
+    "installerUrl": "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
+  },
+  "macos": {
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.211.jar",
+    "jarSha256": "049040BB71DA6358DB731468177039783F67EABB793E564F44394753F8C5EFB7"
+  },
+  "baseline": {
+    "rollbackTag": "safe-1.0.169",
+    "notes": "safe-1.0.169 remains the rollback/reference baseline."
+  }
 }

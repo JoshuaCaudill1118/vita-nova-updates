@@ -1,23 +1,23 @@
 {
-    "version":  "1.0.207",
-    "notes":  [
-                  "Add Staff Usage reports to the desktop Reports Dashboard under Admin Metrics.",
-                  "Move All Youth and Active Youth scope controls into the Date Range Filter.",
-                  "Show lifetime first recorded check-ins in the desktop Inferred Youth Journey report."
-              ],
-    "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.207.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.207.jar",
-                    "jarSha256":  "18B501DEBAF230F8AB33B29AF87B232D655DFE0BE0F2B40745B99BEDF69718C8",
-                    "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
-                },
-    "macos":  {
-                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.207.jar",
-                  "jarSha256":  "18B501DEBAF230F8AB33B29AF87B232D655DFE0BE0F2B40745B99BEDF69718C8"
-              },
-    "baseline":  {
-                     "rollbackTag":  "safe-1.0.169",
-                     "notes":  "safe-1.0.169 remains the rollback/reference baseline."
-                 }
+  "version": "1.0.208",
+  "notes": [
+    "Show the full intake agreements in five youth-friendly tabs with acknowledgement and signature fields directly below each agreement.",
+    "Add profile-attached RHY Services Plans with youth search, five goal tabs, staff notes, signatures, and a generated six-page PDF.",
+    "Split Intake into Intake Documents, SOFI, Immediate Needs, and RHY Services Plan workspaces while preserving existing actions and the 1.0.207 report fixes."
+  ],
+  "windows": {
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.208.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.208.jar",
+    "jarSha256": "0E77B314E08B04E7E74D1468F7E4FD496AD2459C4BDC25234BEFE4A3F8C3E7D0",
+    "installerUrl": "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
+  },
+  "macos": {
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.208.jar",
+    "jarSha256": "0E77B314E08B04E7E74D1468F7E4FD496AD2459C4BDC25234BEFE4A3F8C3E7D0"
+  },
+  "baseline": {
+    "rollbackTag": "safe-1.0.169",
+    "notes": "safe-1.0.169 remains the rollback/reference baseline."
+  }
 }

@@ -7,7 +7,7 @@
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.213/VitaNovaDatabase-1.0.213.jar",
     "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.213/VitaNovaDatabase-1.0.213.jar",
     "jarSha256": "9BDB29BD91E2FA6B1FEB45E8ABFA50DFCDAC74ADFDF210CF4F3E117225E34388",
-    "installerUrl": "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
+    "installerUrl": "https://157-230-8-171.sslip.io/public-updates/windows/VitaLinkStaffSetup-1.0.213.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",

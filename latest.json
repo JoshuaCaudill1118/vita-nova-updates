@@ -1,18 +1,19 @@
 {
-  "version": "1.0.213",
+  "version": "1.0.214",
   "notes": [
-    "Display youth and staff portal dates consistently as MM/DD/YYYY while preserving storage normalization."
+    "Repair Windows automatic updates by running the updater from an unlocked per-launch cache copy.",
+    "Reject private update artifact links that appear valid to administrators but return HTTP 404 for staff computers."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.213/VitaNovaDatabase-1.0.213.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.213/VitaNovaDatabase-1.0.213.jar",
-    "jarSha256": "9BDB29BD91E2FA6B1FEB45E8ABFA50DFCDAC74ADFDF210CF4F3E117225E34388",
-    "installerUrl": "https://157-230-8-171.sslip.io/public-updates/windows/VitaLinkStaffSetup-1.0.213.exe"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.214/VitaNovaDatabase-1.0.214.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.214/VitaNovaDatabase-1.0.214.jar",
+    "jarSha256": "D91CB367BBF08C2EEEB4AB14E0382F6F641626E43A897C8226163F714E09451E",
+    "installerUrl": "https://157-230-8-171.sslip.io/public-updates/windows/VitaLinkStaffSetup-1.0.214.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.213/VitaNovaDatabase-1.0.213.jar",
-    "jarSha256": "9BDB29BD91E2FA6B1FEB45E8ABFA50DFCDAC74ADFDF210CF4F3E117225E34388"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.214/VitaNovaDatabase-1.0.214.jar",
+    "jarSha256": "D91CB367BBF08C2EEEB4AB14E0382F6F641626E43A897C8226163F714E09451E"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

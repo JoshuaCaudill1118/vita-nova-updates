@@ -1,18 +1,18 @@
 {
-    "version":  "1.0.209",
+    "version":  "1.0.210",
     "notes":  [
-                  "Make Youth Registration the first youth intake tab and keep registration fields out of every agreement tab."
+                  "Keep new dashboards on the monitor where staff are working."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.209.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.209.jar",
-                    "jarSha256":  "5A5F26FE553B7D1A3604ED219235D55702E81C639E5E677C0E964D70A355A3BF",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.210.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.210.jar",
+                    "jarSha256":  "CC306B2CCE426A9D260697C637EAE2EA2E968BD29A04AC60C78520C4A95920E7",
                     "installerUrl":  "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.209.jar",
-                  "jarSha256":  "5A5F26FE553B7D1A3604ED219235D55702E81C639E5E677C0E964D70A355A3BF"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.210.jar",
+                  "jarSha256":  "CC306B2CCE426A9D260697C637EAE2EA2E968BD29A04AC60C78520C4A95920E7"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

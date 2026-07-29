@@ -1,19 +1,18 @@
 {
-  "version": "1.0.212",
+  "version": "1.0.213",
   "notes": [
-    "Store event flyers on the Vita Link server and show flyer and description details during youth event sign-up.",
-    "Restore shared calendar event chips with start time and event name, and fix the Mobile Case Notes login transition."
+    "Display youth and staff portal dates consistently as MM/DD/YYYY while preserving storage normalization."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-database/releases/download/v1.0.212/VitaNovaDatabase-1.0.212.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-database/releases/download/v1.0.212/VitaNovaDatabase-1.0.212.jar",
-    "jarSha256": "CE6547A790292DC3A263C04368EF2904E13D3A5D5411B516D8BC3BE62CD82E2A",
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-database/releases/download/v1.0.213/VitaNovaDatabase-1.0.213.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-database/releases/download/v1.0.213/VitaNovaDatabase-1.0.213.jar",
+    "jarSha256": "9BDB29BD91E2FA6B1FEB45E8ABFA50DFCDAC74ADFDF210CF4F3E117225E34388",
     "installerUrl": "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-database/releases/download/v1.0.212/VitaNovaDatabase-1.0.212.jar",
-    "jarSha256": "CE6547A790292DC3A263C04368EF2904E13D3A5D5411B516D8BC3BE62CD82E2A"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-database/releases/download/v1.0.213/VitaNovaDatabase-1.0.213.jar",
+    "jarSha256": "9BDB29BD91E2FA6B1FEB45E8ABFA50DFCDAC74ADFDF210CF4F3E117225E34388"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

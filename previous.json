@@ -1,19 +1,19 @@
 {
-  "version": "1.0.211",
+  "version": "1.0.212",
   "notes": [
-    "Restore Outside Volunteer and Intern event assignees and remove staff role suffixes.",
-    "Standardize staff-facing dates to MM/DD/YYYY and auto-format date, phone, and ZIP inputs."
+    "Store event flyers on the Vita Link server and show flyer and description details during youth event sign-up.",
+    "Restore shared calendar event chips with start time and event name, and fix the Mobile Case Notes login transition."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.211.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.211.jar",
-    "jarSha256": "049040BB71DA6358DB731468177039783F67EABB793E564F44394753F8C5EFB7",
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-database/releases/download/v1.0.212/VitaNovaDatabase-1.0.212.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-database/releases/download/v1.0.212/VitaNovaDatabase-1.0.212.jar",
+    "jarSha256": "CE6547A790292DC3A263C04368EF2904E13D3A5D5411B516D8BC3BE62CD82E2A",
     "installerUrl": "http://157.230.8.171/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.211.jar",
-    "jarSha256": "049040BB71DA6358DB731468177039783F67EABB793E564F44394753F8C5EFB7"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-database/releases/download/v1.0.212/VitaNovaDatabase-1.0.212.jar",
+    "jarSha256": "CE6547A790292DC3A263C04368EF2904E13D3A5D5411B516D8BC3BE62CD82E2A"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

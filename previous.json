@@ -1,19 +1,19 @@
 {
-  "version": "1.0.215",
+  "version": "1.0.216",
   "notes": [
-    "Fix Mobile Case Notes so successful staff sign-ins advance to the note form and recover existing sessions without stale cached scripts.",
-    "Display intake packet birth, completed, and last-updated dates in MM/DD/YYYY format."
+    "Sort dashboard date columns chronologically across month, day, and year in both directions instead of alphabetically.",
+    "Apply typed sorting across desktop dashboards for timestamps, times, percentages, currency amounts, and numeric counts, including after table refreshes."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.215/VitaNovaDatabase-1.0.215.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.215/VitaNovaDatabase-1.0.215.jar",
-    "jarSha256": "BD8DF65D1CE0F39872525E8976B46AB35337E811980CA1EDE86A6A21FF398474",
-    "installerUrl": "https://157-230-8-171.sslip.io/public-updates/windows/VitaLinkStaffSetup-1.0.215.exe"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.216/VitaNovaDatabase-1.0.216.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.216/VitaNovaDatabase-1.0.216.jar",
+    "jarSha256": "84B0B433113B281FC43936BC0179744B7463F76F15A7B4797DDCB76CFD4F9F88",
+    "installerUrl": "https://157-230-8-171.sslip.io/public-updates/windows/VitaLinkStaffSetup-1.0.216.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.215/VitaNovaDatabase-1.0.215.jar",
-    "jarSha256": "BD8DF65D1CE0F39872525E8976B46AB35337E811980CA1EDE86A6A21FF398474"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.216/VitaNovaDatabase-1.0.216.jar",
+    "jarSha256": "84B0B433113B281FC43936BC0179744B7463F76F15A7B4797DDCB76CFD4F9F88"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

@@ -5,14 +5,14 @@
     "Use the certificate-backed HTTPS portal address throughout production and redirect legacy bare-IP HTTP links securely."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.219/VitaNovaDatabase-1.0.219.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.219/VitaNovaDatabase-1.0.219.jar",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.219.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.219.jar",
     "jarSha256": "899CACABFC52C49029A770DEC4BE1CAF3C39582333789EA06C6A5BE9D27843AB",
     "installerUrl": "https://157-230-8-171.sslip.io/public-updates/windows/VitaLinkStaffSetup-1.0.219.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.219/VitaNovaDatabase-1.0.219.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.219.jar",
     "jarSha256": "899CACABFC52C49029A770DEC4BE1CAF3C39582333789EA06C6A5BE9D27843AB"
   },
   "baseline": {

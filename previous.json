@@ -1,19 +1,19 @@
 {
-  "version": "1.0.216",
+  "version": "1.0.217",
   "notes": [
-    "Sort dashboard date columns chronologically across month, day, and year in both directions instead of alphabetically.",
-    "Apply typed sorting across desktop dashboards for timestamps, times, percentages, currency amounts, and numeric counts, including after table refreshes."
+    "Fix Profile Dashboard updates so valid past birth dates are not rejected as future dates.",
+    "Use the shared birth-date parser and age calculation for both MM/DD/YYYY display values and normalized storage values."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.216/VitaNovaDatabase-1.0.216.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.216/VitaNovaDatabase-1.0.216.jar",
-    "jarSha256": "84B0B433113B281FC43936BC0179744B7463F76F15A7B4797DDCB76CFD4F9F88",
-    "installerUrl": "https://157-230-8-171.sslip.io/public-updates/windows/VitaLinkStaffSetup-1.0.216.exe"
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.217/VitaNovaDatabase-1.0.217.jar",
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.217/VitaNovaDatabase-1.0.217.jar",
+    "jarSha256": "A3DCD42C3BF75DE16647977A70073FB2C75185D12565E25FF171F67A45CF032C",
+    "installerUrl": "https://157-230-8-171.sslip.io/public-updates/windows/VitaLinkStaffSetup-1.0.217.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.216/VitaNovaDatabase-1.0.216.jar",
-    "jarSha256": "84B0B433113B281FC43936BC0179744B7463F76F15A7B4797DDCB76CFD4F9F88"
+    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.217/VitaNovaDatabase-1.0.217.jar",
+    "jarSha256": "A3DCD42C3BF75DE16647977A70073FB2C75185D12565E25FF171F67A45CF032C"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

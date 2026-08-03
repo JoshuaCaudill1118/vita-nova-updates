@@ -1,19 +1,19 @@
 {
-  "version": "1.0.218",
+  "version": "1.0.219",
   "notes": [
-    "Prevent staff from submitting more than one Sleep Spot referral for the same youth and requested date.",
-    "Prevent duplicate scheduled and same-day completed intake packets, and verify youth identity before linking or updating a profile."
+    "Open Mobile Case Notes immediately after a successful staff login without requiring a browser refresh.",
+    "Use the certificate-backed HTTPS portal address throughout production and redirect legacy bare-IP HTTP links securely."
   ],
   "windows": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.218/VitaNovaDatabase-1.0.218.jar",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.218/VitaNovaDatabase-1.0.218.jar",
-    "jarSha256": "F1B8550A91882DF38DAA04E82955ECF0C230F3727E2F699AF183754F405E7705",
-    "installerUrl": "https://157-230-8-171.sslip.io/public-updates/windows/VitaLinkStaffSetup-1.0.218.exe"
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.219.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.219.jar",
+    "jarSha256": "899CACABFC52C49029A770DEC4BE1CAF3C39582333789EA06C6A5BE9D27843AB",
+    "installerUrl": "https://157-230-8-171.sslip.io/public-updates/windows/VitaLinkStaffSetup-1.0.219.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://github.com/JoshuaCaudill1118/vita-nova-updates/releases/download/v1.0.218/VitaNovaDatabase-1.0.218.jar",
-    "jarSha256": "F1B8550A91882DF38DAA04E82955ECF0C230F3727E2F699AF183754F405E7705"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.219.jar",
+    "jarSha256": "899CACABFC52C49029A770DEC4BE1CAF3C39582333789EA06C6A5BE9D27843AB"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

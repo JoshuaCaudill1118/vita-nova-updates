@@ -1,22 +1,22 @@
 {
-  "version": "1.0.219",
-  "notes": [
-    "Open Mobile Case Notes immediately after a successful staff login without requiring a browser refresh.",
-    "Use the certificate-backed HTTPS portal address throughout production and redirect legacy bare-IP HTTP links securely."
-  ],
-  "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.219.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.219.jar",
-    "jarSha256": "899CACABFC52C49029A770DEC4BE1CAF3C39582333789EA06C6A5BE9D27843AB",
-    "installerUrl": "https://157-230-8-171.sslip.io/public-updates/windows/VitaLinkStaffSetup-1.0.219.exe"
-  },
-  "macos": {
-    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.0.219.jar",
-    "jarSha256": "899CACABFC52C49029A770DEC4BE1CAF3C39582333789EA06C6A5BE9D27843AB"
-  },
-  "baseline": {
-    "rollbackTag": "safe-1.0.169",
-    "notes": "safe-1.0.169 remains the rollback/reference baseline."
-  }
+    "version":  "1.1.0",
+    "notes":  [
+                  "Establish Vita Link 1.1.0 as the final feature-complete maintenance baseline.",
+                  "Preserve all production fixes and validated workflows delivered through version 1.0.219."
+              ],
+    "windows":  {
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.0.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.0.jar",
+                    "jarSha256":  "C4B387A06158E52CC2C5F4CB866F1F4D090CFF5C44C092A1182E95F9B3DA2FDD",
+                    "installerUrl":  "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
+                },
+    "macos":  {
+                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.0.jar",
+                  "jarSha256":  "C4B387A06158E52CC2C5F4CB866F1F4D090CFF5C44C092A1182E95F9B3DA2FDD"
+              },
+    "baseline":  {
+                     "rollbackTag":  "safe-1.0.169",
+                     "notes":  "safe-1.0.169 remains the rollback/reference baseline."
+                 }
 }

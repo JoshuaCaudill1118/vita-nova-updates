@@ -1,19 +1,18 @@
 {
-    "version":  "1.1.0",
+    "version":  "1.1.1",
     "notes":  [
-                  "Establish Vita Link 1.1.0 as the final feature-complete maintenance baseline.",
-                  "Preserve all production fixes and validated workflows delivered through version 1.0.219."
+                  "Use the Vita Link photo for every desktop taskbar window, including Event Calendar and Intake Packet."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.0.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.0.jar",
-                    "jarSha256":  "C4B387A06158E52CC2C5F4CB866F1F4D090CFF5C44C092A1182E95F9B3DA2FDD",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.1.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.1.jar",
+                    "jarSha256":  "DAD9CB985BEC58E1CFEB049C4494712B5460BE1CCE8B96C367F30676D2FA5D45",
                     "installerUrl":  "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.0.jar",
-                  "jarSha256":  "C4B387A06158E52CC2C5F4CB866F1F4D090CFF5C44C092A1182E95F9B3DA2FDD"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.1.jar",
+                  "jarSha256":  "DAD9CB985BEC58E1CFEB049C4494712B5460BE1CCE8B96C367F30676D2FA5D45"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

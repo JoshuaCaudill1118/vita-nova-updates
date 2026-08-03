@@ -1,18 +1,21 @@
 {
-    "version":  "1.1.1",
+    "version":  "1.1.2",
     "notes":  [
-                  "Use the Vita Link photo for every desktop taskbar window, including Event Calendar and Intake Packet."
+                  "Keep active staff sessions signed in and return timed-out sessions to Login instead of showing an unknown user or role.",
+                  "Add Sleep Spot search across the Referral Queue, Guest Log, and Restricted tabs.",
+                  "Simplify the Sleep Spot Guest Log by removing Stay ID and Profile ID.",
+                  "Add a Restricted tab with optional comments plus the date and staff member who marked each restriction."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.1.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.1.jar",
-                    "jarSha256":  "DAD9CB985BEC58E1CFEB049C4494712B5460BE1CCE8B96C367F30676D2FA5D45",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.2.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.2.jar",
+                    "jarSha256":  "10A74BC11D67C0AB30884F0E05F51F829C5EABDD572C0FA71010DB7D4BDF5DFF",
                     "installerUrl":  "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.1.jar",
-                  "jarSha256":  "DAD9CB985BEC58E1CFEB049C4494712B5460BE1CCE8B96C367F30676D2FA5D45"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.2.jar",
+                  "jarSha256":  "10A74BC11D67C0AB30884F0E05F51F829C5EABDD572C0FA71010DB7D4BDF5DFF"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

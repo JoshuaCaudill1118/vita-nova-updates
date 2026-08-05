@@ -1,26 +1,23 @@
 {
-    "version": "1.1.3",
-    "notes": [
-        "Auto-match a unique returning youth when identity details match and either phone or email is missing; contact conflicts and ambiguous identities still require staff review.",
-        "Reuse a single matching open intake packet instead of creating another packet for the same youth.",
-        "Block intake creation when multiple open matches exist and identify the packet IDs staff need to review.",
-        "Add database-level concurrency safeguards against simultaneous duplicate intake packet creation without deleting or merging existing records.",
-        "Add Sleep Spot search, hide internal Guest Log IDs, and track restricted youth with optional staff comments.",
-        "Keep active staff sessions signed in and return expired sessions to Login after genuine inactivity."
-    ],
-    "windows": {
-        "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.3.jar",
-        "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.3.jar",
-        "jarSha256": "5E95DAB936F9E711C9DCA09BC1CCDF637F07D60DAFFED4D7B7F740D2F64C1324",
-        "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
-    },
-    "macos": {
-        "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-        "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.3.jar",
-        "jarSha256": "5E95DAB936F9E711C9DCA09BC1CCDF637F07D60DAFFED4D7B7F740D2F64C1324"
-    },
-    "baseline": {
-        "rollbackTag": "safe-1.0.169",
-        "notes": "safe-1.0.169 remains the rollback/reference baseline."
-    }
+    "version":  "1.1.4",
+    "notes":  [
+                  "Prevents duplicate profiles, bus passes, referrals, health signups, and assessment packets during repeated or concurrent saves.",
+                  "Makes new assessment packet and document creation atomic so partial saves do not leave orphaned records.",
+                  "Adds referral search and filters, hides internal database IDs on staff dashboards, and requires review when profile matching is ambiguous."
+              ],
+    "windows":  {
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.4.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.4.jar",
+                    "jarSha256":  "2DAF832037D928CC3CC25EB2EB6F01709B6D6A6C348B66853300F2E03E1F153D",
+                    "installerUrl":  "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
+                },
+    "macos":  {
+                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.4.jar",
+                  "jarSha256":  "2DAF832037D928CC3CC25EB2EB6F01709B6D6A6C348B66853300F2E03E1F153D"
+              },
+    "baseline":  {
+                     "rollbackTag":  "safe-1.0.169",
+                     "notes":  "safe-1.0.169 remains the rollback/reference baseline."
+                 }
 }

@@ -1,21 +1,23 @@
 {
-    "version": "1.1.2",
+    "version": "1.1.3",
     "notes": [
-        "Keep active staff sessions signed in and return timed-out sessions to Login instead of showing an unknown user or role.",
-        "Add Sleep Spot search across the Referral Queue, Guest Log, and Restricted tabs.",
-        "Simplify the Sleep Spot Guest Log by removing Stay ID and Profile ID.",
-        "Add a Restricted tab with optional comments plus the date and staff member who marked each restriction."
+        "Auto-match a unique returning youth when identity details match and either phone or email is missing; contact conflicts and ambiguous identities still require staff review.",
+        "Reuse a single matching open intake packet instead of creating another packet for the same youth.",
+        "Block intake creation when multiple open matches exist and identify the packet IDs staff need to review.",
+        "Add database-level concurrency safeguards against simultaneous duplicate intake packet creation without deleting or merging existing records.",
+        "Add Sleep Spot search, hide internal Guest Log IDs, and track restricted youth with optional staff comments.",
+        "Keep active staff sessions signed in and return expired sessions to Login after genuine inactivity."
     ],
     "windows": {
-        "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.2.jar",
-        "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.2.jar",
-        "jarSha256": "10A74BC11D67C0AB30884F0E05F51F829C5EABDD572C0FA71010DB7D4BDF5DFF",
+        "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.3.jar",
+        "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.3.jar",
+        "jarSha256": "5E95DAB936F9E711C9DCA09BC1CCDF637F07D60DAFFED4D7B7F740D2F64C1324",
         "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
     },
     "macos": {
         "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-        "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.2.jar",
-        "jarSha256": "10A74BC11D67C0AB30884F0E05F51F829C5EABDD572C0FA71010DB7D4BDF5DFF"
+        "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.3.jar",
+        "jarSha256": "5E95DAB936F9E711C9DCA09BC1CCDF637F07D60DAFFED4D7B7F740D2F64C1324"
     },
     "baseline": {
         "rollbackTag": "safe-1.0.169",

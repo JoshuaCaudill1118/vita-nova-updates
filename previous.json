@@ -1,20 +1,22 @@
 {
-    "version":  "1.1.6",
+    "version":  "1.1.7",
     "notes":  [
-                  "Prevents duplicate intake packets across punctuation, profile, and concurrent-session variations.",
-                  "Requires profile reconciliation when canonical intake identity matches conflicting profile IDs.",
-                  "Adds administrator password reset delivery history with Gmail/SMTP provider message IDs and outcomes."
+                  "Harden DigitalOcean with key-only deployment access, Fail2ban, non-root containers, memory limits, and rotated logs.",
+                  "Add encrypted verified backups, daily/weekly/monthly retention, restore rehearsal, and off-server backup verification.",
+                  "Add database-aware health checks and external production monitoring.",
+                  "Upgrade Java runtime and compatible dependencies, and reduce GitHub Actions artifact retention.",
+                  "Preserve all duplicate-prevention, password-reset, notification, Sleep Spot, and workflow safeguards from prior releases."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.6.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.6.jar",
-                    "jarSha256":  "9B1050E1CB1E4EB106DB82BB5A37F9031F605BDF6B63EFBE9E61E349146F0C7D",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.7.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.7.jar",
+                    "jarSha256":  "EEEB64F2952F22E0B37BB8C91392FF7C88123884CE2953B8EA0A91283FF2936C",
                     "installerUrl":  "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.6.jar",
-                  "jarSha256":  "9B1050E1CB1E4EB106DB82BB5A37F9031F605BDF6B63EFBE9E61E349146F0C7D"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.7.jar",
+                  "jarSha256":  "EEEB64F2952F22E0B37BB8C91392FF7C88123884CE2953B8EA0A91283FF2936C"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

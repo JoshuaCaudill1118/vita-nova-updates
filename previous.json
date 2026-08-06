@@ -1,20 +1,20 @@
 {
-    "version":  "1.1.5",
+    "version":  "1.1.6",
     "notes":  [
-                  "Unread notifications now appear first, with newest items first.",
-                  "Notification dates sort correctly across legacy and current formats.",
-                  "Marking a notification read is scoped to the signed-in user."
+                  "Prevents duplicate intake packets across punctuation, profile, and concurrent-session variations.",
+                  "Requires profile reconciliation when canonical intake identity matches conflicting profile IDs.",
+                  "Adds administrator password reset delivery history with Gmail/SMTP provider message IDs and outcomes."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.5.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.5.jar",
-                    "jarSha256":  "E42127B0EFF216B0FF5F24DB161B043E1F8520CB48D1FCEAC8F0E3587A74D53B",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.6.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.6.jar",
+                    "jarSha256":  "9B1050E1CB1E4EB106DB82BB5A37F9031F605BDF6B63EFBE9E61E349146F0C7D",
                     "installerUrl":  "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.5.jar",
-                  "jarSha256":  "E42127B0EFF216B0FF5F24DB161B043E1F8520CB48D1FCEAC8F0E3587A74D53B"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.6.jar",
+                  "jarSha256":  "9B1050E1CB1E4EB106DB82BB5A37F9031F605BDF6B63EFBE9E61E349146F0C7D"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

@@ -1,18 +1,18 @@
 {
-    "version":  "1.1.11",
+    "version":  "1.1.12",
     "notes":  [
-                  "Hide merged duplicate profiles from Profile Dashboard lists, including when Include Archived is selected."
+                  "Keep all merged duplicate profiles out of the Profile Dashboard, including records merged under older archive labels."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.11.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.11.jar",
-                    "jarSha256":  "9D67137B6472821BE6F6273E267FF36E4D4AFA790B3EFB4516DA6120D0B1F8E7",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.12.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.12.jar",
+                    "jarSha256":  "C14F20F16805099A7282202FEA5C3E78C02633FB0D76D92170993391B710108F",
                     "installerUrl":  "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.11.jar",
-                  "jarSha256":  "9D67137B6472821BE6F6273E267FF36E4D4AFA790B3EFB4516DA6120D0B1F8E7"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.12.jar",
+                  "jarSha256":  "C14F20F16805099A7282202FEA5C3E78C02633FB0D76D92170993391B710108F"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

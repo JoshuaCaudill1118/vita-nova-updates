@@ -1,20 +1,20 @@
 {
-    "version":  "1.1.8",
+    "version":  "1.1.9",
     "notes":  [
-                  "Prevent application deployments from recreating or updating the PostgreSQL container.",
-                  "Require the new app container to be healthy and externally reachable before replacing Caddy.",
-                  "Include all Vita Link 1.1.7 operational hardening, backup, monitoring, dependency, and workflow safeguards."
+                  "Limit each youth to one profile photo and remove older surplus copies while retaining the newest photo.",
+                  "Prevent duplicate youth profiles when birth dates are missing and enforce active profile identity uniqueness.",
+                  "Include all non-deleted staff except Joshua Caudill in Staff Usage."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.8.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.8.jar",
-                    "jarSha256":  "7C79C545C6AAB0E9B6C6A269409D547384965EECCF584F3705E5502AABCAE0D9",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.9.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.9.jar",
+                    "jarSha256":  "E4F62312A63D1F579CD9EB6550F7BF3F61951BDBB8386957D56920FC45993D4E",
                     "installerUrl":  "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.8.jar",
-                  "jarSha256":  "7C79C545C6AAB0E9B6C6A269409D547384965EECCF584F3705E5502AABCAE0D9"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.9.jar",
+                  "jarSha256":  "E4F62312A63D1F579CD9EB6550F7BF3F61951BDBB8386957D56920FC45993D4E"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

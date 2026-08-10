@@ -1,20 +1,18 @@
 {
-    "version":  "1.1.9",
+    "version":  "1.1.10",
     "notes":  [
-                  "Limit each youth to one profile photo and remove older surplus copies while retaining the newest photo.",
-                  "Prevent duplicate youth profiles when birth dates are missing and enforce active profile identity uniqueness.",
-                  "Include all non-deleted staff except Joshua Caudill in Staff Usage."
+                  "Render the typed youth name as a handwritten signature on RHY Services Plans."
               ],
     "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.9.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.9.jar",
-                    "jarSha256":  "E4F62312A63D1F579CD9EB6550F7BF3F61951BDBB8386957D56920FC45993D4E",
+                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.10.jar",
+                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.10.jar",
+                    "jarSha256":  "714F3A1E478AA179685A23A83BA20B3824D58E31255F8AB7131D4504B8D7E024",
                     "installerUrl":  "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
                 },
     "macos":  {
                   "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.9.jar",
-                  "jarSha256":  "E4F62312A63D1F579CD9EB6550F7BF3F61951BDBB8386957D56920FC45993D4E"
+                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.10.jar",
+                  "jarSha256":  "714F3A1E478AA179685A23A83BA20B3824D58E31255F8AB7131D4504B8D7E024"
               },
     "baseline":  {
                      "rollbackTag":  "safe-1.0.169",

@@ -1,20 +1,21 @@
 {
-  "version": "1.1.13",
+  "version": "1.1.14",
   "notes": [
-    "Replace Education check-ins with a separate GED Program sign-in using youth name and birth date, migrate prior Education activity, and add GED attendance and service reports.",
-    "Add a Youth Log date-filter button and Shift-click shortcuts to the selected youth profile or event.",
-    "Add an eye button to the staff login screen so staff can show or hide the password they entered."
+    "Change youth check-in to an optional Event Signup. Services are recorded only when staff deliver them through the tablet portal.",
+    "Keep GED attendance separate from regular check-in and service delivery, and remove GED Program from the services received list.",
+    "Update dashboards and reports to use confirmed service delivery, event signups, check-ins, and GED attendance; retire requested-versus-received reports.",
+    "Repair desktop version detection so Vita Link completes the 1.1.14 automatic update correctly."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.13.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.13.jar",
-    "jarSha256": "B0CA4A01C16D3E173FAC4FD475394752628F2465A5AAADF4462A18B18562742F",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.14.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.14.jar",
+    "jarSha256": "50BD60ACF4261205C876777D28DEEC319C9104A46FD5086DF91D9146F2C45BFB",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.13.jar",
-    "jarSha256": "B0CA4A01C16D3E173FAC4FD475394752628F2465A5AAADF4462A18B18562742F"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.14.jar",
+    "jarSha256": "50BD60ACF4261205C876777D28DEEC319C9104A46FD5086DF91D9146F2C45BFB"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

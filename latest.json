@@ -10,13 +10,13 @@
   "windows": {
     "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.15.jar",
     "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.15.jar",
-    "jarSha256": "75074545D02D1C4866D8032060EFE00F6E2747AE6C15D1498A264584D90EC2C8",
+    "jarSha256": "4741C5E9FBB885A0359B377ACB713637CB556F54706D5B836845A56A4EB31698",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
     "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.15.jar",
-    "jarSha256": "75074545D02D1C4866D8032060EFE00F6E2747AE6C15D1498A264584D90EC2C8"
+    "jarSha256": "4741C5E9FBB885A0359B377ACB713637CB556F54706D5B836845A56A4EB31698"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

@@ -1,21 +1,23 @@
 {
-    "version":  "1.1.12",
-    "notes":  [
-                  "Keep all merged duplicate profiles out of the Profile Dashboard, including records merged under older archive labels."
-              ],
-    "windows":  {
-                    "url":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.12.jar",
-                    "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.12.jar",
-                    "jarSha256":  "C14F20F16805099A7282202FEA5C3E78C02633FB0D76D92170993391B710108F",
-                    "installerUrl":  "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
-                },
-    "macos":  {
-                  "url":  "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-                  "jarUrl":  "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.12.jar",
-                  "jarSha256":  "C14F20F16805099A7282202FEA5C3E78C02633FB0D76D92170993391B710108F"
-              },
-    "baseline":  {
-                     "rollbackTag":  "safe-1.0.169",
-                     "notes":  "safe-1.0.169 remains the rollback/reference baseline."
-                 }
+  "version": "1.1.13",
+  "notes": [
+    "Replace Education check-ins with a separate GED Program sign-in using youth name and birth date, migrate prior Education activity, and add GED attendance and service reports.",
+    "Add a Youth Log date-filter button and Shift-click shortcuts to the selected youth profile or event.",
+    "Add an eye button to the staff login screen so staff can show or hide the password they entered."
+  ],
+  "windows": {
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.13.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.13.jar",
+    "jarSha256": "B0CA4A01C16D3E173FAC4FD475394752628F2465A5AAADF4462A18B18562742F",
+    "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
+  },
+  "macos": {
+    "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.13.jar",
+    "jarSha256": "B0CA4A01C16D3E173FAC4FD475394752628F2465A5AAADF4462A18B18562742F"
+  },
+  "baseline": {
+    "rollbackTag": "safe-1.0.169",
+    "notes": "safe-1.0.169 remains the rollback/reference baseline."
+  }
 }

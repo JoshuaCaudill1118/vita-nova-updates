@@ -3,6 +3,7 @@
   "notes": [
     "Replace the unsupported password eye glyph with a reliable Show or Hide password button.",
     "Add From and Through date filters to the Youth Log so staff can review a full date range.",
+    "Make Youth Log Shift-click open the Event Dashboard using only the event name.",
     "Redesign Today's Operations Board around current check-ins, services actually delivered, event signups, and separate GED attendance.",
     "Display Event Signup without an Optional suffix while continuing to allow check-in without an event."
   ],

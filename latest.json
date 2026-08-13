@@ -1,21 +1,19 @@
 {
-  "version": "1.1.19",
+  "version": "1.1.20",
   "notes": [
-    "Show only attended events in the Youth Log Event Signup column while keeping received services separate.",
-    "Allow RHY Services Plan start dates to be edited and add a Program filter to Program Enrollment & Exits.",
-    "Show today's received services in My Work only for youth assigned to the signed-in staff member.",
-    "Accept report date ranges entered with either slashes or dashes."
+    "Open IT Support in a larger, monitor-aware window so ticket details and management controls fit more comfortably.",
+    "Give the Ticket Queue detail and reply area more vertical room while keeping the ticket list visible."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.19.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.19.jar",
-    "jarSha256": "46F3C351B96390CE86D05386E5A2B395EBA847B576C38AED6E8A4D4C2A046A15",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.20.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.20.jar",
+    "jarSha256": "1FDAA2707C4BBA7CB4CC29D56C2EF922D74EA138F7AF1735CE0F0D5570E22CD8",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.19.jar",
-    "jarSha256": "46F3C351B96390CE86D05386E5A2B395EBA847B576C38AED6E8A4D4C2A046A15"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.20.jar",
+    "jarSha256": "1FDAA2707C4BBA7CB4CC29D56C2EF922D74EA138F7AF1735CE0F0D5570E22CD8"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

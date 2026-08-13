@@ -1,21 +1,21 @@
 {
-  "version": "1.1.16",
+  "version": "1.1.17",
   "notes": [
-    "Add Program Youth & Events directly next to Program Summary under Youth Operations.",
-    "Show enrolled youth and the events they attended, with an independent case-manager filter and the dashboard date range.",
-    "Keep program youth visible when they have no attended event in the selected date range.",
-    "Open assigned events, managed youth, and Vita Link activity by double-clicking a staff member in Staff Adoption."
+    "Show every event in the Youth Log event filter and use checkboxes to select more than one event.",
+    "Apply Youth Log search, date, event, and quick filters only to History so the live Currently Checked In list stays complete.",
+    "Remove the Long Wait quick filter from Youth Log.",
+    "Keep all new-youth approval actions visible on smaller screens and at higher Windows display scaling."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.16.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.16.jar",
-    "jarSha256": "8BA61CEF575803271073BC1857F3677E32466A3CF71E5650C6B7B28168480185",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.17.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.17.jar",
+    "jarSha256": "E6BAD03113B9BD9547F29210D7C2D464453B75F1E48E727983D6D1C19BCD3BB2",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.16.jar",
-    "jarSha256": "8BA61CEF575803271073BC1857F3677E32466A3CF71E5650C6B7B28168480185"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.17.jar",
+    "jarSha256": "E6BAD03113B9BD9547F29210D7C2D464453B75F1E48E727983D6D1C19BCD3BB2"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

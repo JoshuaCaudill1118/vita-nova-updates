@@ -1,19 +1,20 @@
 {
-  "version": "1.1.20",
+  "version": "1.1.21",
   "notes": [
-    "Open IT Support in a larger, monitor-aware window so ticket details and management controls fit more comfortably.",
-    "Give the Ticket Queue detail and reply area more vertical room while keeping the ticket list visible."
+    "Show one summarized row per youth in Program Youth & Events, instead of repeating a youth for every attended event.",
+    "Double-click a youth to review their full attended-event history for the active report date range.",
+    "Keep case-manager, youth-scope, and report date filters consistent between the youth summary and event detail views."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.20.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.20.jar",
-    "jarSha256": "1FDAA2707C4BBA7CB4CC29D56C2EF922D74EA138F7AF1735CE0F0D5570E22CD8",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.21.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.21.jar",
+    "jarSha256": "0CC6BDC350B9021CBAA8120F97F7A7482476D8A73A4E93674FED507E53924BA1",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.20.jar",
-    "jarSha256": "1FDAA2707C4BBA7CB4CC29D56C2EF922D74EA138F7AF1735CE0F0D5570E22CD8"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.21.jar",
+    "jarSha256": "0CC6BDC350B9021CBAA8120F97F7A7482476D8A73A4E93674FED507E53924BA1"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

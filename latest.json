@@ -1,20 +1,19 @@
 {
-  "version": "1.1.21",
+  "version": "1.1.22",
   "notes": [
-    "Show one summarized row per youth in Program Youth & Events, instead of repeating a youth for every attended event.",
-    "Double-click a youth to review their full attended-event history for the active report date range.",
-    "Keep case-manager, youth-scope, and report date filters consistent between the youth summary and event detail views."
+    "Correct the internal Vita Link version so the completed 1.1.21 update is recognized properly and the update reminder does not repeat.",
+    "Retain the one-row-per-youth Program Youth & Events report and its double-click event-history view."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.21.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.21.jar",
-    "jarSha256": "0CC6BDC350B9021CBAA8120F97F7A7482476D8A73A4E93674FED507E53924BA1",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.22.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.22.jar",
+    "jarSha256": "26FAC41CC832FA8F6F2972D68758101DFAACB7FB155863B825C70914312CAA02",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.21.jar",
-    "jarSha256": "0CC6BDC350B9021CBAA8120F97F7A7482476D8A73A4E93674FED507E53924BA1"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.22.jar",
+    "jarSha256": "26FAC41CC832FA8F6F2972D68758101DFAACB7FB155863B825C70914312CAA02"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

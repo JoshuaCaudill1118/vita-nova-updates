@@ -1,21 +1,20 @@
 {
-  "version": "1.1.17",
+  "version": "1.1.18",
   "notes": [
-    "Show every event in the Youth Log event filter and use checkboxes to select more than one event.",
-    "Apply Youth Log search, date, event, and quick filters only to History so the live Currently Checked In list stays complete.",
-    "Remove the Long Wait quick filter from Youth Log.",
-    "Keep all new-youth approval actions visible on smaller screens and at higher Windows display scaling."
+    "Restore pending-youth birth-date and age handling so Pending Check-In Verification opens and works normally.",
+    "Remove the erroneous decompilation failure that appeared after selecting a pending youth.",
+    "Keep a usable ticket list visible above ticket details in the IT Support queue."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.17.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.17.jar",
-    "jarSha256": "E6BAD03113B9BD9547F29210D7C2D464453B75F1E48E727983D6D1C19BCD3BB2",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.18.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.18.jar",
+    "jarSha256": "45249C7D87467EC1E4EA444FA5F89C54CF3B779C1C5F8AEB031E2B58687F0C86",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.17.jar",
-    "jarSha256": "E6BAD03113B9BD9547F29210D7C2D464453B75F1E48E727983D6D1C19BCD3BB2"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.18.jar",
+    "jarSha256": "45249C7D87467EC1E4EA444FA5F89C54CF3B779C1C5F8AEB031E2B58687F0C86"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

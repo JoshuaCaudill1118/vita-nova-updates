@@ -1,22 +1,22 @@
 {
-  "version": "1.1.23",
+  "version": "1.1.24",
   "notes": [
-    "Correct Today's Operations Board so Services Delivered Today counts services when staff recorded them, including visits whose service date was left on the prior day.",
+    "Correct Today's Operations Board so Services Delivered Today follows the youth's visit date even when a tablet carried forward the prior day's service date.",
     "Add a Services to Housing report that follows one youth per row from homelessness through verified or inferred housing outcomes, with 180-day service and follow-up context.",
     "Prompt staff to record an effective date and verification details when a youth's housing status changes.",
     "Keep youth with an active program enrollment from being automatically archived.",
     "Fit the Approve As New Youth confirmation to the available screen and prevent a preferred-name match from being approved as a second active profile."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.23.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.23.jar",
-    "jarSha256": "E8DFC1373A53D08D2CE014FE205719C4E1AC078B0AF5DD7760E6DE3CC4E3E5B2",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.24.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.24.jar",
+    "jarSha256": "A1BCCD9D7D577D38E7C59091F6E8088F47596730245B6DBCD1098575F7BF84B9",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.23.jar",
-    "jarSha256": "E8DFC1373A53D08D2CE014FE205719C4E1AC078B0AF5DD7760E6DE3CC4E3E5B2"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.24.jar",
+    "jarSha256": "A1BCCD9D7D577D38E7C59091F6E8088F47596730245B6DBCD1098575F7BF84B9"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

@@ -1,24 +1,19 @@
 {
-  "version": "1.1.26",
+  "version": "1.1.27",
   "notes": [
-    "Keep Profile Dashboard program selections and Program Enrollment records synchronized in both directions.",
-    "Add GED Program to the Profile Dashboard program list while keeping it separate from youth service and check-in options.",
-    "Add a print-ready Completed Intakes report under Housing & Intake.",
-    "Add Print Report to the Reports Dashboard so the current report prints with its active date range, youth scope, case-manager selection, search, sort, and visible columns.",
-    "Add a Services to Housing report that follows one youth per row from homelessness through verified or inferred housing outcomes, with 180-day service and follow-up context.",
-    "Prompt staff to record an effective date and verification details when a youth's housing status changes.",
-    "Keep youth with an active program enrollment from being automatically archived."
+    "Fix the error that prevented Today's Operations Board from opening.",
+    "Restore the Pending Check-Ins count while preserving the current Services Delivered and GED Attendance views."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.26.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.26.jar",
-    "jarSha256": "31BC41D0F0258AE49E99C3D7728F9549D8B531EC628F74F31AF3DFD25C3AB8D1",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.27.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.27.jar",
+    "jarSha256": "5140E4151CB9375C95D23969ED3BE00DA3F8E67DF79ACB4AA683825F73F9F6BB",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.26.jar",
-    "jarSha256": "31BC41D0F0258AE49E99C3D7728F9549D8B531EC628F74F31AF3DFD25C3AB8D1"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.27.jar",
+    "jarSha256": "5140E4151CB9375C95D23969ED3BE00DA3F8E67DF79ACB4AA683825F73F9F6BB"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

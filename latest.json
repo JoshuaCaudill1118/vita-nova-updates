@@ -1,19 +1,19 @@
 {
-  "version": "1.1.28",
+  "version": "1.1.29",
   "notes": [
-    "Hide the IT Support Ticket button now that the support contract has ended.",
-    "Keep the existing ticket workflow and records intact so IT Support can be restored later with the visibility setting."
+    "Make Update RHY Plan create a new linked re-evaluation form instead of replacing the selected primary plan.",
+    "Prefill the prior RHY answers, require a new youth signature, preserve every earlier PDF, and keep the forms in one numbered plan series."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.28.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.28.jar",
-    "jarSha256": "CD173BAB2BC57389B283B68F03C2F51B9AEE6AA383FA214ECCE87E929DB45A16",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.29.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.29.jar",
+    "jarSha256": "4CDE65040ECCAE3A45843A2920E4DEBCB7F519661802BA0CB59497B2C3868C26",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.28.jar",
-    "jarSha256": "CD173BAB2BC57389B283B68F03C2F51B9AEE6AA383FA214ECCE87E929DB45A16"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.29.jar",
+    "jarSha256": "4CDE65040ECCAE3A45843A2920E4DEBCB7F519661802BA0CB59497B2C3868C26"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

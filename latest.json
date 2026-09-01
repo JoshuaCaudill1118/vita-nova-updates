@@ -1,20 +1,20 @@
 {
-  "version": "1.1.30",
+  "version": "1.1.31",
   "notes": [
-    "Add Fill Authorization Form beside Attach Signed Document and Open Document in Consent & Release Manager.",
-    "Prefill page 21 from the youth and consent, generate the official one-page PDF, and attach it to the selected consent or release.",
-    "Preserve prior profile documents when staff replace an existing consent attachment."
+    "Allow Fill Authorization Form to create a brand-new consent or release when no existing row is selected.",
+    "Create the consent record and generated page-21 PDF in one transaction so neither is left partially saved.",
+    "Keep the existing workflow for replacing the attachment on a selected consent or release."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.30.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.30.jar",
-    "jarSha256": "587D5BD940C7A44699704EAE25ED7678DD26143056B98BE415D450D13F749991",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.31.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.31.jar",
+    "jarSha256": "B79ABFF084A55A1FB0228C6FA2033DB200B5F837D28A4C7AB32FD1AA5A33C9EA",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.30.jar",
-    "jarSha256": "587D5BD940C7A44699704EAE25ED7678DD26143056B98BE415D450D13F749991"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.31.jar",
+    "jarSha256": "B79ABFF084A55A1FB0228C6FA2033DB200B5F837D28A4C7AB32FD1AA5A33C9EA"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

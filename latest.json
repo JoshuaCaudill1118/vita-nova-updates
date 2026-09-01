@@ -1,19 +1,20 @@
 {
-  "version": "1.1.29",
+  "version": "1.1.30",
   "notes": [
-    "Make Update RHY Plan create a new linked re-evaluation form instead of replacing the selected primary plan.",
-    "Prefill the prior RHY answers, require a new youth signature, preserve every earlier PDF, and keep the forms in one numbered plan series."
+    "Add Fill Authorization Form beside Attach Signed Document and Open Document in Consent & Release Manager.",
+    "Prefill page 21 from the youth and consent, generate the official one-page PDF, and attach it to the selected consent or release.",
+    "Preserve prior profile documents when staff replace an existing consent attachment."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.29.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.29.jar",
-    "jarSha256": "4CDE65040ECCAE3A45843A2920E4DEBCB7F519661802BA0CB59497B2C3868C26",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.30.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.30.jar",
+    "jarSha256": "587D5BD940C7A44699704EAE25ED7678DD26143056B98BE415D450D13F749991",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.29.jar",
-    "jarSha256": "4CDE65040ECCAE3A45843A2920E4DEBCB7F519661802BA0CB59497B2C3868C26"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.30.jar",
+    "jarSha256": "587D5BD940C7A44699704EAE25ED7678DD26143056B98BE415D450D13F749991"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

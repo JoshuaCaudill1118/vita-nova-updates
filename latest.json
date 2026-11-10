@@ -1,20 +1,19 @@
 {
-  "version": "1.1.31",
+  "version": "1.1.32",
   "notes": [
-    "Allow Fill Authorization Form to create a brand-new consent or release when no existing row is selected.",
-    "Create the consent record and generated page-21 PDF in one transaction so neither is left partially saved.",
-    "Keep the existing workflow for replacing the attachment on a selected consent or release."
+    "Use at least three recorded check-ins for youth profile totals, demographics, engagement, cohort exports, and profile completeness reports.",
+    "Recheck eligibility on Refresh or F5 so the third check-in adds the profile automatically."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.31.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.31.jar",
-    "jarSha256": "B79ABFF084A55A1FB0228C6FA2033DB200B5F837D28A4C7AB32FD1AA5A33C9EA",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.32.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.32.jar",
+    "jarSha256": "36E342C4188C3CE9C76E24C3DD8671AC6B22326FA907286B5848B67FBE800C57",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.31.jar",
-    "jarSha256": "B79ABFF084A55A1FB0228C6FA2033DB200B5F837D28A4C7AB32FD1AA5A33C9EA"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.32.jar",
+    "jarSha256": "36E342C4188C3CE9C76E24C3DD8671AC6B22326FA907286B5848B67FBE800C57"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

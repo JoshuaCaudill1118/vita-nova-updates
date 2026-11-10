@@ -1,19 +1,19 @@
 {
-  "version": "1.1.33",
+  "version": "1.1.34",
   "notes": [
-    "Include youth with a Case Manager assignment to an active staff account in profile-based reports, including youth with fewer than three check-ins.",
-    "Refresh or press F5 to recheck the current assignment and check-in counts."
+    "A completed Staff profile merge leaves one profile and moves its linked history to the profile you keep.",
+    "A case manager assignment transfers when the retained profile has no assignment."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.33.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.33.jar",
-    "jarSha256": "F10A1733B57555B164D3ECB4710A4F5FBD00028953C5D6E956F2209496161275",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.34.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.34.jar",
+    "jarSha256": "B120A29CA9A175317159FA03E71272C6F01685DED94125A553B031552BF34B09",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.33.jar",
-    "jarSha256": "F10A1733B57555B164D3ECB4710A4F5FBD00028953C5D6E956F2209496161275"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.34.jar",
+    "jarSha256": "B120A29CA9A175317159FA03E71272C6F01685DED94125A553B031552BF34B09"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

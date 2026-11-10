@@ -1,19 +1,19 @@
 {
-  "version": "1.1.32",
+  "version": "1.1.33",
   "notes": [
-    "Use at least three recorded check-ins for youth profile totals, demographics, engagement, cohort exports, and profile completeness reports.",
-    "Recheck eligibility on Refresh or F5 so the third check-in adds the profile automatically."
+    "Include youth with a Case Manager assignment to an active staff account in profile-based reports, including youth with fewer than three check-ins.",
+    "Refresh or press F5 to recheck the current assignment and check-in counts."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.32.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.32.jar",
-    "jarSha256": "36E342C4188C3CE9C76E24C3DD8671AC6B22326FA907286B5848B67FBE800C57",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.33.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.33.jar",
+    "jarSha256": "F10A1733B57555B164D3ECB4710A4F5FBD00028953C5D6E956F2209496161275",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.32.jar",
-    "jarSha256": "36E342C4188C3CE9C76E24C3DD8671AC6B22326FA907286B5848B67FBE800C57"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.33.jar",
+    "jarSha256": "F10A1733B57555B164D3ECB4710A4F5FBD00028953C5D6E956F2209496161275"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

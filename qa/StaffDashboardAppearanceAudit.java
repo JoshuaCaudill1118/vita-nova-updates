@@ -303,7 +303,15 @@ public final class StaffDashboardAppearanceAudit {
         if (!component.isShowing() || component.getWidth() <= 0 || component.getHeight() <= 0) {
             return;
         }
-        if (component instanceof JLabel label && label.getText() != null && !label.getText().startsWith("<html>")) {
+        if (component instanceof JLabel label
+                && label.getClientProperty("vitalink.appearance.wrappedLabelText") instanceof String plain
+                && label.getClientProperty(javax.swing.plaf.basic.BasicHTML.propertyKey) instanceof javax.swing.text.View html) {
+            var insets = label.getInsets();
+            if (html.getPreferredSpan(javax.swing.text.View.X_AXIS) > label.getWidth() - insets.left - insets.right + 1
+                    || html.getPreferredSpan(javax.swing.text.View.Y_AXIS) > label.getHeight() - insets.top - insets.bottom + 1) {
+                clipping.add(plain);
+            }
+        } else if (component instanceof JLabel label && label.getText() != null && !label.getText().startsWith("<html>")) {
             var insets = label.getInsets();
             String shown = SwingUtilities.layoutCompoundLabel(label, label.getFontMetrics(label.getFont()),
                     label.getText(), label.getIcon(), label.getVerticalAlignment(), label.getHorizontalAlignment(),

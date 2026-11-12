@@ -8,6 +8,7 @@ import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 import javax.swing.JTabbedPane;
 import javax.swing.JTextField;
+import javax.swing.MenuSelectionManager;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.text.JTextComponent;
@@ -117,9 +118,12 @@ public final class MacStaffProbe {
             click(robot);
             robot.waitForIdle();
             Thread.sleep(750);
+            shortcut(robot, KeyEvent.VK_A);
+            shortcut(robot, KeyEvent.VK_C);
             onEdt(() -> {
-                field.selectAll();
-                require("Synthetic field".equals(field.getSelectedText()), "Fixture field selection before Control-click");
+                require("Synthetic field".equals(field.getSelectedText()), "Command+A selected the field before Control-click");
+                require("Synthetic field".equals(Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor)),
+                        "Command+C copied the selected text");
                 Toolkit.getDefaultToolkit().getSystemClipboard().setContents(new StringSelection("Fixture pasted text"), null);
                 return null;
             });
@@ -133,8 +137,9 @@ public final class MacStaffProbe {
                 require(item(menu, 1, "Paste").isEnabled(), "Paste available with text");
                 item(menu, 1, "Paste").doClick(0);
                 require("Fixture pasted text".equals(field.getText()), "Clipboard text inserted");
-                menu.setVisible(false);
+                MenuSelectionManager.defaultManager().clearSelectedPath();
                 field.setCaretPosition(0);
+                field.requestFocusInWindow();
                 Toolkit.getDefaultToolkit().getSystemClipboard().setContents(new Transferable() {
                     public DataFlavor[] getTransferDataFlavors() { return new DataFlavor[]{DataFlavor.imageFlavor}; }
                     public boolean isDataFlavorSupported(DataFlavor flavor) { return DataFlavor.imageFlavor.equals(flavor); }
@@ -142,6 +147,11 @@ public final class MacStaffProbe {
                 }, null);
                 return null;
             });
+            robot.waitForIdle();
+            Thread.sleep(750);
+            click(robot);
+            robot.waitForIdle();
+            Thread.sleep(750);
             controlClick(robot);
             require(menuVisible(menu), "Control-click reopened the menu");
             onEdt(() -> {
@@ -181,6 +191,17 @@ public final class MacStaffProbe {
     private static void click(Robot robot) {
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+    }
+
+    private static void shortcut(Robot robot, int key) {
+        robot.keyPress(KeyEvent.VK_META);
+        try {
+            robot.keyPress(key);
+            robot.keyRelease(key);
+        } finally {
+            robot.keyRelease(KeyEvent.VK_META);
+        }
+        robot.waitForIdle();
     }
 
     private static JMenuItem item(JPopupMenu menu, int index, String name) {

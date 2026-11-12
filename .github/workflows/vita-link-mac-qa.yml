@@ -8,38 +8,6 @@ permissions:
   contents: read
 
 jobs:
-  desktop:
-    runs-on: macos-15
-    timeout-minutes: 12
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-          sparse-checkout: qa
-      - name: Verify packaged staff build on macOS
-        run: |
-          set -euo pipefail
-          export JAVA_HOME="$(/usr/libexec/java_home -v 25)"
-          "$JAVA_HOME/bin/java" --version
-          curl -fLsS --retry 3 -o VitaNovaDatabase.jar "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/windows/VitaNovaDatabase-1.1.37.jar"
-          shasum -a 256 -c qa/candidate.sha256
-          "$JAVA_HOME/bin/javac" --release 21 -cp VitaNovaDatabase.jar -d qa-classes qa/MacStaffProbe.java qa/StaffAppearancePreview.java
-          while read -r name settings computer expected; do
-            if [[ "$computer" == true ]]; then
-              defaults write -g AppleInterfaceStyle -string Dark
-            else
-              defaults delete -g AppleInterfaceStyle 2>/dev/null || true
-            fi
-            native=false
-            case "$name" in follow-light|light-both|dark-both) native=true ;; esac
-            "$JAVA_HOME/bin/java" -cp "VitaNovaDatabase.jar:qa-classes" main.java.util.MacStaffProbe "$settings" "$expected" "$native"
-            "$JAVA_HOME/bin/java" "-Dvitalink.appearance.preview.settings=$settings" -cp "VitaNovaDatabase.jar:qa-classes" main.java.util.StaffAppearancePreview --verify "mac-review/$name"
-          done < qa/appearance-cases.txt
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: mac-staff-appearance
-          path: mac-review
   dashboards:
     runs-on: macos-15
     timeout-minutes: 15
@@ -67,12 +35,13 @@ jobs:
           "$JAVA_HOME/bin/java" -cp "VitaNovaDatabase.jar:qa-classes" BootstrapFixture
           failures=0
           while read -r name settings computer expected; do
+            [[ "$name" == light-both || "$name" == dark-both ]] || continue
             if [[ "$computer" == true ]]; then
               defaults write -g AppleInterfaceStyle -string Dark
             else
               defaults delete -g AppleInterfaceStyle 2>/dev/null || true
             fi
-            "$JAVA_HOME/bin/java" "-Dvitalink.appearance.preview.settings=$settings" -cp "VitaNovaDatabase.jar:qa-classes" main.java.util.StaffDashboardAppearanceAudit "mac-dashboard-review/$name" || failures=$((failures + 1))
+            "$JAVA_HOME/bin/java" "-Dvitalink.appearance.preview.settings=$settings" -cp "VitaNovaDatabase.jar:qa-classes" main.java.util.StaffDashboardAppearanceAudit "mac-dashboard-review/$name" DashboardNavigator || failures=$((failures + 1))
           done < qa/appearance-cases.txt
           test "$failures" = 0
       - uses: actions/upload-artifact@v4

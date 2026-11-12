@@ -65,7 +65,7 @@ public final class StaffDashboardAppearanceAudit {
             try {
                 SwingUtilities.invokeAndWait(() -> displayed[0] = open(name, owner));
                 Thread.sleep(280);
-                waitForReportData(name, displayed[0]);
+                waitForDashboardData(name, displayed[0]);
                 SwingUtilities.invokeAndWait(() -> record(name, displayed[0], folder, results));
                 if ("DashboardNavigator".equals(name)) {
                     SwingUtilities.invokeAndWait(() -> verifySettings((JFrame) displayed[0], folder));
@@ -219,19 +219,27 @@ public final class StaffDashboardAppearanceAudit {
         return null;
     }
 
-    private static void waitForReportData(String name, Window window) throws Exception {
-        if (!"ReportDashboard".equals(name)) {
+    private static void waitForDashboardData(String name, Window window) throws Exception {
+        boolean navigator = "DashboardNavigator".equals(name);
+        if (!navigator && !"ReportDashboard".equals(name)) {
             return;
         }
         for (int attempt = 0; attempt < 60; attempt++) {
             boolean[] ready = new boolean[1];
-            SwingUtilities.invokeAndWait(() -> ready[0] = hasReportTimestamp(window));
+            SwingUtilities.invokeAndWait(() -> {
+                if (navigator) {
+                    var refresh = findButton(window, "Refresh Counts");
+                    ready[0] = refresh != null && refresh.isEnabled();
+                } else {
+                    ready[0] = hasReportTimestamp(window);
+                }
+            });
             if (ready[0]) {
                 return;
             }
             Thread.sleep(100);
         }
-        throw new IllegalStateException("The report overview did not finish loading");
+        throw new IllegalStateException(name + " did not finish loading");
     }
 
     private static boolean hasReportTimestamp(Component component) {

@@ -1,18 +1,18 @@
 {
-  "version": "1.1.35",
+  "version": "1.1.36",
   "notes": [
-    "Right-click staff text fields to open a Copy and Paste menu, including intake and RHY service plans."
+    "Choose Select All from a text box menu to select the whole field. Paste is available when the clipboard contains a format the field can accept."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.35.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.35.jar",
-    "jarSha256": "51DC0CFE5D4DFCFB250743CBBD72B060C5DCBE605DC9CEC13903FD5A42ACF236",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.36.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.36.jar",
+    "jarSha256": "149A0CD25CD17D065A430C5496A264F15666350E4FB443C7019C69F94A28BD6A",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.35.jar",
-    "jarSha256": "51DC0CFE5D4DFCFB250743CBBD72B060C5DCBE605DC9CEC13903FD5A42ACF236"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.36.jar",
+    "jarSha256": "149A0CD25CD17D065A430C5496A264F15666350E4FB443C7019C69F94A28BD6A"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

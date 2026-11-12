@@ -1,0 +1,22 @@
+name: Vita Link macOS QA
+
+on:
+  push:
+    branches: [agent/vita-link-appearance-mac-qa]
+
+permissions:
+  contents: read
+
+jobs:
+  desktop:
+    runs-on: macos-15
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify native desktop input is available
+        run: |
+          export JAVA_HOME="$(/usr/libexec/java_home -v 25)"
+          "$JAVA_HOME/bin/java" --version
+          "$JAVA_HOME/bin/java" qa/MacDisplayProbe.java

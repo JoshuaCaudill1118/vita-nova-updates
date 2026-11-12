@@ -1,20 +1,19 @@
 {
-  "version": "1.1.36",
+  "version": "1.1.37",
   "notes": [
-    "Open Appearance Settings beside Account Settings. Vita Link Staff follows the computer by default, with Dark, Colorblind-Friendly, and Low Vision overrides. Reopen the app after saving a change.",
-    "Staff text menus include Select All and enable Paste when the field accepts the clipboard content. Mac Control-click keeps selected text.",
-    "Corrected the distinct youth count for services delivered in Reports."
+    "In Appearance Settings, choose Follow Computer, Light, or Dark. Turn Low Vision and Colorblind-Friendly on or off independently with any theme. Reopen Vita Link Staff after saving.",
+    "Vita Link carries forward your existing appearance preference."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.36.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.36.jar",
-    "jarSha256": "01D1F0B5E9A93E096F99F73EF331096D38F0B6325A0D470990CE249A0AD4D6CE",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.37.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.37.jar",
+    "jarSha256": "F5D8C735917D6F623E85C2845020764BFF3632238B2871DD8F824681B94609D2",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.36.jar",
-    "jarSha256": "01D1F0B5E9A93E096F99F73EF331096D38F0B6325A0D470990CE249A0AD4D6CE"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.37.jar",
+    "jarSha256": "F5D8C735917D6F623E85C2845020764BFF3632238B2871DD8F824681B94609D2"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

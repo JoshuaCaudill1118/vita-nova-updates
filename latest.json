@@ -1,18 +1,20 @@
 {
-  "version": "1.1.35",
+  "version": "1.1.36",
   "notes": [
-    "Right-click staff text fields to open a Copy and Paste menu, including intake and RHY service plans."
+    "Open Appearance Settings beside Account Settings. Vita Link Staff follows the computer by default, with Dark, Colorblind-Friendly, and Low Vision overrides. Reopen the app after saving a change.",
+    "Staff text menus include Select All and enable Paste when the field accepts the clipboard content. Mac Control-click keeps selected text.",
+    "Corrected the distinct youth count for services delivered in Reports."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.35.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.35.jar",
-    "jarSha256": "51DC0CFE5D4DFCFB250743CBBD72B060C5DCBE605DC9CEC13903FD5A42ACF236",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.36.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.36.jar",
+    "jarSha256": "01D1F0B5E9A93E096F99F73EF331096D38F0B6325A0D470990CE249A0AD4D6CE",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.35.jar",
-    "jarSha256": "51DC0CFE5D4DFCFB250743CBBD72B060C5DCBE605DC9CEC13903FD5A42ACF236"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.36.jar",
+    "jarSha256": "01D1F0B5E9A93E096F99F73EF331096D38F0B6325A0D470990CE249A0AD4D6CE"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

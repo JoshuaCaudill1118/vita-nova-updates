@@ -35,24 +35,27 @@ import java.util.prefs.Preferences;
 
 public final class MacStaffProbe {
     public static void main(String[] args) throws Exception {
-        String mode = args[0];
+        String selection = args[0];
+        String[] settingsValues = selection.split(",");
         boolean dark = Boolean.parseBoolean(args[1]);
+        boolean lowVision = Boolean.parseBoolean(settingsValues[1]);
+        boolean colorblind = Boolean.parseBoolean(settingsValues[2]);
         System.setProperty("vitanova.db.url", "jdbc:postgresql://127.0.0.1:1/appearance_probe");
         System.setProperty("vitanova.db.user", "fixture");
         System.setProperty("vitanova.db.password", "synthetic-only");
         Preferences settings = Preferences.userNodeForPackage(DesktopAppearance.class).node("appearance");
-        if ("SYSTEM".equals(mode)) {
-            settings.remove("mode");
-        } else {
-            settings.put("mode", mode);
-        }
+        settings.put("settings", selection);
         settings.flush();
         DesktopAppearance.installLookAndFeel();
         require(DesktopAppearance.style().dark() == dark, "System or override dark appearance");
-        require(DesktopAppearance.style().colorblind() == "COLORBLIND".equals(mode), "Colorblind preference");
-        require(DesktopAppearance.style().lowVision() == "LOW_VISION".equals(mode), "Low Vision preference");
-        if (!dark && !"LOW_VISION".equals(mode)) {
+        require(DesktopAppearance.style().colorblind() == colorblind, "Colorblind preference");
+        require(DesktopAppearance.style().lowVision() == lowVision, "Low Vision preference");
+        if (!dark && !lowVision) {
             require(UIManager.getLookAndFeel().getClass().getName().contains("Aqua"), "Native Aqua appearance");
+        }
+        System.out.println("Verified " + selection + " on macOS with effective dark=" + dark);
+        if (!Boolean.parseBoolean(args[2])) {
+            System.exit(0);
         }
         onEdt(() -> {
             VitaNovaTheme.install();
@@ -65,7 +68,7 @@ public final class MacStaffProbe {
         robot.setAutoDelay(125);
         verify(() -> new IntakePacketFrame(null), robot);
         verify(() -> new RhyServicesPlanFrame(null), robot);
-        System.out.println("Native Mac appearance, Control-click, Select All and clipboard states passed for " + mode + " dark=" + dark);
+        System.out.println("Native Mac Control-click, Select All and clipboard states passed for " + selection + " dark=" + dark);
         System.exit(0);
     }
 

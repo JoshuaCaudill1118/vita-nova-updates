@@ -207,16 +207,28 @@ public final class StaffAppearancePreview {
     }
 
     private static void verifyPalettes() {
-        var light = new DesktopAppearance.ComputerAppearance(false, false, 0.75f);
-        var dark = new DesktopAppearance.ComputerAppearance(true, false, 0.75f);
+        for (var theme : DesktopAppearance.Theme.values()) {
+            for (boolean systemDark : new boolean[]{false, true}) {
+                for (boolean lowVision : new boolean[]{false, true}) {
+                    for (boolean colorblind : new boolean[]{false, true}) {
+                        var settings = new DesktopAppearance.Settings(theme, lowVision, colorblind);
+                        var computer = new DesktopAppearance.ComputerAppearance(systemDark, false, 0.75f);
+                        var resolved = DesktopAppearance.resolve(settings, computer);
+                        boolean expectedDark = theme == DesktopAppearance.Theme.DARK
+                                || (theme == DesktopAppearance.Theme.SYSTEM && systemDark);
+                        if (resolved.dark() != expectedDark || resolved.lowVision() != lowVision
+                                || resolved.colorblind() != colorblind || (lowVision && resolved.minimumScale() < 1.30f)) {
+                            throw new AssertionError("Unexpected appearance for " + settings + " with " + computer);
+                        }
+                    }
+                }
+            }
+        }
         var contrast = new DesktopAppearance.ComputerAppearance(false, true, 1.50f);
-        if (DesktopAppearance.resolve(DesktopAppearance.Mode.SYSTEM, light).dark()
-                || !DesktopAppearance.resolve(DesktopAppearance.Mode.SYSTEM, dark).dark()
-                || !DesktopAppearance.resolve(DesktopAppearance.Mode.DARK, light).dark()
-                || !DesktopAppearance.resolve(DesktopAppearance.Mode.COLORBLIND, dark).colorblind()
-                || DesktopAppearance.resolve(DesktopAppearance.Mode.LOW_VISION, light).minimumScale() < 1.30f
-                || DesktopAppearance.resolve(DesktopAppearance.Mode.SYSTEM, contrast).minimumScale() < 1.50f) {
-            throw new AssertionError("Computer appearance or override did not resolve as expected");
+        var computerDefault = new DesktopAppearance.Settings(DesktopAppearance.Theme.SYSTEM, false, false);
+        var systemContrast = DesktopAppearance.resolve(computerDefault, contrast);
+        if (!systemContrast.lowVision() || systemContrast.minimumScale() < 1.50f) {
+            throw new AssertionError("Computer contrast or text scaling was lost");
         }
         double textMinimum = DesktopAppearance.style().lowVision() ? 7.0 : 4.5;
         requireContrast(VitaNovaTheme.TEXT_PRIMARY, VitaNovaTheme.PAGE_BG, textMinimum, "Primary text");

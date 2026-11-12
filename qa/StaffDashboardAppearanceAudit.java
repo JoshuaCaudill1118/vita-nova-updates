@@ -97,7 +97,7 @@ public final class StaffDashboardAppearanceAudit {
             throw new IllegalStateException("Appearance Settings button must be next to Account Settings");
         }
         var settings = java.util.prefs.Preferences.userNodeForPackage(DesktopAppearance.class).node("appearance-preview");
-        String saved = settings.get("mode", null);
+        String saved = settings.get("settings", null);
         String[] expected = new String[1];
         RuntimeException[] problem = new RuntimeException[1];
         javax.swing.Timer dialogCheck = new javax.swing.Timer(100, event -> {
@@ -109,12 +109,19 @@ public final class StaffDashboardAppearanceAudit {
                 ((javax.swing.Timer) event.getSource()).stop();
                 try {
                     var selector = findSelector(dialog);
-                    if (selector == null || selector.getItemCount() != 4
+                    var lowVision = findCheckBox(dialog, "Low Vision");
+                    var colorblind = findCheckBox(dialog, "Colorblind-Friendly");
+                    if (selector == null || selector.getItemCount() != 3
                             || !selector.getItemAt(0).toString().equals("Follow Computer")
-                            || !selector.getItemAt(1).toString().equals("Dark")
-                            || !selector.getItemAt(2).toString().equals("Colorblind-Friendly")
-                            || !selector.getItemAt(3).toString().equals("Low Vision")) {
-                        throw new IllegalStateException("The appearance mode choices are incomplete");
+                            || !selector.getItemAt(1).toString().equals("Light")
+                            || !selector.getItemAt(2).toString().equals("Dark")
+                            || lowVision == null || colorblind == null) {
+                        throw new IllegalStateException("The theme or independent accessibility controls are incomplete");
+                    }
+                    var initial = new DesktopAppearance.Settings((DesktopAppearance.Theme) selector.getSelectedItem(),
+                            lowVision.isSelected(), colorblind.isSelected());
+                    if (!initial.encode().equals(System.getProperty("vitalink.appearance.preview.settings"))) {
+                        throw new IllegalStateException("The dialog did not show the selected theme and options");
                     }
                     List<String> dialogAudit = new ArrayList<>();
                     record("AppearanceSettings", dialog, folder, dialogAudit);
@@ -122,8 +129,21 @@ public final class StaffDashboardAppearanceAudit {
                         throw new IllegalStateException(dialogAudit.toString());
                     }
                     int next = (selector.getSelectedIndex() + 1) % selector.getItemCount();
-                    expected[0] = ((Enum<?>) selector.getItemAt(next)).name();
+                    lowVision.setSelected(false);
+                    colorblind.setSelected(false);
+                    lowVision.doClick(0);
+                    colorblind.doClick(0);
                     selector.setSelectedIndex(next);
+                    if (!lowVision.isSelected() || !colorblind.isSelected()) {
+                        throw new IllegalStateException("Changing the theme affected the accessibility checkboxes");
+                    }
+                    lowVision.doClick(0);
+                    if (!colorblind.isSelected()) {
+                        throw new IllegalStateException("Changing Low Vision affected Colorblind-Friendly");
+                    }
+                    lowVision.doClick(0);
+                    expected[0] = new DesktopAppearance.Settings((DesktopAppearance.Theme) selector.getSelectedItem(),
+                            true, true).encode();
                     findButton(dialog, "Save").doClick(0);
                 } catch (RuntimeException failure) {
                     problem[0] = failure;
@@ -141,17 +161,32 @@ public final class StaffDashboardAppearanceAudit {
             if (problem[0] != null) {
                 throw problem[0];
             }
-            if (!settings.get("mode", "").equals(expected[0])) {
+            if (!settings.get("settings", "").equals(expected[0])) {
                 throw new IllegalStateException("Saving appearance did not update the local preference");
             }
         } finally {
             dialogCheck.stop();
             if (saved == null) {
-                settings.remove("mode");
+                settings.remove("settings");
             } else {
-                settings.put("mode", saved);
+                settings.put("settings", saved);
             }
         }
+    }
+
+    private static javax.swing.JCheckBox findCheckBox(Component component, String text) {
+        if (component instanceof javax.swing.JCheckBox checkBox && text.equals(checkBox.getText())) {
+            return checkBox;
+        }
+        if (component instanceof Container container) {
+            for (Component child : container.getComponents()) {
+                var checkBox = findCheckBox(child, text);
+                if (checkBox != null) {
+                    return checkBox;
+                }
+            }
+        }
+        return null;
     }
 
     private static javax.swing.JComboBox<?> findSelector(Component component) {

@@ -35,13 +35,14 @@ jobs:
           "$JAVA_HOME/bin/java" -cp "VitaNovaDatabase.jar:qa-classes" BootstrapFixture
           failures=0
           while read -r name settings computer expected; do
-            [[ "$name" == light-both || "$name" == dark-both ]] || continue
             if [[ "$computer" == true ]]; then
               defaults write -g AppleInterfaceStyle -string Dark
             else
               defaults delete -g AppleInterfaceStyle 2>/dev/null || true
             fi
-            "$JAVA_HOME/bin/java" "-Dvitalink.appearance.preview.settings=$settings" -cp "VitaNovaDatabase.jar:qa-classes" main.java.util.StaffDashboardAppearanceAudit "mac-dashboard-review/$name" DashboardNavigator || failures=$((failures + 1))
+            args=("mac-dashboard-review/$name")
+            if [[ "$name" != light-both && "$name" != dark-both ]]; then args+=(DashboardNavigator); fi
+            "$JAVA_HOME/bin/java" "-Dvitalink.appearance.preview.settings=$settings" -cp "VitaNovaDatabase.jar:qa-classes" main.java.util.StaffDashboardAppearanceAudit "${args[@]}" || failures=$((failures + 1))
           done < qa/appearance-cases.txt
           test "$failures" = 0
       - uses: actions/upload-artifact@v4

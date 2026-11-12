@@ -123,6 +123,15 @@ public final class StaffDashboardAppearanceAudit {
                     if (!initial.encode().equals(System.getProperty("vitalink.appearance.preview.settings"))) {
                         throw new IllegalStateException("The dialog did not show the selected theme and options");
                     }
+                    var save = findButton(dialog, "Save");
+                    var cancel = findButton(dialog, "Cancel");
+                    var root = dialog.getRootPane();
+                    var visible = new Rectangle(0, 0, root.getWidth(), root.getHeight());
+                    for (var control : List.of(selector, lowVision, colorblind, save, cancel)) {
+                        if (!visible.contains(SwingUtilities.convertRectangle(control.getParent(), control.getBounds(), root))) {
+                            throw new IllegalStateException("Appearance Settings placed a control outside the dialog");
+                        }
+                    }
                     List<String> dialogAudit = new ArrayList<>();
                     record("AppearanceSettings", dialog, folder, dialogAudit);
                     if (dialogAudit.stream().anyMatch(line -> !line.contains("0 low-contrast text controls | 0 clipped labels or controls"))) {
@@ -144,7 +153,7 @@ public final class StaffDashboardAppearanceAudit {
                     lowVision.doClick(0);
                     expected[0] = new DesktopAppearance.Settings((DesktopAppearance.Theme) selector.getSelectedItem(),
                             true, true).encode();
-                    findButton(dialog, "Save").doClick(0);
+                    save.doClick(0);
                 } catch (RuntimeException failure) {
                     problem[0] = failure;
                     dialog.dispose();

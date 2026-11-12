@@ -15,8 +15,34 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
-      - name: Verify native desktop input is available
+          sparse-checkout: qa
+      - name: Verify packaged staff build on macOS
         run: |
+          set -euo pipefail
           export JAVA_HOME="$(/usr/libexec/java_home -v 25)"
           "$JAVA_HOME/bin/java" --version
-          "$JAVA_HOME/bin/java" qa/MacDisplayProbe.java
+          curl -fLsS --retry 3 -o VitaNovaDatabase.jar "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/windows/VitaNovaDatabase-1.1.36.jar"
+          shasum -a 256 -c qa/candidate.sha256
+          "$JAVA_HOME/bin/javac" --release 21 -cp VitaNovaDatabase.jar -d qa-classes qa/MacStaffProbe.java qa/StaffAppearancePreview.java
+          while read -r name mode computer expected; do
+            if [[ "$computer" == dark ]]; then
+              defaults write -g AppleInterfaceStyle -string Dark
+            else
+              defaults delete -g AppleInterfaceStyle 2>/dev/null || true
+            fi
+            "$JAVA_HOME/bin/java" -cp "VitaNovaDatabase.jar:qa-classes" main.java.util.MacStaffProbe "$mode" "$expected"
+            "$JAVA_HOME/bin/java" "-Dvitalink.appearance.preview.mode=$mode" -cp "VitaNovaDatabase.jar:qa-classes" main.java.util.StaffAppearancePreview --verify "mac-review/$name"
+          done <<'MODES'
+          follow-light SYSTEM light false
+          follow-dark SYSTEM dark true
+          dark DARK light true
+          colorblind-light COLORBLIND light false
+          colorblind-dark COLORBLIND dark true
+          low-vision-light LOW_VISION light false
+          low-vision-dark LOW_VISION dark true
+          MODES
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mac-staff-appearance
+          path: mac-review

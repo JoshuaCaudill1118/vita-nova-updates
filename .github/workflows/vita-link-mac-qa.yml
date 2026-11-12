@@ -2,24 +2,27 @@ name: Vita Link macOS QA
 
 on:
   push:
-    branches: [agent/vita-link-appearance-mac-qa]
+    branches: [agent/vita-link-appearance-mac-intel-qa]
 
 permissions:
   contents: read
 
 jobs:
   desktop:
-    runs-on: macos-15
+    runs-on: macos-15-intel
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
           sparse-checkout: qa
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
       - name: Verify packaged staff build on macOS
         run: |
           set -euo pipefail
-          export JAVA_HOME="$(/usr/libexec/java_home -v 25)"
           "$JAVA_HOME/bin/java" --version
           curl -fLsS --retry 3 -o VitaNovaDatabase.jar "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/windows/VitaNovaDatabase-1.1.37.jar"
           shasum -a 256 -c qa/candidate.sha256
@@ -41,7 +44,7 @@ jobs:
           name: mac-staff-appearance
           path: mac-review
   dashboards:
-    runs-on: macos-15
+    runs-on: macos-15-intel
     timeout-minutes: 15
     env:
       HOMEBREW_NO_AUTO_UPDATE: '1'
@@ -50,12 +53,15 @@ jobs:
         with:
           persist-credentials: false
           sparse-checkout: qa
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
       - name: Prepare synthetic dashboard database
         run: brew install postgresql@18
       - name: Verify all packaged dashboards on macOS
         run: |
           set -euo pipefail
-          export JAVA_HOME="$(/usr/libexec/java_home -v 25)"
           curl -fLsS --retry 3 -o VitaNovaDatabase.jar "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/windows/VitaNovaDatabase-1.1.37.jar"
           shasum -a 256 -c qa/candidate.sha256
           pgbin="$(brew --prefix postgresql@18)/bin"

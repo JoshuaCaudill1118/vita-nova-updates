@@ -6,10 +6,12 @@ import main.java.ui.RhyServicesPlanFrame;
 import javax.swing.JFrame;
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
-import javax.swing.JTextArea;
+import javax.swing.JTabbedPane;
+import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.text.JTextComponent;
+import javax.swing.text.AbstractDocument;
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -76,6 +78,17 @@ public final class MacStaffProbe {
             return form;
         });
         try {
+            Thread.sleep(400);
+            robot.waitForIdle();
+            onEdt(() -> {
+                if (frame instanceof RhyServicesPlanFrame) {
+                    JTabbedPane tabs = firstTabs(frame);
+                    require(tabs != null, "RHY tabs");
+                    tabs.setSelectedIndex(tabs.getTabCount() - 1);
+                    frame.validate();
+                }
+                return null;
+            });
             robot.waitForIdle();
             JTextComponent field = onEdt(() -> firstField(frame));
             require(field != null, "Visible editable text field on " + frame.getTitle());
@@ -161,7 +174,9 @@ public final class MacStaffProbe {
     }
 
     private static JTextComponent firstField(Component component) {
-        if (component instanceof JTextArea text && text.isShowing() && text.isEditable() && text.isEnabled()) {
+        if (component instanceof JTextField text && text.isShowing() && text.isEditable() && text.isEnabled()
+                && !text.getVisibleRect().isEmpty()
+                && (!(text.getDocument() instanceof AbstractDocument document) || document.getDocumentFilter() == null)) {
             return text;
         }
         if (component instanceof Container container) {
@@ -169,6 +184,21 @@ public final class MacStaffProbe {
                 JTextComponent field = firstField(child);
                 if (field != null) {
                     return field;
+                }
+            }
+        }
+        return null;
+    }
+
+    private static JTabbedPane firstTabs(Component component) {
+        if (component instanceof JTabbedPane tabs) {
+            return tabs;
+        }
+        if (component instanceof Container container) {
+            for (Component child : container.getComponents()) {
+                JTabbedPane tabs = firstTabs(child);
+                if (tabs != null) {
+                    return tabs;
                 }
             }
         }

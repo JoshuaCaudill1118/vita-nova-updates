@@ -1,19 +1,18 @@
 {
-  "version": "1.1.34",
+  "version": "1.1.35",
   "notes": [
-    "A completed Staff profile merge leaves one profile and moves its linked history to the profile you keep.",
-    "A case manager assignment transfers when the retained profile has no assignment."
+    "Right-click staff text fields to open a Copy and Paste menu, including intake and RHY service plans."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.34.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.34.jar",
-    "jarSha256": "B120A29CA9A175317159FA03E71272C6F01685DED94125A553B031552BF34B09",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.35.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.35.jar",
+    "jarSha256": "51DC0CFE5D4DFCFB250743CBBD72B060C5DCBE605DC9CEC13903FD5A42ACF236",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.34.jar",
-    "jarSha256": "B120A29CA9A175317159FA03E71272C6F01685DED94125A553B031552BF34B09"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.35.jar",
+    "jarSha256": "51DC0CFE5D4DFCFB250743CBBD72B060C5DCBE605DC9CEC13903FD5A42ACF236"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

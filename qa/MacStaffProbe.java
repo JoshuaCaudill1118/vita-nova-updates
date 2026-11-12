@@ -25,6 +25,8 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.datatransfer.Transferable;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
@@ -95,6 +97,16 @@ public final class MacStaffProbe {
             Point point = onEdt(() -> {
                 field.setText("Synthetic field");
                 field.requestFocusInWindow();
+                field.addMouseListener(new MouseAdapter() {
+                    public void mousePressed(MouseEvent event) { trace("press", event); }
+                    public void mouseReleased(MouseEvent event) { trace("release", event); }
+                    public void mouseClicked(MouseEvent event) { trace("click", event); }
+                    private void trace(String phase, MouseEvent event) {
+                        System.out.println(phase + " popup=" + event.isPopupTrigger() + " consumed=" + event.isConsumed()
+                                + " button=" + event.getButton() + " clicks=" + event.getClickCount()
+                                + " selection=" + field.getSelectionStart() + ".." + field.getSelectionEnd());
+                    }
+                });
                 field.scrollRectToVisible(new Rectangle(0, 0, 100, 36));
                 Point location = field.getLocationOnScreen();
                 Rectangle visible = field.getVisibleRect();
@@ -103,8 +115,11 @@ public final class MacStaffProbe {
             });
             robot.mouseMove(point.x, point.y);
             click(robot);
+            robot.waitForIdle();
+            Thread.sleep(750);
             onEdt(() -> {
                 field.selectAll();
+                require("Synthetic field".equals(field.getSelectedText()), "Fixture field selection before Control-click");
                 Toolkit.getDefaultToolkit().getSystemClipboard().setContents(new StringSelection("Fixture pasted text"), null);
                 return null;
             });
@@ -112,7 +127,8 @@ public final class MacStaffProbe {
             JPopupMenu menu = field.getComponentPopupMenu();
             require(menu != null && menuVisible(menu), "Control-click popup on " + frame.getTitle());
             onEdt(() -> {
-                require("Synthetic field".equals(field.getSelectedText()), "Preserved selection on " + frame.getTitle());
+                require("Synthetic field".equals(field.getSelectedText()), "Preserved selection on " + frame.getTitle()
+                        + " " + field.getSelectionStart() + ".." + field.getSelectionEnd());
                 require(item(menu, 0, "Copy").isEnabled(), "Copy available with selection");
                 require(item(menu, 1, "Paste").isEnabled(), "Paste available with text");
                 item(menu, 1, "Paste").doClick(0);

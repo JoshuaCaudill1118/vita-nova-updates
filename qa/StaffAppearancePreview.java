@@ -47,7 +47,6 @@ public final class StaffAppearancePreview {
             tabs.addTab("Staff Dashboard", dashboard());
             tabs.addTab("Intake", blankForm(new IntakePacketFrame(null)));
             tabs.addTab("RHY Service Plan", blankForm(new RhyServicesPlanFrame(null)));
-            DesktopAppearance.addMenu(preview);
             preview.setContentPane(tabs);
             preview.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             preview.setSize(1240, 860);

@@ -49,7 +49,7 @@ public final class StaffDashboardAppearanceAudit {
         DesktopAppearance.installLookAndFeel();
         VitaNovaTheme.install();
         DesktopTextMenu.install();
-        DesktopAppearance.installStaffMenu();
+        DesktopAppearance.installStaffAppearance();
         DesktopZoomManager.install();
         LoggedInUserSession.setCurrentUser(new User(11, "Preview Staff", "", "", "preview", "", "ADMIN"));
         JFrame owner = new JFrame();
@@ -67,6 +67,9 @@ public final class StaffDashboardAppearanceAudit {
                 Thread.sleep(280);
                 waitForReportData(name, displayed[0]);
                 SwingUtilities.invokeAndWait(() -> record(name, displayed[0], folder, results));
+                if ("DashboardNavigator".equals(name)) {
+                    SwingUtilities.invokeAndWait(() -> verifySettings((JFrame) displayed[0], folder));
+                }
             } catch (Exception failure) {
                 Throwable reason = failure.getCause() == null ? failure : failure.getCause();
                 results.add(name + " | FAILED | " + reason);
@@ -83,6 +86,102 @@ public final class StaffDashboardAppearanceAudit {
         boolean issueFound = results.stream().anyMatch(line -> line.contains("FAILED")
                 || !line.contains(" | 0 low-contrast text controls | 0 clipped labels or controls"));
         System.exit(issueFound ? 1 : 0);
+    }
+
+    private static void verifySettings(JFrame navigator, Path folder) {
+        var account = findButton(navigator, "Account Settings");
+        var appearance = findButton(navigator, "Appearance Settings");
+        if (account == null || appearance == null || account.getParent() != appearance.getParent()
+                || account.getParent().getComponentZOrder(appearance) != account.getParent().getComponentZOrder(account) + 1
+                || navigator.getJMenuBar() != null) {
+            throw new IllegalStateException("Appearance Settings button must be next to Account Settings");
+        }
+        var settings = java.util.prefs.Preferences.userNodeForPackage(DesktopAppearance.class).node("appearance-preview");
+        String saved = settings.get("mode", null);
+        String[] expected = new String[1];
+        RuntimeException[] problem = new RuntimeException[1];
+        javax.swing.Timer dialogCheck = new javax.swing.Timer(100, event -> {
+            for (Window window : navigator.getOwnedWindows()) {
+                if (!(window instanceof JDialog dialog) || !dialog.isShowing()
+                        || !"Appearance Settings".equals(dialog.getTitle())) {
+                    continue;
+                }
+                ((javax.swing.Timer) event.getSource()).stop();
+                try {
+                    var selector = findSelector(dialog);
+                    if (selector == null || selector.getItemCount() != 4
+                            || !selector.getItemAt(0).toString().equals("Follow Computer")
+                            || !selector.getItemAt(1).toString().equals("Dark")
+                            || !selector.getItemAt(2).toString().equals("Colorblind-Friendly")
+                            || !selector.getItemAt(3).toString().equals("Low Vision")) {
+                        throw new IllegalStateException("The appearance mode choices are incomplete");
+                    }
+                    List<String> dialogAudit = new ArrayList<>();
+                    record("AppearanceSettings", dialog, folder, dialogAudit);
+                    if (dialogAudit.stream().anyMatch(line -> !line.contains("0 low-contrast text controls | 0 clipped labels or controls"))) {
+                        throw new IllegalStateException(dialogAudit.toString());
+                    }
+                    int next = (selector.getSelectedIndex() + 1) % selector.getItemCount();
+                    expected[0] = ((Enum<?>) selector.getItemAt(next)).name();
+                    selector.setSelectedIndex(next);
+                    findButton(dialog, "Save").doClick(0);
+                } catch (RuntimeException failure) {
+                    problem[0] = failure;
+                    dialog.dispose();
+                }
+                return;
+            }
+        });
+        dialogCheck.start();
+        try {
+            appearance.doClick(0);
+            if (dialogCheck.isRunning()) {
+                throw new IllegalStateException("Appearance Settings did not open");
+            }
+            if (problem[0] != null) {
+                throw problem[0];
+            }
+            if (!settings.get("mode", "").equals(expected[0])) {
+                throw new IllegalStateException("Saving appearance did not update the local preference");
+            }
+        } finally {
+            dialogCheck.stop();
+            if (saved == null) {
+                settings.remove("mode");
+            } else {
+                settings.put("mode", saved);
+            }
+        }
+    }
+
+    private static javax.swing.JComboBox<?> findSelector(Component component) {
+        if (component instanceof javax.swing.JComboBox<?> combo) {
+            return combo;
+        }
+        if (component instanceof Container container) {
+            for (Component child : container.getComponents()) {
+                var combo = findSelector(child);
+                if (combo != null) {
+                    return combo;
+                }
+            }
+        }
+        return null;
+    }
+
+    private static javax.swing.JButton findButton(Component component, String text) {
+        if (component instanceof javax.swing.JButton button && text.equals(button.getText())) {
+            return button;
+        }
+        if (component instanceof Container container) {
+            for (Component child : container.getComponents()) {
+                var button = findButton(child, text);
+                if (button != null) {
+                    return button;
+                }
+            }
+        }
+        return null;
     }
 
     private static void waitForReportData(String name, Window window) throws Exception {
@@ -221,4 +320,5 @@ public final class StaffDashboardAppearanceAudit {
         }
     }
 }
+
 

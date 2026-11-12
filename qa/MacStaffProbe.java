@@ -57,7 +57,7 @@ public final class MacStaffProbe {
         onEdt(() -> {
             VitaNovaTheme.install();
             DesktopTextMenu.install();
-            DesktopAppearance.installStaffMenu();
+            DesktopAppearance.installStaffAppearance();
             DesktopZoomManager.install();
             return null;
         });
@@ -254,3 +254,4 @@ public final class MacStaffProbe {
         }
     }
 }
+

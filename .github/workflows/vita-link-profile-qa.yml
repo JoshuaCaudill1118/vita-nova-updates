@@ -8,9 +8,13 @@ permissions:
   contents: read
 
 jobs:
-  profile-dashboard:
+  profiles-and-tables:
     runs-on: macos-15
     timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        theme: [DARK, LIGHT]
     env:
       HOMEBREW_NO_AUTO_UPDATE: '1'
     steps:
@@ -32,16 +36,16 @@ jobs:
           trap '"$pgbin/pg_ctl" -D "$fixture" -m fast -w stop' EXIT
           "$JAVA_HOME/bin/javac" --release 21 -cp VitaNovaDatabase.jar -d qa-classes qa/BootstrapFixture.java qa/ProfileDashboardProbe.java qa/DarkTableAudit.java
           "$JAVA_HOME/bin/java" -cp "VitaNovaDatabase.jar:qa-classes" BootstrapFixture
-          for settings in DARK,false,false DARK,true,true LIGHT,true,true LIGHT,false,false; do
+          for settings in ${{ matrix.theme }},false,false ${{ matrix.theme }},true,true; do
             "$JAVA_HOME/bin/java" -Dvitalink.appearance.preview=true "-Dvitalink.appearance.preview.settings=$settings" \
               -cp "VitaNovaDatabase.jar:qa-classes" main.java.util.ProfileDashboardProbe "mac-profile-review/$settings" 1024
           done
-          for settings in LIGHT,false,false LIGHT,true,false LIGHT,false,true LIGHT,true,true; do
+          for settings in ${{ matrix.theme }},false,false ${{ matrix.theme }},true,false ${{ matrix.theme }},false,true ${{ matrix.theme }},true,true; do
             "$JAVA_HOME/bin/java" "-Dvitalink.appearance.preview.settings=$settings" \
               -cp "VitaNovaDatabase.jar:qa-classes" main.java.util.DarkTableAudit "mac-profile-review/table-audit-$settings.txt"
           done
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: mac-profile-dashboard
+          name: mac-profile-dashboard-${{ matrix.theme }}
           path: mac-profile-review

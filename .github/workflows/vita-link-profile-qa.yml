@@ -30,11 +30,15 @@ jobs:
           "$pgbin/initdb" -D "$fixture" -U merge_test -A trust --no-locale
           "$pgbin/pg_ctl" -D "$fixture" -l "$RUNNER_TEMP/pg-fixture.log" -o '-p 55472 -h 127.0.0.1' -w start
           trap '"$pgbin/pg_ctl" -D "$fixture" -m fast -w stop' EXIT
-          "$JAVA_HOME/bin/javac" --release 21 -cp VitaNovaDatabase.jar -d qa-classes qa/BootstrapFixture.java qa/ProfileDashboardProbe.java
+          "$JAVA_HOME/bin/javac" --release 21 -cp VitaNovaDatabase.jar -d qa-classes qa/BootstrapFixture.java qa/ProfileDashboardProbe.java qa/DarkTableAudit.java
           "$JAVA_HOME/bin/java" -cp "VitaNovaDatabase.jar:qa-classes" BootstrapFixture
           for settings in DARK,false,false DARK,true,true LIGHT,true,true LIGHT,false,false; do
             "$JAVA_HOME/bin/java" -Dvitalink.appearance.preview=true "-Dvitalink.appearance.preview.settings=$settings" \
               -cp "VitaNovaDatabase.jar:qa-classes" main.java.util.ProfileDashboardProbe "mac-profile-review/$settings" 1024
+          done
+          for settings in DARK,false,false DARK,true,true; do
+            "$JAVA_HOME/bin/java" "-Dvitalink.appearance.preview.settings=$settings" \
+              -cp "VitaNovaDatabase.jar:qa-classes" main.java.util.DarkTableAudit "mac-profile-review/table-audit-$settings.txt"
           done
       - uses: actions/upload-artifact@v4
         if: always()

@@ -77,6 +77,12 @@ public final class ProfileDashboardProbe {
             require(preview.width >= 150 && viewport.getVisibleRect().contains(preview),
                     "Photo frame is clipped by the details viewport: " + preview + " / " + viewport.getVisibleRect());
             require(photo.getIcon() == null && photo.getText().contains("to view photo"), "Incorrect initial photo prompt");
+            for (String name : new String[]{"programFilterButton", "clearProgramFilterButton"}) {
+                var button = field(dashboard, name, javax.swing.JButton.class);
+                require(button.getVisibleRect().width == button.getWidth()
+                                && button.getVisibleRect().height == button.getHeight(),
+                        "The program filter button is clipped: " + button.getText());
+            }
             snapshot(dashboard.getRootPane(), output.resolve("first-open.png"));
         });
 

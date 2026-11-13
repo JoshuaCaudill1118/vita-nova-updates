@@ -1,20 +1,19 @@
 {
-  "version": "1.1.37",
+  "version": "1.1.38",
   "notes": [
-    "In Appearance Settings, choose Follow Computer, Light, or Dark. Turn Low Vision and Colorblind-Friendly on or off independently with any theme. Reopen Vita Link Staff after saving.",
-    "Vita Link carries forward your existing appearance preference.",
-    "Long dashboard help labels wrap at larger text sizes."
+    "Profile photos now fit in the preview without cropping.",
+    "Profile Details opens at a readable width and can scroll when the window is narrow."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.37.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.37.jar",
-    "jarSha256": "3F41EA84A324FA22B7ED210FC0E6ED080C408B76979DF2699ED7E9F9C6DEF907",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.38.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.38.jar",
+    "jarSha256": "FA46602D8BFED2513E599A3BF0AEE6358D42DCBD081BE47C5705B21BBF0B986B",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.37.jar",
-    "jarSha256": "3F41EA84A324FA22B7ED210FC0E6ED080C408B76979DF2699ED7E9F9C6DEF907"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.38.jar",
+    "jarSha256": "FA46602D8BFED2513E599A3BF0AEE6358D42DCBD081BE47C5705B21BBF0B986B"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

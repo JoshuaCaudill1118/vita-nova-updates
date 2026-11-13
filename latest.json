@@ -3,18 +3,19 @@
   "notes": [
     "Profile photos now fit in the preview without cropping.",
     "Profile Details opens at a readable width and can scroll when the window is narrow.",
-    "Youth Log current and history tables use consistent colors for dates, times, and other cells in Dark mode."
+    "Youth Log current and history tables use consistent colors for dates, times, and other cells in Dark mode.",
+    "Staff dashboards use the active theme for table rows, including Reports, Events, and Notifications."
   ],
   "windows": {
     "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.38.jar",
     "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.38.jar",
-    "jarSha256": "3E6EFB3F91E8FB7BE95BFD6793FC94F35CF0A9CCE9C5331A467D3CE74ADCFADE",
+    "jarSha256": "475C028DFB5C55F3BE49E37340A506946B8BCCEB5C5F02AE5A75BA251A385A71",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
     "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.38.jar",
-    "jarSha256": "3E6EFB3F91E8FB7BE95BFD6793FC94F35CF0A9CCE9C5331A467D3CE74ADCFADE"
+    "jarSha256": "475C028DFB5C55F3BE49E37340A506946B8BCCEB5C5F02AE5A75BA251A385A71"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

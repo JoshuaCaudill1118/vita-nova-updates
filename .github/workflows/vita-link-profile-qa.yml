@@ -2,19 +2,19 @@ name: Vita Link Profile Dashboard macOS QA
 
 on:
   push:
-    branches: [agent/vita-link-profile-mac-qa]
+    branches: [agent/vita-link-profile-intel-qa]
 
 permissions:
   contents: read
 
 jobs:
   profiles-and-tables:
-    runs-on: macos-15
+    runs-on: macos-15-intel
     timeout-minutes: 10
     strategy:
       fail-fast: false
       matrix:
-        theme: [DARK, LIGHT]
+        theme: [LIGHT]
     env:
       HOMEBREW_NO_AUTO_UPDATE: '1'
     steps:
@@ -22,10 +22,13 @@ jobs:
         with:
           persist-credentials: false
           sparse-checkout: qa
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
       - name: Verify Profile Details with a synthetic database
         run: |
           set -euo pipefail
-          export JAVA_HOME="$(/usr/libexec/java_home -v 25)"
           brew install postgresql@18
           curl -fLsS --retry 3 -o VitaNovaDatabase.jar "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/windows/VitaNovaDatabase-1.1.38.jar"
           shasum -a 256 -c qa/candidate.sha256

@@ -2,6 +2,7 @@ package main.java.util;
 
 import main.java.db.DatabaseManager;
 import main.java.model.User;
+import main.java.ui.GuestLogDashboard;
 import main.java.ui.UserDashboard;
 
 import javax.imageio.ImageIO;
@@ -12,6 +13,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
 import javax.swing.JTable;
 import javax.swing.SwingUtilities;
+import javax.swing.table.DefaultTableModel;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
@@ -42,12 +44,70 @@ public final class ProfileDashboardProbe {
         try {
             createFixtures();
             verify(output, Integer.parseInt(args[1]));
+            inspectOnEdt(() -> verifyYouthLog(output));
             System.out.println("First-open details and uncropped portrait and landscape photos passed.");
         } finally {
             for (var window : java.awt.Window.getWindows()) {
                 SwingUtilities.invokeAndWait(window::dispose);
             }
             DatabaseManager.shutdown();
+        }
+    }
+
+    private static void verifyYouthLog(Path output) throws Exception {
+        var log = new GuestLogDashboard();
+        try {
+            var configure = GuestLogDashboard.class.getDeclaredMethod("configureTableAppearance", JTable.class, boolean.class);
+            configure.setAccessible(true);
+            for (boolean current : new boolean[]{true, false}) {
+                var table = field(log, current ? "currentCheckInsTable" : "historyTable", JTable.class);
+                table.setModel(new DefaultTableModel(new Object[][]{
+                        {1, "Synthetic Youth A", "11/12/2026", "10:00 AM", "Completed", "10 min"},
+                        {2, "Synthetic Youth B", "11/12/2026", "10:15 AM", "Completed", "10 min"},
+                        {3, "Synthetic Youth C", "11/12/2026", "10:30 AM", "Need to Schedule", "15 min"},
+                        {4, "Synthetic Youth D", "11/12/2026", "10:45 AM", "Scheduled", "20 min"},
+                        {5, "Synthetic Youth E", "11/12/2026", "11:00 AM", "Completed", "2 hr"}
+                }, new String[]{"Profile ID", "Name", "Visit Date", "Check-In Time", "Intake Status", "Wait Time"}));
+                configure.invoke(log, table, current);
+                for (int row = 0; row < table.getRowCount(); row++) {
+                    Color expected = row % 2 == 0 ? VitaNovaTheme.CARD_BG : VitaNovaTheme.FIELD_BG;
+                    if (current) {
+                        expected = switch (row) {
+                            case 2 -> VitaNovaTheme.WARNING_BG;
+                            case 3 -> VitaNovaTheme.INFO_BG;
+                            case 4 -> VitaNovaTheme.DANGER_BG;
+                            default -> expected;
+                        };
+                    }
+                    verifyYouthLogRow(table, row, expected);
+                }
+                table.setRowSelectionInterval(2, 2);
+                verifyYouthLogRow(table, 2, table.getSelectionBackground());
+                table.getTableHeader().setSize(710, 30);
+                table.setSize(710, 140);
+                var image = new BufferedImage(710, 170, BufferedImage.TYPE_INT_RGB);
+                var graphics = image.createGraphics();
+                table.getTableHeader().printAll(graphics);
+                graphics.translate(0, 30);
+                table.printAll(graphics);
+                graphics.dispose();
+                ImageIO.write(image, "png", output.resolve(current ? "youth-log-current.png" : "youth-log-history.png").toFile());
+            }
+            System.out.println("Youth Log current and history rows, centered dates and times, and selection colors passed.");
+        } finally {
+            log.dispose();
+        }
+    }
+
+    private static void verifyYouthLogRow(JTable table, int row, Color expected) {
+        for (int column = 1; column <= 4; column++) {
+            var label = (JLabel) table.prepareRenderer(table.getCellRenderer(row, column), row, column);
+            require(expected.equals(label.getBackground()), "Unexpected Youth Log background at " + row + "/" + column);
+            require(DesktopAppearance.contrast(label.getForeground(), label.getBackground()) >= 4.5,
+                    "Low contrast in Youth Log at " + row + "/" + column);
+            require(label.getHorizontalAlignment() == (column == 2 || column == 3
+                    ? javax.swing.SwingConstants.CENTER : javax.swing.SwingConstants.LEADING),
+                    "Incorrect Youth Log alignment at " + row + "/" + column);
         }
     }
 

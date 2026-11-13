@@ -40,9 +40,6 @@ public final class DarkTableAudit {
         System.setProperty("vitanova.db.password", "synthetic-only");
         LoggedInUserSession.setCurrentUser(new User(11, "Preview Staff", "", "", "preview", "", "ADMIN"));
         DesktopAppearance.installLookAndFeel();
-        if (!DesktopAppearance.style().dark()) {
-            throw new IllegalStateException("The audit requires Dark mode");
-        }
         VitaNovaTheme.install();
         DesktopAppearance.installStaffAppearance();
         DesktopZoomManager.install();
@@ -190,7 +187,7 @@ public final class DarkTableAudit {
     private static void auditColors(String location, Component component, boolean checkbox, List<String> issues) {
         Color bg = component.getBackground();
         Color fg = component.getForeground();
-        if (bg != null && DesktopAppearance.luminance(bg) > 0.65) {
+        if (DesktopAppearance.style().dark() && bg != null && DesktopAppearance.luminance(bg) > 0.65) {
             issues.add(location + " has a light background " + Integer.toHexString(bg.getRGB()));
         } else if (!checkbox && fg != null && bg != null && DesktopAppearance.contrast(fg, bg) < 4.5) {
             issues.add(location + " has low contrast " + Integer.toHexString(fg.getRGB()) + "/" + Integer.toHexString(bg.getRGB()));

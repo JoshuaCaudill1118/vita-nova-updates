@@ -36,7 +36,7 @@ jobs:
             "$JAVA_HOME/bin/java" -Dvitalink.appearance.preview=true "-Dvitalink.appearance.preview.settings=$settings" \
               -cp "VitaNovaDatabase.jar:qa-classes" main.java.util.ProfileDashboardProbe "mac-profile-review/$settings" 1024
           done
-          for settings in DARK,false,false DARK,true,true; do
+          for settings in LIGHT,false,false LIGHT,true,false LIGHT,false,true LIGHT,true,true; do
             "$JAVA_HOME/bin/java" "-Dvitalink.appearance.preview.settings=$settings" \
               -cp "VitaNovaDatabase.jar:qa-classes" main.java.util.DarkTableAudit "mac-profile-review/table-audit-$settings.txt"
           done

@@ -9,6 +9,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
+import javax.swing.JSplitPane;
 import javax.swing.JTable;
 import javax.swing.JDialog;
 import javax.swing.JTextArea;
@@ -72,11 +73,60 @@ public final class DisplayProbe {
             verifyReports(reports, issues);
             return null;
         });
+        for (String name : new String[]{"UserDashboard", "GuestLogDashboard"}) {
+            JFrame dashboard = onEdt(() -> open(name, width));
+            Thread.sleep(400);
+            onEdt(() -> {
+                verifySplitPane(dashboard, name, issues);
+                screenshot(dashboard.getRootPane(), output.resolve(name + ".png"));
+                dashboard.dispose();
+                return null;
+            });
+        }
         onEdt(() -> { for (Window window : Window.getWindows()) { window.dispose(); } return null; });
         DatabaseManager.shutdown();
         Files.write(output.resolve("review.txt"), issues);
         issues.forEach(System.out::println);
         System.exit(issues.isEmpty() ? 0 : 1);
+    }
+
+    private static void verifySplitPane(JFrame dashboard, String name, List<String> issues) {
+        List<JSplitPane> panes = new ArrayList<>();
+        collect(dashboard, JSplitPane.class, panes);
+        var split = panes.stream().filter(pane -> pane.getOrientation() == JSplitPane.HORIZONTAL_SPLIT).findFirst().orElseThrow();
+        int initial = split.getDividerLocation();
+        if (split.getLeftComponent().getWidth() < 220 || split.getRightComponent().getWidth() < 220) {
+            issues.add(name + " opened with a collapsed pane: " + split.getLeftComponent().getWidth() + "/" + split.getRightComponent().getWidth());
+        }
+        int moved = initial - 60;
+        split.setDividerLocation(moved);
+        split.doLayout();
+        if (Math.abs(split.getDividerLocation() - moved) > 1
+                || Math.abs(split.getLeftComponent().getWidth() - moved) > 5) {
+            issues.add(name + " divider did not move");
+        }
+        split.setDividerLocation(0);
+        split.doLayout();
+        if (split.getLeftComponent().getWidth() < 220) {
+            issues.add(name + " allowed the left pane to disappear");
+        }
+        split.setDividerLocation(initial);
+        split.doLayout();
+        if ("UserDashboard".equals(name)) {
+            List<javax.swing.JTextField> fields = new ArrayList<>();
+            collect(split.getRightComponent(), javax.swing.JTextField.class, fields);
+            var editable = fields.stream().filter(field -> field.isEditable() && field.isEnabled()).findFirst();
+            if (editable.isEmpty()) {
+                issues.add("Profile Details has no editable fields");
+            } else {
+                var field = editable.get();
+                field.setText("Synthetic edit");
+                if (!field.getText().equals("Synthetic edit")) {
+                    issues.add("Profile Details could not accept an edit");
+                }
+                field.setText("");
+            }
+        }
     }
 
     private static void verifyReportNavigation(JFrame reports, List<String> issues) throws Exception {

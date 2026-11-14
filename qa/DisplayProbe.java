@@ -192,6 +192,7 @@ public final class DisplayProbe {
     private static JFrame open(String name, int width) throws Exception {
         var type = Class.forName("main.java.ui." + name);
         JFrame screen = switch (name) {
+            case "UserDashboard" -> (JFrame) type.getConstructor(String.class).newInstance("Appearance");
             case "ClientEventSignupFrame", "ClientEventAttendanceFrame", "FAUCommunityHealthSignupFrame" ->
                     (JFrame) type.getConstructor(JFrame.class).newInstance((JFrame) null);
             case "ClientUtilityUsageForm" -> openUtilityForm(type);

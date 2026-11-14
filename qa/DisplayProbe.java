@@ -66,7 +66,7 @@ public final class DisplayProbe {
             });
         }
         JFrame reports = onEdt(() -> open("ReportDashboard", width));
-        Thread.sleep(1800);
+        verifyReportNavigation(reports, issues);
         onEdt(() -> {
             screenshot(reports.getRootPane(), output.resolve("ReportDashboard.png"));
             verifyReports(reports, issues);
@@ -77,6 +77,66 @@ public final class DisplayProbe {
         Files.write(output.resolve("review.txt"), issues);
         issues.forEach(System.out::println);
         System.exit(issues.isEmpty() ? 0 : 1);
+    }
+
+    private static void verifyReportNavigation(JFrame reports, List<String> issues) throws Exception {
+        var dashboardType = reports.getClass();
+        var tabsField = dashboardType.getDeclaredField("tabbedPane");
+        var loadingField = dashboardType.getDeclaredField("loadingReports");
+        var pendingField = dashboardType.getDeclaredField("loadingReportKeys");
+        var searchField = dashboardType.getDeclaredField("tableSearchField");
+        var refresh = dashboardType.getDeclaredMethod("refreshReports");
+        for (var member : List.of(tabsField, loadingField, pendingField, searchField, refresh)) {
+            member.setAccessible(true);
+        }
+        var tabs = (javax.swing.JTabbedPane) tabsField.get(reports);
+        var search = (javax.swing.JTextField) searchField.get(reports);
+        Callable<Boolean> loaded = () -> !loadingField.getBoolean(reports) && ((java.util.Set<?>) pendingField.get(reports)).isEmpty();
+        if (!await(loaded)) {
+            issues.add("Reports overview did not finish loading");
+            return;
+        }
+        onEdt(() -> {
+            for (int tab = 0; tab < tabs.getTabCount(); tab++) {
+                if ("Services".equals(tabs.getTitleAt(tab))) {
+                    tabs.setSelectedIndex(tab);
+                    return null;
+                }
+            }
+            throw new AssertionError("Services report tab is missing");
+        });
+        if (!await(loaded)) {
+            issues.add("Services report did not finish loading");
+            return;
+        }
+        var servicesField = dashboardType.getDeclaredField("serviceSummaryTable");
+        servicesField.setAccessible(true);
+        var table = (JTable) servicesField.get(reports);
+        onEdt(() -> {
+            if (table.getColumnCount() <= 1 && table.getColumnName(0).equals("Status")) {
+                issues.add("Services remained on its loading placeholder");
+            }
+            search.setText("no-report-row-should-match-4721");
+            if (table.getRowCount() != 0) {
+                issues.add("Report search did not filter the displayed rows");
+            }
+            search.setText("");
+            refresh.invoke(reports);
+            return null;
+        });
+        if (!await(loaded)) {
+            issues.add("Reports refresh did not finish");
+        }
+    }
+
+    private static boolean await(Callable<Boolean> condition) throws Exception {
+        for (int attempt = 0; attempt < 90; attempt++) {
+            if (onEdt(condition)) {
+                return true;
+            }
+            Thread.sleep(100);
+        }
+        return false;
     }
 
     private static JFrame open(String name, int width) throws Exception {

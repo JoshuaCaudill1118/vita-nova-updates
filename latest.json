@@ -1,20 +1,20 @@
 {
-  "version": "1.1.39",
+  "version": "1.1.40",
   "notes": [
-    "Improved layout and colors on the desktop Youth and Guest Portal, check-in, event sign-up, and calendar.",
-    "Report tables leave room for column titles, scroll to wider columns, and show full text for truncated values. Report charts follow the selected theme.",
-    "Profile Dashboard and Youth Log open with both panes visible and an adjustable divider."
+    "Recognizes Housing+ consistently in staff program and housing views.",
+    "Applies the selected visit-date range to the staff visit history report.",
+    "Preserves Sleep Spot approval notes and keeps closed stays from reopening on refresh."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.39.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.39.jar",
-    "jarSha256": "91274166D00FAF091B14A5A37CD04FEF43E00D0821C5FD47B71C05F896DBF191",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.40.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.40.jar",
+    "jarSha256": "BB640B2AE7A19F5B81014C13258A14F08A250B2A5E7E150987C5E7CECA3DE791",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.39.jar",
-    "jarSha256": "91274166D00FAF091B14A5A37CD04FEF43E00D0821C5FD47B71C05F896DBF191"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.40.jar",
+    "jarSha256": "BB640B2AE7A19F5B81014C13258A14F08A250B2A5E7E150987C5E7CECA3DE791"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

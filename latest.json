@@ -2,18 +2,19 @@
   "version": "1.1.40",
   "notes": [
     "Recognizes Housing+ consistently in staff program and housing views.",
-    "Applies the selected visit-date range to the staff visit history report."
+    "Applies the selected visit-date range to the staff visit history report.",
+    "Preserves Sleep Spot approval notes and keeps closed stays from reopening on refresh."
   ],
   "windows": {
     "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.40.jar",
     "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.40.jar",
-    "jarSha256": "75E72285B82EE1C0DE419C26164FBF757343F1F939150F2798C9A31E49413F2F",
+    "jarSha256": "BB640B2AE7A19F5B81014C13258A14F08A250B2A5E7E150987C5E7CECA3DE791",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
     "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.40.jar",
-    "jarSha256": "75E72285B82EE1C0DE419C26164FBF757343F1F939150F2798C9A31E49413F2F"
+    "jarSha256": "BB640B2AE7A19F5B81014C13258A14F08A250B2A5E7E150987C5E7CECA3DE791"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

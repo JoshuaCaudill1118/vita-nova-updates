@@ -119,8 +119,13 @@ public final class DisplayProbe {
             issues.add("Client Portal help still uses fixed-width HTML");
         }
         for (JTextArea message : messages) {
-            if (message.getWidth() > 0 && message.getHeight() > 0 && message.getPreferredSize().height > message.getHeight() + 1) {
-                issues.add("Client Portal clips help text: " + message.getText());
+            try {
+                var last = message.modelToView2D(message.getDocument().getLength());
+                if (last != null && last.getMaxY() > message.getHeight() + 1) {
+                    issues.add("Client Portal clips help text: " + message.getText());
+                }
+            } catch (javax.swing.text.BadLocationException failure) {
+                throw new IllegalStateException(failure);
             }
         }
     }

@@ -1,22 +1,19 @@
 {
-  "version": "1.1.38",
+  "version": "1.1.39",
   "notes": [
-    "Profile photos now fit in the preview without cropping.",
-    "Profile Details opens at a readable width and can scroll when the window is narrow.",
-    "Youth Log current and history tables use consistent colors for dates, times, and other cells in Dark mode.",
-    "Staff dashboards use the active theme for table rows, including Reports, Events, and Notifications.",
-    "Improved the readability of warning text in Light mode."
+    "Improved layout and colors on the desktop Youth and Guest Portal, check-in, event sign-up, and calendar.",
+    "Report tables leave room for column titles, scroll to wider columns, and show full text for truncated values. Report charts follow the selected theme."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.38.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.38.jar",
-    "jarSha256": "8D5FFE219AEEA083AC9F92F30F307F4942062E43D33F1D7C85B90351B4C904E2",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.39.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.39.jar",
+    "jarSha256": "E0EF7D35856FDF7559D6987A2BA6B9CB0BD7B8FEF7CAC2E80419B120C28514F1",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.38.jar",
-    "jarSha256": "8D5FFE219AEEA083AC9F92F30F307F4942062E43D33F1D7C85B90351B4C904E2"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.39.jar",
+    "jarSha256": "E0EF7D35856FDF7559D6987A2BA6B9CB0BD7B8FEF7CAC2E80419B120C28514F1"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

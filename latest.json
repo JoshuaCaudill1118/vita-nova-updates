@@ -1,20 +1,20 @@
 {
-  "version": "1.1.40",
+  "version": "1.1.41",
   "notes": [
-    "Recognizes Housing+ consistently in staff program and housing views.",
-    "Applies the selected visit-date range to the staff visit history report.",
-    "Preserves Sleep Spot approval notes and keeps closed stays from reopening on refresh."
+    "Save RHY plans and reevaluations while youth signatures are pending, then share or resend a signature link.",
+    "Preserve the original RHY plan and PDF when saving a reevaluation.",
+    "Keep staff sign-in responsive after inactivity, recover failed database connections, and identify connection errors during sign-in."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.40.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.40.jar",
-    "jarSha256": "BB640B2AE7A19F5B81014C13258A14F08A250B2A5E7E150987C5E7CECA3DE791",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.41.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.41.jar",
+    "jarSha256": "D84F56E281D0B1BF6B9BEAA7154F791D53708756DCAF4241CF6B8208D4DEA876",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.40.jar",
-    "jarSha256": "BB640B2AE7A19F5B81014C13258A14F08A250B2A5E7E150987C5E7CECA3DE791"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.41.jar",
+    "jarSha256": "D84F56E281D0B1BF6B9BEAA7154F791D53708756DCAF4241CF6B8208D4DEA876"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",

@@ -1,20 +1,20 @@
 {
-  "version": "1.1.42",
+  "version": "1.1.43",
   "notes": [
-    "Separate RHY Update and Reevaluation actions: Update opens the latest saved plan; Reevaluation creates a new linked version.",
-    "Preserve earlier plans and signed PDFs. Changes to signed content require a fresh youth signature; unchanged signed plans keep their signature.",
-    "Keep RHY plan tables and actions readable and reachable with larger text and dark or light appearance settings."
+    "Save an intake for the selected youth when apostrophes or name formatting differ, and prevent duplicate active or archived profiles.",
+    "Save the intake, PDF, profile and completion records together so a failed save does not leave a partially completed intake.",
+    "Show clear correction and recovery steps on document dashboards, keep entered information available after an error, and keep popup instructions readable with larger text."
   ],
   "windows": {
-    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.42.jar",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.42.jar",
-    "jarSha256": "BE7B5A526091AB6902F346470E2FDE063C00069D005F59CE6CCD2EBE80436E18",
+    "url": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.43.jar",
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.43.jar",
+    "jarSha256": "996A74F1C594219C9F300B6866BABD16A7F279683781E0A2C7104A85037CC58D",
     "installerUrl": "https://157-230-8-171.sslip.io/downloads/windows/VitaLinkStaffSetup.exe"
   },
   "macos": {
     "url": "https://github.com/JoshuaCaudill1118/vita-nova-updates/tree/main/downloads/macos",
-    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.42.jar",
-    "jarSha256": "BE7B5A526091AB6902F346470E2FDE063C00069D005F59CE6CCD2EBE80436E18"
+    "jarUrl": "https://raw.githubusercontent.com/JoshuaCaudill1118/vita-nova-updates/main/windows/VitaNovaDatabase-1.1.43.jar",
+    "jarSha256": "996A74F1C594219C9F300B6866BABD16A7F279683781E0A2C7104A85037CC58D"
   },
   "baseline": {
     "rollbackTag": "safe-1.0.169",
